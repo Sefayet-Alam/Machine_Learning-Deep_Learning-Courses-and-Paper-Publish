@@ -148,3 +148,24 @@
 - Notes:
   - FGM improved over the plain BanglaBERT baseline on BanglaSarc3-binary.
   - This supports adversarial fine-tuning as a generally useful robustness method across Bengali sarcasm datasets.
+
+
+  ## Confusion-Aware Model 1: Weighted BanglaBERT on BanglaSarc3 Ternary
+- Model: csebuetnlp/banglabert + weighted loss
+- Dataset: banglasarc3_ternary
+- Max length: 128
+- Epochs: 2
+- Batch size: 8
+- Learning rate: 2e-5
+- Class weights: [1.15, 1.00, 1.00]
+- Output dir: 03_models/checkpoints/banglabert_weighted_banglasarc3_ternary
+- Results:
+  - Validation Accuracy: 0.6562
+  - Validation Macro-F1: 0.6577
+  - Validation Weighted-F1: 0.6578
+  - Test Accuracy: 0.6523
+  - Test Macro-F1: 0.6529
+  - Test Weighted-F1: 0.6530
+- Notes:
+  - Weighted confusion-aware training improved over the plain ternary BanglaBERT baseline on test Macro-F1.
+  - Non-Sarcastic remains the hardest class.
