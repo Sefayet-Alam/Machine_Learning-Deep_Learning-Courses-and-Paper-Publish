@@ -69,3 +69,34 @@
   - Training completed successfully.
   - Post-training `trainer.evaluate()` had a callback-state issue, so final test metrics were computed from `trainer.predict(test_ds)`.
   - BanglaBERT strongly outperformed the TF-IDF baseline on Ben-Sarc.
+
+## Baseline Comparison: TF-IDF vs BanglaBERT on Binary Datasets
+- Input files:
+  - 04_outputs/tables/baseline_ml_results.csv
+  - 04_outputs/tables/banglabert_binary_summary.csv
+- Output files:
+  - 04_outputs/tables/baseline_model_comparison_long.csv
+  - 04_outputs/tables/baseline_model_comparison_macro_f1.csv
+- Notes:
+  - Combined classical and transformer baselines into unified comparison tables.
+  - This table will be used in the thesis baseline results section.
+
+## Transformer Baseline 4: BanglaBERT on BanglaSarc3 Ternary
+- Model: csebuetnlp/banglabert
+- Dataset: banglasarc3_ternary
+- Max length: 128
+- Epochs: 2
+- Batch size: 8
+- Learning rate: 2e-5
+- Output dir: 03_models/checkpoints/banglabert_banglasarc3_ternary
+- Results:
+  - Validation Accuracy: 0.6736
+  - Validation Macro-F1: 0.6729
+  - Validation Weighted-F1: 0.6730
+  - Test Accuracy: 0.6416
+  - Test Macro-F1: 0.6413
+  - Test Weighted-F1: 0.6414
+- Notes:
+  - Ternary classification is substantially harder than binary classification.
+  - Best class performance is on Sarcastic, weakest on Non-Sarcastic.
+  - This supports the ambiguity/confusion-aware direction of the thesis.
