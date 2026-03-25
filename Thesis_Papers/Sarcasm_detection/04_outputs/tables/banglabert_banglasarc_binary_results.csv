@@ -1,0 +1,3 @@
+model,dataset,split,accuracy,precision_binary,recall_binary,f1_binary,macro_f1,epochs,batch_size,learning_rate,max_length,seed
+banglabert,banglasarc_binary,validation,0.9804305283757339,0.9695431472081218,0.9794871794871794,0.9744897959183674,0.9793083900226758,2,8,2e-05,128,42
+banglabert,banglasarc_binary,test,0.9765625,0.9842105263157894,0.9540816326530612,0.9689119170984456,0.9750515698344893,2,8,2e-05,128,42
