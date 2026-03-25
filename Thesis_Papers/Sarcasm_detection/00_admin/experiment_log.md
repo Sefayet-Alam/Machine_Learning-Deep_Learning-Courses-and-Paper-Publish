@@ -1,0 +1,71 @@
+## Baseline 1: TF-IDF + Logistic Regression on Ben-Sarc Binary
+- Dataset: Ben-Sarc Binary
+- Features: TF-IDF (1,2)-grams
+- Model: Logistic Regression
+- Train/Val/Test split: fixed saved split
+- Random state: 42
+- Results:
+  - Validation Accuracy: 0.6427
+  - Validation Macro-F1: 0.6427
+  - Test Accuracy: 0.6646
+  - Test Macro-F1: 0.6646
+- Notes:
+  - First classical ML baseline completed successfully.
+  - Ben-Sarc appears harder than the other Bengali datasets under TF-IDF + Logistic Regression.
+
+
+## Baseline 2: TF-IDF + Logistic Regression on all binary datasets
+- Datasets:
+  - ben_sarc_binary
+  - banglasarc_binary
+  - banglasarc3_binary
+- Features: TF-IDF (1,2)-grams
+- Model: Logistic Regression
+- Random state: 42
+- Output file: 04_outputs/tables/baseline_ml_results.csv
+- Results:
+  - banglasarc3_binary
+    - Validation Accuracy: 0.6708
+    - Validation Macro-F1: 0.6705
+    - Test Accuracy: 0.6708
+    - Test Macro-F1: 0.6707
+  - banglasarc_binary
+    - Validation Accuracy: 0.8963
+    - Validation Macro-F1: 0.8873
+    - Test Accuracy: 0.8887
+    - Test Macro-F1: 0.8806
+  - ben_sarc_binary
+    - Validation Accuracy: 0.6427
+    - Validation Macro-F1: 0.6427
+    - Test Accuracy: 0.6646
+    - Test Macro-F1: 0.6646
+- Notes:
+  - BanglaSarc is easiest for the TF-IDF baseline.
+  - Ben-Sarc is the hardest among the three in this setup.
+  - These results form the classical baseline table for the thesis.
+
+
+  ## Transformer Baseline 1: BanglaBERT on Ben-Sarc Binary
+- Model: csebuetnlp/banglabert
+- Dataset: ben_sarc_binary
+- Max length: 128
+- Epochs: 2
+- Batch size: 8
+- Learning rate: 2e-5
+- Best model metric: macro_f1
+- Output dir: 03_models/checkpoints/banglabert_ben_sarc_baseline
+- Results:
+  - Validation Accuracy: 0.8030
+  - Validation Precision (binary): 0.8312
+  - Validation Recall (binary): 0.7605
+  - Validation F1 (binary): 0.7943
+  - Validation Macro-F1: 0.8027
+  - Test Accuracy: 0.7910
+  - Test Precision (binary): 0.8336
+  - Test Recall (binary): 0.7270
+  - Test F1 (binary): 0.7767
+  - Test Macro-F1: 0.7901
+- Notes:
+  - Training completed successfully.
+  - Post-training `trainer.evaluate()` had a callback-state issue, so final test metrics were computed from `trainer.predict(test_ds)`.
+  - BanglaBERT strongly outperformed the TF-IDF baseline on Ben-Sarc.
