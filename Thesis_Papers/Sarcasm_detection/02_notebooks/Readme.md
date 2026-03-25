@@ -1,5 +1,8 @@
 # 02_notebooks
 
+
+#### Thesis name: Robust Bengali Sarcasm Detection with Confusion-Aware Adversarial Fine-Tuning and Cross-Dataset Evaluation 
+
 This folder contains the experiment notebooks for the thesis on **robust Bengali sarcasm detection**.
 
 The overall research direction has three main pillars:
