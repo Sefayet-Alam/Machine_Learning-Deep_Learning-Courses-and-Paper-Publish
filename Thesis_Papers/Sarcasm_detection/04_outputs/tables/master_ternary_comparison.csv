@@ -1,0 +1,3 @@
+dataset,model,test_accuracy,test_macro_f1,test_weighted_f1,macro_f1_gain_vs_plain
+banglasarc3_ternary,banglabert,0.6415562913907285,0.64126311676907,0.6414021213592926,0.0
+banglasarc3_ternary,banglabert_weighted,0.652317880794702,0.6528759971969852,0.6529814274027869,0.011612880427915195

@@ -1,0 +1,3 @@
+model,errors,error_reduction_vs_plain
+cross_banglabert,807,0
+cross_banglabert_fgm,874,-67

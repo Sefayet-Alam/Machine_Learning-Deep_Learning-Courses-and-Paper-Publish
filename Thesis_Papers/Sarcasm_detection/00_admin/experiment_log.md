@@ -209,3 +209,25 @@
 - Notes:
   - Reverse cross-dataset transfer also shows a substantial generalization drop compared with in-dataset evaluation.
   - Ben-Sarc appears harder as a target domain than BanglaSarc3-binary.
+
+  ## Cross-Dataset Evaluation 3: BanglaBERT + FGM train on BanglaSarc3-binary, test on Ben-Sarc
+- Model: csebuetnlp/banglabert + FGM
+- Source dataset: banglasarc3_binary
+- Target dataset: ben_sarc_binary
+- Max length: 128
+- Epochs: 2
+- Batch size: 8
+- Learning rate: 2e-5
+- Epsilon: 0.5
+- Output dir: 03_models/checkpoints/cross_fgm_banglasarc3_binary_to_ben_sarc_binary
+- Results:
+  - Validation Accuracy: 0.7743
+  - Validation Macro-F1: 0.7743
+  - Test Accuracy: 0.6591
+  - Test Precision (binary): 0.6340
+  - Test Recall (binary): 0.7527
+  - Test F1 (binary): 0.6883
+  - Test Macro-F1: 0.6561
+- Notes:
+  - FGM improved in-domain validation on the source dataset but reduced cross-dataset performance on the harder transfer direction.
+  - This suggests adversarial robustness and cross-domain generalization are not the same.

@@ -1,0 +1,5 @@
+setting,baseline_model,improved_model,baseline_macro_f1,improved_macro_f1,gain
+binary_in_domain_ben_sarc,banglabert,banglabert_fgm,0.795731,0.809611,0.013880000000000003
+binary_in_domain_banglasarc3,banglabert,banglabert_fgm,0.73529,0.745444,0.010153999999999996
+ternary_in_domain_banglasarc3,banglabert,banglabert_weighted,0.641263,0.652876,0.011612999999999984
+cross_dataset_bs3_to_ben,banglabert_cross_dataset,banglabert_cross_dataset_fgm,0.684958,0.656113,-0.02884500000000001
