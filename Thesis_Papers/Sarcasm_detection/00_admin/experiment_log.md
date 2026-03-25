@@ -100,3 +100,27 @@
   - Ternary classification is substantially harder than binary classification.
   - Best class performance is on Sarcastic, weakest on Non-Sarcastic.
   - This supports the ambiguity/confusion-aware direction of the thesis.
+
+## Robustness Model 1: BanglaBERT + FGM on Ben-Sarc Binary
+- Model: csebuetnlp/banglabert + FGM
+- Dataset: ben_sarc_binary
+- Max length: 128
+- Epochs: 2
+- Batch size: 8
+- Learning rate: 2e-5
+- Epsilon: 0.5
+- Output dir: 03_models/checkpoints/banglabert_fgm_ben_sarc_binary
+- Results:
+  - Validation Accuracy: 0.8038
+  - Validation Precision (binary): 0.8041
+  - Validation Recall (binary): 0.8034
+  - Validation F1 (binary): 0.8037
+  - Validation Macro-F1: 0.8038
+  - Test Accuracy: 0.8097
+  - Test Precision (binary): 0.8212
+  - Test Recall (binary): 0.7917
+  - Test F1 (binary): 0.8062
+  - Test Macro-F1: 0.8096
+- Notes:
+  - FGM improved over the plain BanglaBERT baseline on Ben-Sarc.
+  - This supports adversarial fine-tuning as a useful robustness strategy for Bengali sarcasm detection.

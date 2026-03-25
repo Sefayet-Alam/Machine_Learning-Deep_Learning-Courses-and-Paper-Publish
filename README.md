@@ -11,6 +11,9 @@ In my final semester, I decided to focus on **Machine Learning (ML)** and **Deep
 - [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
 - [Machine Learning Course (YouTube Playlist)](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)
 - [Deep Learning Course (YouTube Playlist)](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn)
+- [PyTorch](https://www.youtube.com/playlist?list=PL_lsbAsL_o2CTlGHgMxNrKhzP97BaG9ZN)
+- [Hugging face NLP course](https://huggingface.co/learn/llm-course/en/chapter1/1?utm_source=chatgpt.com)
+- []
 
 ### Sentiment Analysis
 - [Sentiment Analysis Basics (YouTube)](https://www.youtube.com/watch?v=5HQCNAsSO-s)
