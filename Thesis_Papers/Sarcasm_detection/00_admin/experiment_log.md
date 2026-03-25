@@ -124,3 +124,27 @@
 - Notes:
   - FGM improved over the plain BanglaBERT baseline on Ben-Sarc.
   - This supports adversarial fine-tuning as a useful robustness strategy for Bengali sarcasm detection.
+
+## Robustness Model 2: BanglaBERT + FGM on BanglaSarc3 Binary
+- Model: csebuetnlp/banglabert + FGM
+- Dataset: banglasarc3_binary
+- Max length: 128
+- Epochs: 2
+- Batch size: 8
+- Learning rate: 2e-5
+- Epsilon: 0.5
+- Output dir: 03_models/checkpoints/banglabert_fgm_banglasarc3_binary
+- Results:
+  - Validation Accuracy: 0.7731
+  - Validation Precision (binary): 0.7639
+  - Validation Recall (binary): 0.7905
+  - Validation F1 (binary): 0.7770
+  - Validation Macro-F1: 0.7730
+  - Test Accuracy: 0.7456
+  - Test Precision (binary): 0.7329
+  - Test Recall (binary): 0.7731
+  - Test F1 (binary): 0.7524
+  - Test Macro-F1: 0.7454
+- Notes:
+  - FGM improved over the plain BanglaBERT baseline on BanglaSarc3-binary.
+  - This supports adversarial fine-tuning as a generally useful robustness method across Bengali sarcasm datasets.
