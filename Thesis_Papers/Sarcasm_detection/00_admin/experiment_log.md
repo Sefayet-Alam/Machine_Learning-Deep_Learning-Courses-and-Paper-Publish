@@ -45,7 +45,7 @@
   - These results form the classical baseline table for the thesis.
 
 
-  ## Transformer Baseline 1: BanglaBERT on Ben-Sarc Binary
+## Transformer Baseline 1: BanglaBERT on Ben-Sarc Binary
 - Model: csebuetnlp/banglabert
 - Dataset: ben_sarc_binary
 - Max length: 128
@@ -150,7 +150,7 @@
   - This supports adversarial fine-tuning as a generally useful robustness method across Bengali sarcasm datasets.
 
 
-  ## Confusion-Aware Model 1: Weighted BanglaBERT on BanglaSarc3 Ternary
+## Confusion-Aware Model 1: Weighted BanglaBERT on BanglaSarc3 Ternary
 - Model: csebuetnlp/banglabert + weighted loss
 - Dataset: banglasarc3_ternary
 - Max length: 128
@@ -169,3 +169,43 @@
 - Notes:
   - Weighted confusion-aware training improved over the plain ternary BanglaBERT baseline on test Macro-F1.
   - Non-Sarcastic remains the hardest class.
+
+
+## Cross-Dataset Evaluation 1: BanglaBERT train on Ben-Sarc, test on BanglaSarc3-binary
+- Model: csebuetnlp/banglabert
+- Source dataset: ben_sarc_binary
+- Target dataset: banglasarc3_binary
+- Max length: 128
+- Epochs: 2
+- Batch size: 8
+- Learning rate: 2e-5
+- Output dir: 03_models/checkpoints/cross_ben_sarc_binary_to_banglasarc3_binary
+- Results:
+  - Test Accuracy: 0.6696
+  - Test Precision (binary): 0.6954
+  - Test Recall (binary): 0.6035
+  - Test F1 (binary): 0.6462
+  - Test Macro-F1: 0.6681
+- Notes:
+  - Cross-dataset performance is substantially lower than in-dataset performance on BanglaSarc3-binary.
+  - This indicates nontrivial domain/annotation/style shift across Bengali sarcasm datasets.
+
+
+## Cross-Dataset Evaluation 2: BanglaBERT train on BanglaSarc3-binary, test on Ben-Sarc
+- Model: csebuetnlp/banglabert
+- Source dataset: banglasarc3_binary
+- Target dataset: ben_sarc_binary
+- Max length: 128
+- Epochs: 2
+- Batch size: 8
+- Learning rate: 2e-5
+- Output dir: 03_models/checkpoints/cross_banglasarc3_binary_to_ben_sarc_binary
+- Results:
+  - Test Accuracy: 0.6853
+  - Test Precision (binary): 0.6745
+  - Test Recall (binary): 0.7161
+  - Test F1 (binary): 0.6947
+  - Test Macro-F1: 0.6850
+- Notes:
+  - Reverse cross-dataset transfer also shows a substantial generalization drop compared with in-dataset evaluation.
+  - Ben-Sarc appears harder as a target domain than BanglaSarc3-binary.

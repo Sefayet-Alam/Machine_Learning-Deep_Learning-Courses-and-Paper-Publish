@@ -1,0 +1,2 @@
+model,source_dataset,target_dataset,accuracy,precision_binary,recall_binary,f1_binary,macro_f1,epochs,batch_size,learning_rate,max_length,seed
+banglabert_cross_dataset,ben_sarc_binary,banglasarc3_binary,0.669576059850374,0.6954022988505747,0.6034912718204489,0.6461949265687583,0.668126703050461,2,8,2e-05,128,42
