@@ -1,3 +1,0 @@
-model,dataset,split,accuracy,macro_f1,weighted_f1,epochs,batch_size,learning_rate,max_length,seed,class_weights
-banglabert_weighted,banglasarc3_ternary,validation,0.656172328086164,0.6576875194522253,0.6578309921041048,2,8,2e-05,128,42,"[1.149999976158142, 1.0, 1.0]"
-banglabert_weighted,banglasarc3_ternary,test,0.652317880794702,0.6528759971969852,0.6529814274027869,2,8,2e-05,128,42,"[1.149999976158142, 1.0, 1.0]"

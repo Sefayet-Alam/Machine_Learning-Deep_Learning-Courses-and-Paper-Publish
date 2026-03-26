@@ -1,5 +1,0 @@
-dataset,model,brier_score,ece
-ben_sarc_binary,banglabert,0.16870459914207458,0.13524789960950312
-ben_sarc_binary,banglabert_fgm,0.1381106823682785,0.04641078458009244
-banglasarc3_binary,banglabert,0.1905525177717209,0.1318912199765741
-banglasarc3_binary,banglabert_fgm,0.1693689376115799,0.052377972686825834
