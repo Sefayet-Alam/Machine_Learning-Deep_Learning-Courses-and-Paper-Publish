@@ -1,0 +1,803 @@
+text,gold_label,pred_label,prob_label_0,prob_label_1,correct,dataset,split,model_name,seed,max_length,epochs,learning_rate,use_normalization
+সাবান ডিটারজেন্ট পাউডার ছাড়াই দোয়ে দিলেন ভাই,1,1,0.15353681,0.8464632,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+খোলা মেলা জিনিসের প্রশংসা সবাই করে,1,0,0.89702326,0.10297671,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ফ্রেশ গ্র্যাজুয়েট মোটিভেটর ও মোটিভেশন গ্রহীতা এবং গ্রুপ সবার জন্য আরও অনেক বেশী উইন উইন হতো যদি দেখা যেত,1,0,0.9125004,0.08749963,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাড়াটা সহনীয় থাকলেই আলহাম্দুলিল্লাহ,0,1,0.46769297,0.532307,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+গুলিস্থান এর আতিফ আসলাম,1,1,0.21312764,0.7868723,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই ঝিলমিল বেলুন দিয়ে তো বানাইসেন এবার ওই বেলুন দিয়াও একটা বানান ঐযে ঐটাই,1,1,0.41473448,0.5852655,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপনি আইফোন হয়ে গ্যাছেন গা এখন আর পোস্ট ই দেন না অনলাইন চেক দেই আপনার পোস্টের অপেক্ষায়,1,1,0.18905926,0.81094074,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আগামী শুক্রবার আমাদের এখানে লজ্জার টিকা দেওয়া হবে আপনি অবশ্যই উপস্থিত থাকবেন,1,1,0.08516863,0.9148314,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পরিবার এমন হলে সারা দুনিয়া ভয়ংকর হয় স্বার্থপর পরিবার থাকলে তাদের বাইরের শত্রু লাগেনা ধ্বংস হবার জন্য,0,0,0.9512207,0.04877932,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+একেবারে যে খারাপ কাজ সেটাও না শুধু যে মানবিকতা দেখে বিচার করার পক্ষে থাকলে সেটাও ভুল মরে যাওয়ার আগে চিন্তা ভাবনা করা উচিৎ ছিলো মানুষ টাকা পাবে এখন তো ঘরের বউ নিয়ে টানাটানি করবে তুমি কেমন স্বামী কেমন বাবা কেমন পুরুষ,0,0,0.9616292,0.03837082,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এক বান্ধবী ৩তলায় আমি ৪তলায় তবুও দেখা হয় না,0,1,0.108786374,0.89121366,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাইরাল চ্যালেঞ্জ শুরু করো কয়েকদিনেই কেউ না কেউ সফল হয়ে যাবে,1,1,0.29972452,0.7002754,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+অভিনন্দন ও অনেক অনেক শুভ কামনা,0,0,0.5936097,0.40639034,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হারাম হারাম হারাম এতা পুরোটাই হারাম কারন এই সিরিজ দেখে যদি মুসলিমরা আবার খিলাফত কায়েমের স্বপ্ন দেখে তাহলে তো ইয়োরোপ ইংল্যান্ডের মহা সমস্যা প্রথম বিশ্বযুদ্ধ তো সাজানোই হয়েছিল উসমানীয় খিলাফত কে ভেঙ্গে দেবার জন্য এখন সেই মরা খিলাফত আবার যদি মাথা চাড়া দিয়ে ওঠে তাহলে তো সৌদি রাজার সাজানো রাজ্য ভেঙ্গে পড়বে তাই পেট্রোডলার খেয়ে মোটা হওয়া আলেমরা তখন জান্নাতের বাগানের ফল মুলের ব্যবসা ভেঙ্গে পড়বে এই জন্য সিরিজ তো হারাম হবেই সিরিজ তো টিভিতে দেখে টিভি দেখাই তো হারাম ছবি তুলতে হয় ছবি তুলাও হারাম হারাম আর হারাম শুধু হারাম সৌদি রাজার পেট্রোডলার খাওয়া আলেমরা শুধু জানে কোনটা হারাম আর কোনটা হালাল আর কেউ জানে না সিরিজ ভালো খারাপ তো পরের কথা ছবি তুলাই তো হারাম এই সিরিজ যারা দেখছে যারা বানাইছে সব জাহান্নামে গেছে মুস্লিমরা শুধু ঘরের কোনায় নামাজ পড়বে আর কদুর তেলের ব্যবসা করবে বাকি সব হারাম তাহলেই তো ইয়োরোপ আমেরিকার মুসলিমদের তেল গ্যাস নিতে সুবিধা হবে,1,0,0.95450866,0.045491308,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হাজার হাজার কোটি টাকা দেশ থেকে পাচার করলো তাদের বিরুদ্ধে কি আইনি ব্যবস্তা নিয়েছে আর ঝণের জন্য বিধবা নারী কে জেলে নিয়ে গেলো,0,0,0.9605027,0.039497323,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+রসটা নুনতা ছিলো নাকি মিষ্টি ছিলো তাহলেই ক্লিয়ার হয়ে যেতাম মাইন্ড ইট,1,1,0.13407674,0.8659232,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আকাশে কালো মেঘের ঘনঘটা দেখা যাচ্ছে,1,0,0.9102664,0.089733586,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপার বাম কাঁধের ফেরেশতার বর্তমান অবস্থা,1,1,0.080814,0.919186,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই সব কাজ শুধু শাহীনের পোলাপাইন দ্বারা সম্ভব,1,1,0.21373788,0.78626215,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পিথীবির সব থেকে সুখি মানুষ তারা যাদের কেন লজ্জা নাই,0,1,0.23631787,0.7636821,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+উনি নিজের জীবনের জন্য যেভাবে লড়াই করেছেন সেটা দারুণ অনুপ্রেরণাদায়ক,0,0,0.96279496,0.03720503,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এটা ঠিক হয় নি একটা দুইটা গাছের জন্য সাধারণ কৃষককে কারাগারে যেতে হবে খুবই দুঃখ জনক এটা নিয়ে এখন ভাবতে হবে রংপুরে যেভাবে তামাক চাষ হয় এভাবে এটা চাষ করে অনেক অর্থ ও রপ্তানি করা যায়,0,0,0.9522159,0.047784068,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ছত লীগ এর আব্বা লাগে তার বাপের শোকে চলে যাবে কালো কাপড় ছেড়ে সাদা কাপড়ে অগ্রিম শুভকামনা রইল,1,1,0.16382782,0.83617216,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সত্যিই মারে যদি ঠিকমতো স্ব পিং আর মেকআাপ খরচ দিতে পারেন তাহলে মাইর থেকে বেঁচে যাইতে পারেন,1,1,0.11965826,0.8803417,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাড়িতে ঝামেলা করা ঠিক না,1,0,0.9030889,0.09691109,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জীবনে প্রথমবার কক্সবাজার যাওয়ার পর গ্রামের চাচাতো ভাই হোটেলে,1,1,0.20514436,0.79485565,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এটা ওই হেলমেট না ভাই,1,1,0.10486283,0.8951372,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যেই লুক এ দাঁড়িয়ে আছে চাইলে আমাদের দাদি নানির ভাষায় বলা যায় আরেক বিয়ে দেওন যাইবো,1,1,0.16150801,0.83849204,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মানুষ নাকি বাক স্বাধীনতা ফিরে পেয়েছে এই হলো আপনাদের বাক স্বাধীনতা,0,1,0.364833,0.63516706,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাইক এক্সিডেন্ট ৯০ ক্ষেত্রে বাইকার দায়ী,0,0,0.5941007,0.40589935,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মায়ের জন্য ছেলের ভালোবাসার এই প্রকাশ অত্যন্ত মহৎ,0,0,0.96205324,0.03794672,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কেন ফেব্রুয়ারী মাস আসলে কি হয়,1,1,0.16219923,0.83780074,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ডংকিতে বসে একটি কমেন্ট,1,1,0.09313781,0.9068622,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যত তারাতাড়ি বিড়ি শেষ হবে ফেব্রুয়ারি তত তারাতাড়ি আসবে,1,1,0.33909255,0.66090745,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জনি দার বউ মিয়া খালিফা,1,1,0.09179029,0.9082097,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+অর্ধনগ্ন মেয়ে দেখতে পেরে সবাই খুশি মনে হচ্ছে,0,1,0.09273457,0.9072654,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চট্টগ্রাম দখল করতে আসো মনারা পেন্ট খুলে নেব দাদাদের,1,1,0.09828747,0.9017125,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাত খাইতে বসছি হাসতে হাসতে ঠেকলো,1,1,0.10084277,0.8991572,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মানে সহজ হিসাব যে চুলোও যাবে যাও গাজা ছাড়ো গাজা নিয়ে ইসরায়েলের দাবি সঠিক,0,0,0.8967768,0.10322322,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+একটা ভুল চাল থেকেও যে কামব্যাক দিতে পারে সে কিসের গ্র্যান্ডমাস্টার হারতো হারই,0,0,0.7441954,0.25580463,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তুমি আমার অোঅোঅোঅো লাগো,1,1,0.16489606,0.835104,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যার সাথে সংসার করা বাদ দিয়েছেন তার টাকা নিতে লজ্জিত হওয়া উচিত কারণ তার টাকার মধ্যে তার ঘাম মিশ্রিত আছে,1,0,0.8716809,0.12831907,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শার্টটা কি পলিথিন দিয়ে ডিজাইন করা,1,1,0.12578249,0.87421745,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হ্যা কথা সত্যা তুমি দলের থেকে বাদ পড়তে যাচ্ছো,0,0,0.82396543,0.1760346,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চোখে মুখে স্পষ্ট মারা খাওয়ার ছাপ দেখা যাচ্ছে,1,0,0.5243206,0.47567946,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সামান্য সবজি চাষ নিয়ে এত কথা,0,0,0.82532173,0.17467825,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ফেসবুকের সকল নতুন নতুন ইউজারদের প্রতি রইল আমার আন্তরিক ভালোবাসা ও অভিনন্দন এবং পাশে আছি পাশে থাকবো ইনশাআল্লাহ,0,1,0.46432793,0.535672,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এটা কেমন আইন তীব্র নিন্দা ও প্রতিবাদ জানাচ্ছি খুব তারাতাড়ি এদেরকে ছেড়ে দেওয়া হউক,0,0,0.6941634,0.30583656,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কেউ মারা গেলে আমরা অনেক স্টাটাস দেই ছবি সেয়ার করি,1,1,0.21813546,0.7818646,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সব কয়টা চোখের মাথা খাইছে,1,0,0.8683519,0.13164811,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এইটাই শেষ দেখা তার সাথে,1,1,0.33066195,0.6693381,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+লেহাপড়া সারা কার্টুন আকলে এমন কমপারিজনই দিবেন মাথার মধ্যে এক মন গু থাকলে এমন কার্টুনই আকে,0,1,0.48361048,0.5163895,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ইজ্জত এর ভয়ে মন খুলে কমেন্ট করতে পারি না যদি এলাকার কেউ কমেন্ট পড়ে,1,1,0.10364581,0.8963542,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+নাচতে পারো না তো কি করবে সেই জন্য কোলে নিয়েই না চাই,1,1,0.10260467,0.8973953,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এবার বুঝলাম ভাই মুচকি হাসি ক্যান দিছিলো,1,1,0.13839178,0.8616082,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ওর বাবা ওরে তিন বেলা হরমোন কমানোর ওষুধ খাওয়াই মনে হয়,1,1,0.099969916,0.9000301,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+১০ বছর পর আর হাটতে পারবেন না ভেবে পেট টা একটু কমাতে পারেন না,1,1,0.09718855,0.90281147,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি প্রথম দুই লাইন পড়ে অজ্ঞান হইতে নিছিলাম,0,1,0.10755569,0.8924443,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ফিল্ডার হিসেবে নাসিরের ধারে কাছে কেউ নাই,0,1,0.4060224,0.59397763,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দুদকের দৃষ্টি আকর্ষণ করছি তাকে আগে থেকেই টার্গেটে রাইখেন,1,1,0.18125492,0.8187451,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বিদুৎ এর দাম এত বৃদ্ধির পর যোগান দিতে না পারা কি জনগণের দায়,1,0,0.9478645,0.052135553,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এতো দেকি হাসিনা আপা এরশাদ চাচারে ফলো করা শুরু করিচে একলা একলা নির্বাচন করতে আর কতো যে কি কইবো,1,1,0.39254957,0.6074504,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই মেয়ের যাইগায় আমি হলে সোজা ব্লক করতোম,1,1,0.10222019,0.89777976,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+গাড়ি তো নাই আমরাও জানি গিয়ে তো ঠিকিই ঘোড়া চালাইবা,1,1,0.14605707,0.853943,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হায়রে মানুষ খবর দেইখা মনে হয় সপ্ন দেখতাছি নাহ শরীরে চিমটি দিয়ে দেখি বাস্তব কি করুম টমাটাইস হয়ে গেলাম,0,1,0.4490072,0.5509928,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+নারীদের যে কোনো খেলাকে নিরুৎসাহিত করুন,1,0,0.95026094,0.049739104,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যদি নিরপেক্ষতা না থাকে তাহলে কি আর করার শুধু পালা বদল এর কি কোন প্রতিকারই নাই,0,0,0.9565639,0.0434361,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চাচা হেনা কোথায়,1,1,0.10230083,0.8976991,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মেহের আফরোজ শাওন ও মুহাম্মাদ জাফর ইকবাল কে অবিলম্বে গ্রেফতার করা উচিত,0,1,0.27053702,0.72946304,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এসব বিনোদন নামের আবর্জনাগুলো কবে বিলুপ্ত হবে যেসব মিডিয়া এসব অখাদ্য প্রচার করবে তাদের বিরুদ্ধে কঠোর ব্যবস্থা নিতে হবে,0,0,0.9654651,0.034534916,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এটাই ভালো হবে ও একাই সব ম্যাচ জেতাবে,0,1,0.35721976,0.64278024,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শুভ কামনা ভাই,0,0,0.8398665,0.16013345,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আর কৃষকের গোয়া মারিল ইউনুস সরকার,0,1,0.13278763,0.8672124,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+অন্যদের কথা শিওর না তবে এনায়েত একটা টপ লেভেলের বাটপার অনেক টা ব্যারিস্টার সুমনের মত,0,0,0.93563294,0.06436711,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তারা আছে দেখেই আপনাদেরও ভাত জুটে না হলে কন্টেন্ট পাইতেন কই,1,1,0.137325,0.86267495,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সে নিজেই পপুলার কোম্পানীতে চাকুরী করা কালীন সময়ে নিম্ন মানের ঔষধ এমোক্সিসিলিন সিরাপ ও ড্রপ তৈরি করে সরকারি হাসপাতাল সরবরাহ করেছিলো যাহা আবার ২০২২ সালে ফেরত নেওয়া হয়,0,0,0.8836371,0.11636291,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কঠিন সময়েও ডাক্তাররা কখনো হাল ছাড়েন না,0,0,0.94249594,0.057504002,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বিড়ি কিনতে যাচ্ছিলাম এটা দেখার পর এখন গাজাঁ কিনতে যাচ্ছি সবাই দোয়া করবেন যেন সুস্থ থাকি,1,1,0.17611015,0.8238899,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই এরা৷ এতো আবেগ কই পায় বুঝতে পারি না,0,1,0.24785338,0.7521466,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+না ভাই আমি খুব কম পোস্ট করি,1,1,0.25679272,0.7432073,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কিছু কিছু লোভী মহিলা ও তার ততোধিক লোভী পরিবার এর কারণে কতো পুরুষ ও তার পরিবার যে শেষ হয়ে যায় তার প্রচুর নমুনা এখন দেখতে পাবেন চোখ কানখোলা রাখলে,0,0,0.95561135,0.044388674,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কমেন্ট পড়তে আসা লোকদের জন্য বিরিয়ানির ব্যবস্থা করা হয়েছে কেউ না খেয়ে যাবেন না,1,1,0.21142803,0.788572,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বুবু মানুষ মেরে লাশের গন্দে বায়ু দুশিত হয়ে জাচ্চে এটা একটু লিকতে পরেন না,1,0,0.64240056,0.35759944,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ডাক্তার হিসেবে আপনাকে শ্রদ্ধা করি কিন্তু বাংলাদেশের নোংরা রাজনীতিতে আসবেন সেটা দুঃখজনক,0,0,0.95748985,0.04251018,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+একমাস গেছে না আবার বন্যা,0,0,0.77632946,0.22367053,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এমন একটা সহধর্মিনী আমার জীবনেও আসোক,1,1,0.1795833,0.8204167,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমার মতো কেউ কী কমেন্ট পড়তে আইছেন,0,1,0.08867946,0.9113205,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মাননীয় প্রধানমন্ত্রী শেখ হাসিনা স্বপ্ন দেখেন স্বপ্ন দেখান এবং স্বপ্ন বাস্তবায়ন করেন জয় বাংলা জয় বঙ্গবন্ধু,0,0,0.77635723,0.22364274,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আরে ভাই কাউকে ছোট করা ঠিক না বলবা ফকিন্নি,1,0,0.9210094,0.07899059,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যদি মানুষের বদলে সব জায়গায় রোবট ব্যবহার করা শুরু হয় তাহলে মানুষের বেঁচে থেকে লাভ কি সবাই মরে গেলেই তো পারে রোবট চালাবে পুরো পৃথিবী রোবট মানুষের থেকে শক্তিশালী এবং বুদ্ধিমান বিষয়টা ভেবে দেখলে ভয়ঙ্কর লাগবে রোবট দিয়ে প্রোগ্রামিং করা যায় রোবট নিজেই প্রোগ্রামিং করতে পারে এখন যদি এমন কোন রোবট তৈরি করে কোন মানুষ যার মানুষের মতো ভাবার ক্ষমতা আছে এবং হাত পা আছে যেটার মাধ্যমে সে নিজের উপর তৈরি করতে পারবে এমন কোন রোবট তৈরি হলে এটা নিশ্চিত থাকুন যে পৃথিবী শেষ,0,0,0.95704055,0.042959392,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পাপের পরিমাণ এত বেশি দুনিয়ায় এজন্য এ অবস্থা,0,0,0.9443499,0.05565009,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মামা পোস্ট ডিলিট করেন পরে সমস্যা হবে,1,1,0.11791793,0.8820821,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কারও ধর্মীয় উপাসনালয় ভাঙা ঠিক নয় বুলডোজার দিয়ে আওয়ামী মন্দির ভাঙা ধর্মনিরপেক্ষ শরিয়ত পরিপন্থী কাজ,1,0,0.91405207,0.085947886,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কতোটা রুচিহীন নিম্ননো মানসিকতা হিংসুটে হলে এই ধরণের কুরুচিকর কথা নির্দ্বিদাই দেশের জনগন কে বলতে পারে,0,0,0.9496034,0.050396677,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দেশ প্রেমিকের বড় অভাব এই দারিদ্র জনগোষ্ঠীর,0,0,0.9535748,0.046425216,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পিনাকী একটা ফেরাউন এর কথায় ইসলামী দলগুলো নাচতেছে আস্তে আস্তে বেহেস্তের দরজা খুলে যাচ্ছে পিনাকী সহ একসাথে সবাই জান্নাতে প্রবেশ করবেন,1,1,0.34606817,0.65393186,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সবাই এমন একটা পার্ট নিবে যে তাদের বাসায় এসব গালাগালি হয় না,0,1,0.1083245,0.89167553,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আল্লাহ যাকে ইচ্ছা হেদায়াত দান করে থাকেন,1,0,0.94923884,0.050761145,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমার মেজাজ খারাপ হয়ে গেছে,1,1,0.3713338,0.6286662,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+গোলাপ তো দূরের কথা কেউ একটা ফুলকপি ও দিলো নাহ,1,1,0.1289554,0.8710446,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ওরে তোরাতো ভাইটাকে আপু বানিয়ে দিয়েছিস,1,1,0.0830571,0.9169429,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সামান্য কিছু অর্থের লোভে পড়ে মানুষ কত নিচে নামতে পারে,0,0,0.9546728,0.045327142,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জীবন ঘনিষ্ঠ নাটক চমৎকার বাস্তব অভিনয়,0,0,0.93408,0.06592,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বেচারা ইকনমি থেকে বিজনেস ক্লাসের কেবিনের আরেকটু ভিতরে ঘুটে ছবি তোলার সাহস করতে পারেনি,1,1,0.08934107,0.91065896,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এমন মানুষদের কারণেই এখনো মানবতার প্রতি বিশ্বাস টিকে আছে,0,0,0.9641359,0.035864078,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কুকুরকে নজরে রাখ আপা আসলে এর বিচার করতে হবে,1,1,0.107606426,0.8923935,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+৭০ না ৬০ টাকা ৬০ টাকা ডেলিভারি চার্জের জন্য হাজার হাজার টাকা দিয়ে বাসা নিয়ে ঢাকায় থাকি,1,1,0.19860592,0.8013941,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জনগণ নাটক দেখতে দেখতে এতোই পারদর্শী যে নাটক দেখার আগেই মূল গল্প বলতে পারে,0,1,0.12470227,0.87529767,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সবসময় বলি এগুলো গার্বেজ অল্প টাকার লোভ সামলাতে পারছে না পরে ভয়ংকর ডাকাত হয়ে উঠবে,0,1,0.20979182,0.79020816,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কাজ সব সময় ভালো কিছু শেখায়,0,0,0.9643502,0.03564976,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মুনজেরিনের একটা বই কিনে কোন কাজে আসে নাই ওনাদের চেহারা দেখে ফাঁদে পড়ে মানুষ বোকা হয়ে বই কিনে জীবনে একবার একটা বই কিনলে কেউ দ্বিতীয়বার কিনবে না,0,0,0.9398816,0.06011835,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই তালিকায় শায়খ আহমাদুল্লাহ থাকার দরকার ছিল গত কয়েক বছরে দেশের জন্য উনার মত অবদান আর কেউ রাখেন নাই দুঃখের বিষয় সেকুলার বাংলা একাডেমি উনার এত এত ভাল কাজ দেখেও এড়িয়ে গেলেন,0,0,0.89060533,0.109394655,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দুর্নীতিবাজদের কেও জাদু ঘরে রাখা হোক ফেরাউনের মত জাতি দেখবে দুর্নীতি বাজদের,0,0,0.94000715,0.059992846,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+১৩ই ফেব্রুয়ারি জন্য একটা পুকি দরকার,1,1,0.096253715,0.90374625,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তামিম যখন ৫২ মিটারের ছক্কা মারছিলো তখন এক দল তামিমকে নিয়ে হাসাহাসি করছিলো আবার এখন যখন বাউন্ডারি নিয়ে কথা বললো এখনও তারা হাসাহাসি করতেছে এরা আসলে কোন ধরনের হিপোক্রেট,0,0,0.93199414,0.06800587,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভুলে যাবেন না আল্লাহ আছেন উনি সব দেখচ্ছেন,1,0,0.918326,0.08167393,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কিছু মানুষের স্টোরি সিন করি চোখের সামনে থেকে সরানোর জন্য,1,1,0.24847956,0.75152045,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই সবুজ বিচি গুলো এই গুলা কি,1,1,0.098229416,0.9017706,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আর্মি কি আজকে চুড়ি পইড়া ম্যারাথন দৌরাবে,1,1,0.10206883,0.8979312,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি হাসতে দেখেছি কিন্তু কানতে দেখিনি,1,1,0.094953775,0.90504616,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ড্রোন বেশি নিচে চলে আসলেন কোনো একজন বীর বাঙালি ড্রোন নিয়ে দৌড় দিবে সেই ড্রোন উদ্ধার করতেও কোনো না কোনো বাহিনী স্ট্যান্ডবাই রাখা প্রয়োজন,1,0,0.5163892,0.48361078,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আগামী শুক্রবার আমাদের এখানে লজ্জার টিকা দেওয়া হবে আপনি অবশ্যই উপস্থিত থাকবেন,1,1,0.08516863,0.9148314,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমিও একদিন এমন করছিলাম একদিন বাসে যাওয়ার সময় এক লোক খুব ভাব জমায়ে ফেলছিলো পরে সে একটা জুস দেয় আমি বাইরে এমনিতেও কিছু খাইনা পরে বাসায় আসার পর ছোটভাই খেয়ে টানা ২ ঘন্টা বমি করে একটানা ৩ দিন তো ঘুমাইছে,1,1,0.39473194,0.60526806,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তারা নিজস্ব অপারেটিং সিস্টেম ইউজ করে তাদের সময় নাই উইন্ডোজ এর ঢং দেখার,1,0,0.8137956,0.18620436,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এগুলো মানুষ শুনবে কারণ পিনাক্ষীর রুহানি সন্তানেরা বসবাস করতেছে বাংলাদেশের সেই রুহানি সন্তানেরা এগুলো করতাছে,0,1,0.16283043,0.8371695,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জানিনা এবার কয় জনকে পুত্র সন্তান উপহার দেয় খেলা হবে খেলোয়াড়ে খেলোয়াড়ে একজন ঘরের একজন মাঠের,1,1,0.14769444,0.8523056,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সমন্বয়ক ভদ্রতা ইকবাল খান,1,0,0.5390143,0.46098575,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+উনি বিয়ে করেছেন এতে দোষ কোথায় যারা বাজে কমেন্ট করছেন তারা হয়তো অন্য মেয়েদের নিয়ে পরকীয়া জেনায় লিপ্ত আছেন,0,0,0.9462535,0.05374648,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ঢাকায় যতোই উন্নত গাড়ি আসুক আগের আমলের জোরাতালি দেওয়া গাড়িগুলো রাজধানী থেকে উঠবে না,1,0,0.9288021,0.07119787,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শিয়াল এর ইচ্ছা হয়ে ছিল মানুষের মতো হাঁটতে তাই,0,1,0.14640014,0.85359985,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+প্রিয় বন্ধু অনেক দূরে তুমি আছো,0,0,0.917797,0.08220295,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এখন বাংলাদেশ থেকে পাকিস্তান যাওয়ার জন্য একটা সেতু চাই,1,1,0.09934778,0.9006522,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+২১ শে ফেব্রুয়ারি কি একটাও সঠিক উত্তর দিতে পারেনা আর এরাই নাকি জানবে সুবর্ণ আইজ্যাক বারির ইতিহাস,1,1,0.08934788,0.91065216,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাচ্চা হস্তি টা কি চিড়িয়াখানা থেকে ছাড়া ফেলো,1,1,0.13667291,0.8633271,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই খুনের শেষ কোথায় জামাত শিবির বিএনপি আর সমন্বয়করা দিন দিন দেশটারে ধ্বংস করে ফেলছে,0,0,0.95491064,0.045089427,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সালমান ভাইকে অপমান করে কি মজা পাও ফ্রান্স ভাইয়ের জামা ও জুতার মধ্যে রয়েছে লাল রং যা আমাদের চেতনার রং তাই কথা বলার আগে ভেবে বলো,1,0,0.8660672,0.13393286,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এইজন্য এখনো মানুষ হইতে পারলেন না,0,0,0.9361153,0.06388472,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তুমি কখনো করোনি,0,1,0.30661082,0.6933892,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+লেখাটা অনেক গভীর বাস্তবতাকে খুব সুন্দরভাবে তুলে ধরেছে,0,0,0.94880384,0.051196136,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জামায়াতকে একসময় খুবই ভালো লাগতো কিন্তু এখন উগ্রবাদী মনে হয় এরা তৈরি করতে পারে না শুধু ধ্বংস করতে জানে এরা আসলে ধর্মব্যবসায়ী,0,0,0.94846344,0.051536568,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ঐ যে হেলমেট পরা বাইকওয়ালার সাথে উঠে যান নাইলে স্কুটিও আছে একটা,1,1,0.12122696,0.8787731,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ছাগল খায় কিনা জানি না মানুষ কিন্তু গোলাপজল খায় রান্নাতে ব্যবহৃত হয় অনেক ক্ষেত্রে আর হনুমান খেতে ভালোবাসে,0,1,0.42535582,0.5746442,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই আওয়ামী লীগের নেতা কর্মীরাই বেগম পাড়ায় বাড়ি কিনে বসবাস করে ৩২ নম্বর রেখে কি হবে জনগণের হাজার হাজার কোটি টাকা লোটপাট করে বিদেশে বসে আছে তাদের জন্য মায়া একেবারে উতলে পড়ছে দেখা যায় অনেকের,0,0,0.95328873,0.04671124,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি ভেবে পাই না এরকম একটা সাইকোকে মানুষ সাপোর্ট করে কিভাবে,0,0,0.944684,0.055315983,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাইয়ের এখনই এই অবস্থা এরপরে তো পিকচার আভি বাকি হে,1,1,0.48828593,0.51171404,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপা আপনি চলে আসেন আপা দূরে থেকে আর ওয়াজ কইরেন না আপা,1,1,0.11660257,0.88339746,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তিতুমীর এ পরীক্ষা দিই নাই চবিতে পড়ে আফসোস হচ্ছে এখন,1,1,0.108985715,0.8910143,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমার চেয়ে গরিব একটা নারী পেলাম না যে আমার পাসে থাকবে,1,1,0.092937775,0.9070623,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাইয়ার আগমনে মেডিকেল ব্যাচ এবার আরো উন্নতি সাধন করবে আশা করছি স্বাগতম ফাহাদ ভাইয়া,0,1,0.3985955,0.6014045,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এডমিশন টেস্টে শুধু মাত্র তিতুমিরে চান্স পাওয়ার জন্য কোচিং করছিলাম আফচোস চান্স পেলাম না,1,1,0.17775181,0.82224816,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই বিপিএলে সব মান সম্মান শেষ ফকিরের পরিচয় দিছে এই বিপিএলে,0,0,0.7726232,0.2273768,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমার পড়ালেখার কি হবে তাহলে,1,1,0.14838235,0.85161763,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জুলাই অভ্যূত্থান স্বরণীয় করে রাখার জন্য পিনাকির নাম পরিবর্তন করে আবু সাঈদ রাখার জোর দাবি জানাচ্ছি,1,1,0.13223818,0.8677618,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ওই জায়গার মাটিও যাতে না থাকে ইনকিলাব জিন্দাবাদ,0,0,0.6458551,0.35414484,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সত্যি ভাই কথাটা শুনে মজা লাগলো ভালোবাসা রইল আপনার জন্য,0,0,0.89275444,0.10724553,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+নিজেকে ব্যস্ত রাখা একটা বড় আশীর্বাদ অলস সময়ই সব সমস্যার শুরু,0,0,0.94867474,0.05132526,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পিনাকি ভট্টচার্যায় দাদা এবং ইলিয়াস ইনাদের পরিকল্পনা টাই সঠিক তারা অবশ্যই এদেশে আসবে ইনশাআল্লাহ এদেশের আগাছা দমন করা পর্যন্ত উনারা দেশের বাইরে থেকে নেতৃত্ব দেবেন ইনশাআল্লাহ যারা দেশের বাইরে বসবাস করছে তারাই ভালো জানে তাদের মনে ব্যথা বেদনা ছোট ফাই ইলিয়াস এবং পিনাকী দাদাকে অশেষ ধন্যবাদ দেশের জন্য এগিয়ে আসুন,0,0,0.9514436,0.04855637,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+গুম কমিশনের উচিত এগুলো ভিডিও আকারে ডকুমেন্ট করে পাবলিশ করা অপরাধীদের নাম পরিচয় সহ,0,1,0.4042151,0.5957849,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মাশাল্লাহ আমার ভাই বলে কথা,0,0,0.6631062,0.33689374,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সাফারি পার্কের কর্মকর্তা কর্মচারীদের পেটের আল্ট্রাসোনোগ্রাম করলেই নীলগাইকে পাওয়া যেতে পারে,1,1,0.14854254,0.8514574,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+অসাধারণ আমাদের উপদেষ্টাদের থেকে আমরা এমন শক্ত পদক্ষেপই আশা করছিলাম আওয়ামী লীগ নিষিদ্ধ এবং ওদের কর্মীদের পুলিশ লীগ আমলা লীগসহ ওপর দ্রুত ক্র ্যাকডাউন চাই,0,0,0.86820686,0.13179314,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+একেই বলে সুখে থাকতে ভূতে কিলাই,0,1,0.30775955,0.6922405,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দেশের প্রযুক্তি খাতের উন্নয়নের জন্য বড় কোম্পানির দায়িত্বশীল ভূমিকা জরুরি,0,0,0.9562701,0.043729927,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মুজিব পালাইছে এরকম করে এ কথা মনে হয় জামাত বিএনপিও বলেনাই,1,0,0.635221,0.36477894,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আর ওই উগ্রবাদীরা আমাদের অসাম্প্রদায়িকতার সবক দেয়,0,0,0.9148768,0.08512316,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বুজ্জেনা বুজ্জেনা নতুন নতুন,1,1,0.44664228,0.55335766,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এ বাড়িটা পুরে ছাই হইয়ে গেলো গত ৫ আগস্টে কিন্তু কাগজ টা অক্ষত রইয়ে গেলো এটা কি কোরআন হাদিস থেকে ও বেশি নাটকও করতে পারলি না,1,0,0.5723825,0.42761752,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+নিচে যাবার প্রয়োজন নেই আমি এখনই চক্কর লাগিয়ে আসলাম তেমন কোন খাস কমেন্ট নেই কেউ সেই রকম খাস কিছু বলেনি,1,1,0.15171488,0.84828514,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আজ ভালো না বলে শুক্রবারে কোন থাকে না,1,1,0.102638625,0.8973614,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আল্লাহ আপনার ভালো করুক,0,0,0.94098526,0.05901474,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ক্যামারাম্যান ইফেক্টের জন্য পান খেয়ে পানের পিক ক্যামেরার লেন্সে ফালায়া মুভি বানাইতো,1,1,0.2836211,0.7163789,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সাংবাদিক শুক্রাণুর মতো হাজারে একটা মানুষ হয়,1,1,0.23272164,0.7672783,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দুনিয়াতে আমরা নিজের আপনজনকে খুব বেশীই ভালবাসি,1,0,0.9594347,0.04056534,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এটা এমন বাংলাদেশ ভাই প্রপোজাল রিজেক্ট করে দিলেও হয়ে যায়,1,1,0.13476853,0.8652315,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আই এম তো অবাক,1,0,0.78784394,0.21215601,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তোমার উপস্থাপনাটি ভালো হতে পারতো যদি তুমি যথেষ্ট গবেষণা করতে এবং মূল বিষয়গুলোর ওপর জোর দিতে তবে তুমি অনেক গুরুত্বপূর্ণ তথ্য এড়িয়ে গিয়েছ যা পুরো টিমের জন্য বিভ্রান্তি তৈরি করেছে পরের বার একটু বেশি প্রস্তুতি নিয়ে আসার চেষ্টা করো,0,0,0.9620664,0.037933633,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাংলাদেশের ইতিহাস নিয়ে এমন লেখাগুলো আমাদের ভাবায়,0,0,0.9464099,0.05359007,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমাদের তুমি চিন নাই আমরা কিন্তু ভাদ্র মাস মানুষ তাই কিছু কইতেছিনা আঁ ফাঁ আসুক তারপর সব হবে আমরা ভয় পাইনা ডরাই,1,1,0.2677926,0.73220736,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মানুষ মানুষের জন্য এটাই তার উদাহরণ,0,0,0.95707226,0.042927723,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সেঞ্চুরির পর না ভাই হাফ সেঞ্চুরির পর,1,1,0.15816543,0.8418346,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জয় বাংলা,0,0,0.8227281,0.17727187,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এরা আমাদের এতো বিনোদন দেয় যে আমার তো বিবেকে বলে যে এদের বেতন দেওয়া উচিত,1,0,0.8675541,0.13244592,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তোদের নাটক দেখে স্বজন হারা বেদনা নিয়েও হেসে ফেললাম,1,1,0.11993033,0.88006973,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এটাতো ঢাকা বিশ্ববিদ্যালয়ের কলাভবনের ওয়াশরুম মনে হচ্ছে,1,1,0.13659106,0.8634089,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+নিখোঁজ হওয়ার মতো কেও আছে যে হবেন আমারতো নাই,1,1,0.34885287,0.6511472,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+লিংক কোথায় লিংক না দেখলে মানুষ বিশ্বাস করে না,1,1,0.33438057,0.66561943,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই দয়া করে ইনবক্স টা চেক দিয়েন কিছু গালি দিছি,1,1,0.11341954,0.88658047,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মাঝে মাঝে মনে হয় আমরা ব্রিটিশ দের হাত থেকে নয় বরং ব্রিটিশ রাই আমাদের হাত থেকে রক্ষা পেয়েছে,1,1,0.4275873,0.5724127,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মিথ্যার একটা সীমা থাকা উচিত যতই মিথ্যাচার করো কোন লাভ হবেনা এগুলা জোর করে মানুষকে বোঝানোর চেষ্টা চলছে,0,0,0.96207786,0.03792211,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+নিজেকে প্রমাণ করার জন্য কৃত্রিম হতে যাবেন না,0,0,0.94634867,0.05365128,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+রাজিব ভাইয়ের বিকল্প রাজিব ভাই,0,1,0.25208884,0.7479112,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চেহারা যেমনি হোক ছেলেরা সব কিছু বড় বড় পেলেই খুশি,1,1,0.19086528,0.8091347,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হেফাজত মানে সেক্স করা হা হা হা৷,0,1,0.09647023,0.90352976,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দেশের অর্থনৈতিক অগ্রগতিতে মেধা এবং অভিজ্ঞতা সততার সাথে কাজে লাগবেন এটাই প্রত্যাশা,0,0,0.9656184,0.03438159,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হ ওই গরিব মেয়েকেই আমার দরকার গোল্ডডিগার একটা পালসি,1,1,0.10359124,0.89640874,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপনি আমার পাখি ধইরা টানাটানি করেন শুধু,1,1,0.09667993,0.9033201,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কি রিয়েকশন রে,1,0,0.86016977,0.13983017,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বিম্পি তো নির্বাচন নির্বাচন জিকির তুলে সবসময় সরকারকে নাজেহাল করার চেস্টা করেছে,0,0,0.93773913,0.06226093,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কথা হচ্ছে টিই কেনো বাড়লো এটা সুনির্দিষ্ট সংকেত বাঘ সমাজ আজ লজ্জিত আমাদের ক্রিকেট দলের খেলা দেখে,1,0,0.85690886,0.14309111,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কাঁঠালের স্যান্ডউইচ হয়ে গেলো মনে হয়,1,1,0.17493996,0.82506,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই মামা না প্লিস না,1,1,0.11772576,0.88227427,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ডাক্তারদের সহানুভূতি ও দায়িত্বশীলতা অনন্য,0,0,0.95616883,0.043831136,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই তুই পাড়ার বেইশা পাড়ায় যা ইনকাম ভালো হইবে,0,0,0.579849,0.420151,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ইয়াশার চট্রগ্রামের মালিক কে সন্তুষ্ট করতে হবে,1,1,0.11253193,0.88746804,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সবাই কে প্রেগন্যান্ট করার ধান্দা,1,1,0.245673,0.754327,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মাশাল্লাহ অসম্ভব সৌন্দর্যে সৌন্দর্যমণ্ডিত আমাদের উত্তরবঙ্গ,0,0,0.9363586,0.0636414,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জুতা দিয়ে তোমার গালে মারা উচিত আবাল বক্তব্য দিয়ে এখন বাঁচার চেষ্টা মিথ্যুক একটা নিশিত ওর পিছনে কোন শক্তি আছে যার জন্য এসব বলেছে মিন্টু রোডের রিমান্ডে নিয়ে গরম ডিম ডোকালে সব বের হয়ে আসবে সাম্প্রদায়িক দাঙ্গা লাগানোর একটা অপচেষ্টা,0,0,0.94874257,0.051257424,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+টাকা ডালবেন কাপ না পেলে ও ফরেনার পাইবেন,1,1,0.09883509,0.9011649,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এবার হিন্দু বৌদ্ধ ঐক্য পরিষদের অস্তিত্ব নিয়ে টানাটানি হয় কিনা দেখেন প্রিয়া সাহা একটা ব্র,0,0,0.6481556,0.3518444,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কোথাও নিরাপদ নয়,0,0,0.9496857,0.05031427,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আল্লাহ্ আমাদের মিলিয়ে দিক আমিন ছুম্মা আমিন,0,0,0.88893116,0.11106882,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আবেগ দিয়ে দেশ চলে না বিবেগ দিয়ে দেশ চলে,0,0,0.9469469,0.053053044,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমার মনে হয় বড় অংশ ভুট দিতে যাবে না বললে ভাল হত,0,1,0.113019496,0.8869805,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শিক্ষা প্রতিষ্ঠান বন্ধ করে দেওয়া হোক,0,0,0.788564,0.21143591,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হি হি হি হি হি এখানে সব কয়টা ভালো মানুষ একটা ও প্রেম করে নাহ,1,1,0.13075191,0.86924803,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ফ্যাসিবাদের জায়গা এই বাংলায় আর হবে না অনেক আগেই ৩২ গুড়িয়ে দেওয়া উচিত ছিল দেরিতে হলেও ফ্যাসিবাদের কবর রচিত হলো,0,0,0.902657,0.097343,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সারাদেশের মানুষ যেখানে তিতুমীর কলেজ কে বিশ্ববিদ্যালয় কনভার্টে কোনো যুক্তি দেখে না সেখানে কোন মাথা মোটা এই আবদার জানায় আল্লাহ মালুম,0,0,0.93707705,0.062922895,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমার মতে এই ধরণের আচরণ হিন্দু ধর্মের উদারতা কে উহ্য করে এবং এক ধরণের কট্টোরপন্থী হতে দেখা যায়,0,0,0.9589822,0.041017722,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই এইজন্যই আপনার ২ দিনের দুনিয়ায় ৭ দিন এক্সাম,1,1,0.112609446,0.8873906,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সবাই আপনার মেসেঞ্জারে কেন কয় নাম্বার করলেন এই গ্রুপে,0,1,0.094461344,0.9055387,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পরবর্তী খেলা গুলো হারলেও বাদ পড়ার সম্ভবনা আছে ঢাকা ক্যাপিটালসের,1,0,0.8219122,0.17808773,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+লিপ কিসে সব শুখিয়ে গেছে,1,1,0.09685998,0.90314,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপনারা খেলা উপভোগ করতে না আসেন মডেলিং করতে,1,1,0.101521134,0.8984788,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আলহামদুলিল্লাহ আমার মা ও এমন,0,1,0.34123397,0.65876603,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মাগো এতো দেহি স্টুডেন্টদের খুশির খবর,0,1,0.12717587,0.87282413,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+গার্লফ্রেন্ড বস্তুটা বুঝি এমন হয়,1,1,0.1372073,0.8627927,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+রোবট যে মানুষের বিরুদ্ধে যুদ্ধ ঘোষণা করতে পারে এইটাই তো তার বড় একটা প্রমাণ,0,0,0.8648047,0.1351953,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমিও চাই সাব্বির রহমান আমেরিকার হয়ে খেলুক,0,1,0.10287453,0.89712554,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চোর এর বাচ্চা চোর মাশরাফি ভোট চোর তুই যেই টাকা ও সুবিধা নিচ্ছিস তা হারাম হারাম কোরের বাচ্চা কারণ তুই অবৈধ এমপি,0,0,0.9413906,0.05860947,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সাবজেক্ট কি নাট্যকলা পেয়েছিলো নাকি ইস্পাত ভাইটি,1,1,0.097119614,0.9028804,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ইউরোপ আমেরিকার মানুষ মদ গাঁজা খেয়ে কি এমন সাহায্য করছে এডমিনের খুব জানতে মন চায়,1,0,0.74679935,0.25320065,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হিসাবের ঠাপাঠাপিতে ট্রফি টিপায়,1,1,0.12238909,0.8776109,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এরকম আর একটা স্ট্যাটাস দিয়ে যদি কয়েকটা ছিনতাই আটকায় দিতেন মানে আমরা তো এক একটা হিরো এত বড় বাড়ী ভাঙতে পারি কিন্তু চোখের সামনে ছিনতাই ডাকাতি খুন আটকাতে পারি না,0,0,0.7211518,0.27884814,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সবাই আমার পেজ টিকে ফলো করে আসেন প্লি,1,1,0.19291063,0.8070894,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+নারী কর্মকর্তা রা পুরুষের তুলনায় সৎ ও একনিষ্ঠ হয়,0,0,0.9429123,0.057087667,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই মাতারির নামটা মনে পরছেনা সেই দুপু্র থেকে,0,1,0.1700455,0.82995456,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+র ্যাবের উপর বিএনপি জামায়েত এর ক্ষোভ ছিলো ওদের খুশি করতেই এমন অবস্থা করছে অন্তবর্তীকালীন সরকার,1,0,0.90759027,0.092409804,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমার মা কয় রাইত কইরা কিয়ের এত কথা ছেরিগো লগে কথা কস নি,0,1,0.14798775,0.8520123,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মনে হচ্ছে কোন মহান কার্য করতে গেছিল ভাল যে জেলে ঢোকায় নি,0,1,0.16189232,0.8381077,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এক সুন্দরী মেয়ের সাথে একটানা প্রায় তিন ঘন্টা চ্যাটিং করার পর তাকে প্রশ্ন করলাম আপনার কি বয়ফ্রেন্ড আছে আসলো না ভাইয়া আমার কোন বয়ফ্রেন্ড নাই আপনি যাকে নক দিছেন আমি তার বয়ফ্রেন্ড,1,1,0.17949092,0.82050914,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ইন্টারটেস্টাল আদালতে মামলা করেন বাসুদেব দাদা,1,1,0.10616376,0.8938362,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ছোট ভাই এই চেয়ার বড্ডই গরম জিনিস সাবধানে হেন্ডেল করতে না পারলে পুইরা যাওয়ার সম্ভবানা ৯৯,1,1,0.15954958,0.8404504,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাসুদেব কাকা এটা আগামীকাল না গতকালকে হবে,1,1,0.13510433,0.8648957,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এটাই কিন্তু সঠিক আমরা এত্তটা ডিজিটাল ছিলাম না তবে অনেক সুন্দর সময় পার করে এসেছি যা এই জেনারেশন পায় না,0,0,0.8146367,0.18536328,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পাগলের সুখ মনে মনে,1,1,0.11177259,0.8882274,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমার বাপ তো আমাকে মামুর ব্যাটা বলে,1,1,0.19176891,0.8082311,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপনার আম্মু খুব ভালো,1,0,0.90111893,0.09888104,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই নে আম্নে গো কলেজের দৃশ্য,0,1,0.16896501,0.83103496,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আফসোসলীগের কথা শুনে অবাক লাগে একটু অনুসুচনা তাদের নাই তারা মনে করছে পাকিস্থানী ষড়যন্তে শেখ হাসিনা পালাতে বাধ্য হয়েছে ২০০০ মানুষ মরেছে তাদের দোষে,0,0,0.93776625,0.062233716,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+স্বজন হারানোর বেদনা ভাষন দেবেন লজ্জা থাকলে দেশে এসে আত্বসমর্পন করুক গনহত্যাকারীর ভাষন আবার কে প্রচার করবে,0,0,0.9433469,0.05665306,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ইংলিশ কইলে সমস্যা নাই বাংলা কইলেই সমস্যা,1,1,0.21962996,0.78037006,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আর এখন পোলাপান খালি বিনোদন নামক পাতায় গিয়ে,1,0,0.87660724,0.12339274,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হাউন আঙ্কেলের থেকে শিক্ষা পাওয়া শিষ্য ডিবি সিনিয়র হয়েছে বোধহয়,1,1,0.099780366,0.9002197,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ঢাকায় যত মানুষ সে হারে গণপরিবহন নাই সিট তো নায়ই সিট হিসাবে মানুষ নিতে গেলে মানুষের আর বাসায় যাওয়া হবে না,0,0,0.9331409,0.066859104,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সারাহর জীবনটা হয়তো অনেক সহজ মনে হয় কিন্তু সেটাও কঠিন হতে পারে,0,0,0.95329005,0.046709932,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ইট পাথরের তৈরি বাড়ি ভাঙ্গার দৃশ্য দেখে কষ্ট পাচ্ছেন অথচ শত শত মানুষ হ ত্যাকে ঠিকি সাপোর্ট দিয়েছিলেন এই হোল আপনাদের চরিত্র,0,0,0.9336234,0.06637658,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কতটা জঘন্য হলে মানুষ এমন টা করতে পারে,0,0,0.9449874,0.055012546,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি এটার নাম রেখেছি লাভ মশা,1,1,0.16498353,0.8350165,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বিনা ভোটের নির্বাচনে এমপি হওয়ার সখ আর করবা নি মনু,0,1,0.41184533,0.5881547,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আর মৌণতা বোনটির জন্য,1,0,0.8278246,0.1721754,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+র এর সেকন্ড হেডকোয়ার্টার খুব সুন্দর একটি বিল্ডিং এটি কারওয়ান বাজারে ভারতীয় নিয়ন্ত্রণপ্রকৌশল অধিদফতররে একটি বিল্ডিং প্রথম কলকাতার জমজভাই পোথামালুর কেল্লা এটি কারওয়ান বাজারে অবস্থিত এমনি মনে করায় দিলাম আরকি কালকে তো ভারতীয় রেজাকারের হেডকোয়ার্টার গুলো উড়িয়ে দিয়েছে তাই আজকে যদি দেখেন যা ভালো মনে করেন,1,1,0.49560142,0.5043986,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এখন তামিম নিজেকে মনে করতেছে ওর বাপের রেখে যাওয়ার জমিদারি হচ্ছে বিসিবি,0,1,0.31628495,0.68371505,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+থাক এই দুর্দশা কেটে গেলে যাওয়া যাবে,0,0,0.87413377,0.12586628,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আহারে আমার সোনা জিন্নাহ আর ইকবাল নাকি সাধু ছিল জঙ্গিদের তাহলে এসব ইতিহাস গেলানো হচ্ছে,0,0,0.7147365,0.28526348,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ঐ রোবট মনে হয় ছাত্রলীগের হাতে পড়েছিল,1,0,0.6274581,0.37254193,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যারা নিভে যেতে চায় তাদের নিভে দাও,0,0,0.93426263,0.065737315,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মেয়েটা আমি আর ছেলেটা আমার এক্স ব্রেকআপের কারনও এইটাই,1,1,0.10474791,0.8952521,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাবলাম কৃত্রিম বৃষ্টি দিবে একটু বৃষ্টি বিলাশ করমু,1,0,0.6403921,0.35960788,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আওয়ামীলীগ এর দোসর কে ও নিয়ে নিলেন আগস্ট এর পর ছাত্ররা এনার প্রাইভেট ভাংচুর করেছিল,0,1,0.32637885,0.6736211,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আওয়ামীলীগ করা মানুষ আর যাই হোক অন্তত মোসলমান হতে পারে না এদের জানাজায় অংশ নেওয়া কোনোভাবেই ঠিক হবে না,0,0,0.94952196,0.050478026,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ওখানে ক্যাপ্টেন থাকবে বুবলি আম্পেয়ার থাকবে অপু বিশ্বাস,1,1,0.09816464,0.9018353,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সেইম সমস্যা ত আমার ও,1,0,0.59194684,0.40805313,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পাতার সন্ধান পেয়ে ঐদিন কলেজে আসলি না৷ একা একা যাইতে হইছে আমাকে,1,1,0.12651965,0.8734803,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মাদ্রাসায় নির্যাতন হয়ে আসছিল অবশ্য মাদ্রাসার কর্তৃপক্ষের বিরুদ্ধে মামলা দেয়া হোক,0,0,0.8066178,0.1933822,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শারমিনের রিজেকশনে নাফিসের আত্মবিশ্বাসে একটা বড় ধাক্কা আসে কিন্তু সে নিজেকে নতুনভাবে গড়ে তোলার চেষ্টা করেছিল,0,0,0.94766635,0.052333694,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এর আগেও দেখেছি নগর পরিবহন সবুজ রঙের বাস কয়েকদিন পরে আর নাই এখন তা দিয়ে স্টাফ বাস বানিয়েছে,0,0,0.6875304,0.3124696,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চমৎকার একটি পারফরম্যান্স দেখতাছি আমরা,0,0,0.8029454,0.19705464,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কিডনি কেপে উঠলো,0,1,0.24577788,0.75422215,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই সব আজে বাজে পোস্ট করে যুবকদের মনকে নষ্ট করিয়া তাদের টাকা ইনকামের পথকে বাধাগস্ত করা হচ্ছে এই জগতে বাঁচতে হলে টাকার কোন বিকল্প নেই,0,0,0.9612997,0.038700227,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+একদিন গোটা বিশ্বকে শাসন করবে মুসলমান আর সংবিধান হবে আল কোরাআন,0,0,0.9332306,0.06676938,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+টিভি দেখা কমিয়ে দিছি,0,0,0.6256946,0.3743054,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কাচ্চি ডাইন এর কি বিজ্ঞাপনের খরা লেগেছে,0,0,0.89581925,0.10418074,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ঘোষনা দিতে দেরি বিবিসির নিউজ দিতে দেরি নাই,1,1,0.15155052,0.84844947,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হাজার হাজার অনলাইন রিসোর্স ব্যবহার করে নিজেকে উন্নত করার সুযোগ কাজে লাগানো উচিত,0,0,0.9635376,0.03646247,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কাচ্চি ডাইন রিমান্ডে কাইবো,1,0,0.80406296,0.19593702,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+নার্স ও চিকিৎসকদের মধ্যে সমঝোতা তৈরি হলে সেবার মান আরও উন্নত হবে,0,0,0.9642526,0.035747454,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই এই সব নিউজ দিয়ে জনগণের মন অন্যান্য দিক থেকে সরানোর প্রচেষ্টা এই মিডিয়ার ভাষ্যমতে এরা কারো এজেন্ট হিসেবে সাংঘাতিক হয়েগেছে,0,0,0.94957066,0.050429296,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই ভরা শীতের মরশুমে শাক খেতে চেয়ে বেচারা কি এমন ভুল করেছে,1,1,0.14235239,0.85764766,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+অমানুষ গুলো দেখতে অবিকল মানুষের মতন,1,0,0.95263344,0.047366515,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+লজ্জা শরম বলতে যদি আর কোন কিছু থাকত তাইলে এসব স্ট্যাটাস দিতি না পুরো একটা দেশ কে ব্যার্থ রাষ্ট্রের তকমা লাগাচ্ছস পাকিস্তান এর মত আমরাও কি ভিক্ষা করেই চলব তোদের এসব ফাত্রামি কবে বন্ধ হবে,0,0,0.9546513,0.045348678,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তামিম ইকবালের ভালো খেলায় চেয়ে ইত্যাদিতেই তার মনোযোগ বেশি,1,0,0.61858016,0.38141987,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি চাই ফেব্রুয়ারি মাসটা ১৩ তারিখ ই শেষ হয়ে যাক,1,1,0.091347225,0.9086528,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দেশে কোনো সাধারণ মানুষ নাই সব অসাধারণ কেউ আওয়ামী লীগ কেউ বিএনপি কেউ জামাত,1,0,0.9475686,0.052431427,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+একটা মাস আগে পোস্টটা দিতেন প্রোফাইলে শেয়ার দিতে পারতাম,1,1,0.3304179,0.66958207,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আয় কালকে না অফার দিছিলি আমারে একসাথে খাবি,1,1,0.15139806,0.8486019,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+একটু উন্নতি আপনাদের সহ্য হয় না,0,0,0.9045495,0.09545053,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমাদের অফিসের ঠিকানাঃ নতুন জুরাইন পোস্তগোলা আলমবাগ ঢাকা ১২০৪,1,1,0.35025093,0.6497491,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তাইতো ফকির লালন বলেছিল সত্য কাজে কেউ নয় রাজি সবই দেখি তা না না না হালাল কারো পছন্দ না হারাম টাই ভালো,0,0,0.9363359,0.06366415,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমিতো ফ্যান হয়ে গেলাম আসলেই যে যত দেশ প্রেমিক হবে আমাদের ও দেশের শত্রু ভারত বিরোধীতার প্রমান দিবে আমরা এদেশকে ভালবাসি,0,0,0.95058817,0.049411844,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ছাত্ররা সেই ভাষণ শোনার অপেক্ষায় শুধু এটাই নয় আপনাকে বরণ করার জন্য তারা প্রস্তুতি নিচ্ছে শুধু সময়ের অপেক্ষা চিন্তা কইরেন না আপা আপনি আপনি ঘাবড়াইয়েন না আপনি ঘাবড়াইলে আমরা দুর্বল হয়ে যাই আহারে জীবন কোন আওয়ামী লীগের কাউকে দাম দিচ্ছে না কেউ,1,0,0.8922067,0.10779329,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি ৩২ নং থাকতে পারি নাই কিন্তু শাওন আপা কট খাওয়া দেখেছি,1,1,0.08915417,0.9108459,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+প্রস্তুতি নিয়েই বেরিয়েছেন মনে হচ্ছে,1,0,0.5724057,0.42759433,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+টেস্টে রানের উপর প্লেয়ারদের পার্সেন্টিজে বেতন নির্ধারণ করা হোক,0,0,0.939875,0.06012498,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জম্ম মৃত্যু বিয়ে তিন বিধাতা নিয়ে বিয়ে যখন হবার ঠিক তখন ই হবে,0,0,0.85317314,0.14682694,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সামনে কি হবে তার জন্য সবাই প্রস্তুত হন কেননা আজ যেটা হাসির কাল সেটা কান্নার কেননা রোবট যদি মানুষের মতো আচারণ করে তখন মানুষের মতো অন্যায় করতে ও দ্বিধা বোধ করবে নাহ,0,0,0.9588584,0.04114162,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মানবতার দেয়াল থেকে তুলে এনে প্যান্ট পরে ভাই আমার চেয়েও গরীব,1,1,0.14880218,0.8511978,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি আগেই বলছিলাম চট্টগ্রাম থাকবে না চট্টগ্রাম থাকবেনা বরিশালের কাছে হেরে যাবে,0,1,0.116183124,0.88381684,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাইরাল হওয়ার নেশা মানুষকে কতোটা নিচে নামাতে পারে,0,0,0.9514371,0.048562896,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কেউ একজন কর্মসুচির ডাক দেন যে পদ্মা সেতু যমুনা সেতু মেট্রোরেল কর্নফুলি টার্নেল বিমানবন্দর কখন ভাঙা হবে ভাই জানায়েন যেতে হবে তো ভাঙতে,1,1,0.32608244,0.6739176,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হরতাল যদি ৩০ ও ৩১ ফেব্রুয়ারি হয় তাহলে আমি পূর্ণ সমর্থন জানাবো,1,1,0.17267199,0.827328,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এটাই বাস্তব বিশ্বাস না হইলে হেরে জিগাই দেখেন,1,0,0.51491594,0.4850841,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চমৎকার একটা কথা সাব্বির আমেরিকা চান্স পেলেই ভালো,0,0,0.582574,0.41742593,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মিরপুরে একটি স্টার্টআপ অফিসে এমন ঘটনা প্রযুক্তি খাতের প্রতি আস্থার অভাব সৃষ্টি করে,0,0,0.95948285,0.040517133,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এখন এই বিষয় নিয়ে শাহবাগে আন্দোলন করা উচিত ৷ প্রয়োজন হলে আবার ফিরব নতুন রূপে রোবট লীগের বেশে,1,1,0.21560243,0.78439754,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই দিকে আমার বউ নেই,1,1,0.075834006,0.92416596,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এমন একটা স্বামী কোথায় পাওয়া যায়,1,1,0.13401368,0.86598635,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+উওেজনা যখন চরম পযার্য়ের,1,0,0.94361967,0.056380343,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কেও ছেলেদের নিয়ে মজা করবেননা,1,0,0.84402066,0.15597935,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আর এই কাজ করে ভাব নেন খুব ভালো কাজ করছেন,1,0,0.5139582,0.48604175,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দেশের নাম পরিবর্তন করে মামা রাখা হোক,1,1,0.1699595,0.8300405,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শুধু ঢাকাই বসে বসে বকবক করা ছাড়া কিছু করবে না বকবক পাটির দল,1,1,0.36913726,0.6308627,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শুয়ে ডাবের পানি খাওয়ানোর ফলে শিশুর ফুসফুসে পানি চলে যাওয়ার মতো ঘটনা এড়ানোর জন্য সচেতনতা প্রয়োজন,0,0,0.820755,0.17924501,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ইয়ে মানে বলতেছিলাম এ উ মানে ওহ মনে পরছে,1,1,0.14165147,0.85834855,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এইগুলা সিন্ডিকেট জনগণকে ভোগান্তি দিবে ইচ্ছা করে যেন এই সব সিস্টেম এপ্লাই করতে না হয় কারণ এরা জানে এইসব সিস্টেম এপ্লাই করলে রাস্তায় শৃংখলা ফিরে আসবে যেটা ওরা চায় না,0,0,0.95574445,0.044255573,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+গরু কোথাকার একটা প্রশ্নের উত্তর দে তুই জন্মের পর পারিপার্শিক পরিস্থিতির কারণে পথভ্রষ্ট হয়েছিস নাকি পূর্বপুরুষ থেকে পথভ্রষ্ট আমার মনে হয় তোর পূর্বপুরুষ ৭১ এর কোনো হানাদার বাহিনী কিংবা রাজাকার ছিল,0,0,0.95315886,0.04684111,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বগুড়ার পুলাটারে সারা দেশ চিনে কিন্তু জায়েদ ফ্যান কে কয় জনে চিনে,0,0,0.83022004,0.16978,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যারে ভাবি মুড সুইং সামলাবে তার সাথে কথা বল্লে আরো বেশি মন খারাপ হয় রাজ্যের কষ্ট তার,1,1,0.22267434,0.7773257,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এটাই বাস্তব আপা,1,0,0.6939168,0.30608323,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভালোই হলো এবার চলো বিয়েটা করে নেই অনেক হয়েছে ওসব বদ্ধ কেবিন আর রাস্তার সব সস্তা হোটেল আমাকে শুধু জাপানের মাউন্ট ফুজিতে লাল টুকটুকে ঘরটা করে দিও তাতেই হবে বিয়েতে কি বেনারসি নাকি জামদানী পড়বো লাল নাকি সাদা শাড়ী লাল পাড়,1,1,0.3945815,0.60541856,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বেলাকে খুশি করতে গিয়ে মা বাবা আত্মীয় স্বজনকে ভুলে যাইয়েন না শুধু বেলা বেলা করলেও অবেলা হয়ে যাবে অনেককে দেখতেছি শুনতেছি,0,0,0.59215254,0.4078475,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+অতঃপর সেই মেয়েটিকে কৃত্রিম ভাবে শ্বাস গ্রহনের ব্যবস্থা করতে গিয়ে আমাদের মানব দরদী সালমান ভাই বেহুশ কারন মেয়েটি দীর্ঘ অনেক বছর ব্রাশ করেন নি,1,1,0.10216448,0.8978355,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এটাই করা উচিত যে দেশের যে কালচার তাকে সে ভাবেই চলা উচিত,0,0,0.9634022,0.036597814,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাস্তবতা কিন্তু জিলাপি,1,1,0.13555056,0.86444944,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভবিষ্যৎ শঙ্কা মোটেও হাসির বিষয় না,0,0,0.93693674,0.063063346,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই জন্য মেসির বিশ্বকাপ কেড়ে নিয়ে আদোলফোর মেক্সিকোকে দিয়ে দেওয়া উচিত কারণ তাদের দর্শকরা খুবই শিক্ষিত,1,1,0.15649953,0.8435005,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+একে বারে মনের কথা বলেছেন নে ভাই একটা বিড়ি খা,1,1,0.17306852,0.8269315,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ছ্যাচড়া ব্যাটা,0,0,0.9300246,0.06997541,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ল্যাপটপটা ঠিক করতে দিছি একমাস হলো দিচ্ছি দেই করে দিচ্ছে না আর মেট্রোরেলে গিয়ে ছবি তুলে বেড়াচ্ছে,0,1,0.26044762,0.7395524,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আওয়ামী লীগকে ক্ষমা করলে পৃথিবীর ইতিহাসে সব থেকে ভুল কাজ করবে বাংলাদেশ এর জনগণ,0,1,0.4826853,0.5173147,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই পোস্ট শেয়ার করলে মিনিটের মধ্যেই সল্প সংখ্যক মানুষ আনফ্রেন্ড করে দিবে,1,1,0.17099202,0.82900804,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জুয়াড়ি কে গ্রেপ্তার করা হোক তাড়াতাড়ি,1,0,0.74049383,0.2595062,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তুমি যে মাত্রায় বাঁশ খাচ্ছো না জানি কতদিন পর আবার খিদা পায় তোমার,1,1,0.13729423,0.8627057,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শেখ হাসিনা আছে শেখ হাসিনা থাকবে ১০০,1,1,0.17537102,0.82462895,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+একজন ডাক্তারের যদি এই অবস্থা হয় তাহলে রোগীর কি অবস্থা হবে,0,0,0.941803,0.05819703,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পরিচয়ের সংকট সবচেয়ে বড় সংকট যা মানুষকে ভেতর থেকে আঘাত করে,0,0,0.949593,0.05040702,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+না রে ভাই পরিক্ষার রাতের বই থেকে,1,1,0.1238183,0.87618166,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ছাত্রদলের কেন্দ্রীয় সাংগঠনিক সম্পাদক কেউ এসব ফালতু ও বিতর্কিত কর্মসূচিতে যায়,0,0,0.9184525,0.08154746,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যেইদিন খেলা দেখি না ওই দিনই কিছু না কিছু ঘটে,1,0,0.53992975,0.46007028,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সিন্দুক বন্ধ করে রাখা টাকার উপযোগিতা কি ভাই উদাহরণ দিবেন তাও আবার ভুলভাল,0,0,0.7318366,0.26816332,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ইউসুফ সরকারের উচিত তার নামের শেষে চ্যাটার্জি লাগানো তাহলে আর বাংলাদেশের ঝনের টাকা পরিষদ করতে হবে না,1,1,0.11484139,0.8851586,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সারাহর মত প্রতিভা থাকলে সাফল্য আসতে বাধ্য,0,0,0.95059335,0.0494066,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+স্বামীর শাসন যে নারীর জন্য কতটা জরুরী সেটা মেহের আফরোজ শাওনরে দেখলেই বোঝা যায়,1,0,0.9509111,0.049088918,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তিতুমীর বিশ্ববিদ্যালয় কিসের জন্য মিয়া,1,1,0.11128556,0.8887145,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+অনেক কিছুই হতে পারে অনুশোচনা ভালোবাসা মায়া কিংবা কোনো ফাঁদ,0,0,0.9044807,0.09551929,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আজ একটা সুইজারল্যান্ড প্রবাসী হাজবেন নাই বলে ওসমান গণি ভাবীর এতো কথা শুনতে হয়,1,1,0.09753343,0.90246654,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বছর ১১ মাসে শেষ হক কিন্তু ফেব্রুয়ারি না আসুক,1,1,0.18609045,0.8139096,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপনি এসব বলছেন আল্লাহর ভয় থেকে না আপনার ক্যারিয়ারের ভয়ে আর এগুলো আপনি শিখেছেন আপনার পরিবার থেকে আপনার সাষ্তি দেবার মানুষ কেউ না মানুষ হচ্ছে উছিলা মাত্র এসব আল্লাহর গজব আপনার উপর,0,0,0.95432234,0.045677625,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ধানমন্ডি ৩২ এর থেকেও প্রথম আলো বেশি শক্তিশালী বাংলাদেশ ধংশ করার এক মাএ দায়ী ইন্ডিয়ান এজেন্ট মোদির আলো জয় বাংলা করে দিতে হবে,0,1,0.16071348,0.8392865,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সব ভোট চোর লীগকে ধরতে হবে,0,0,0.9107455,0.08925447,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চুরি করে জেতার কি শখ তাও আবার হারাম খেলা,1,0,0.7121254,0.28787458,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এক সময় নাছিরের ফিল্ডিং বেশ উপভোগ করতাম তারপর সৌম্য সাব্বিদের,0,0,0.9016807,0.09831923,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যা তোমার কখনো ছিল না,0,0,0.83112633,0.16887368,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আল্লাহ এই কোন যুগে আইনা ফালাইলা,0,0,0.5412393,0.45876062,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চলে গেলি ভালো হবে সাকিবের মতো ভুল না করে ওই দেশে ক্রিকেটারদের অনেক সম্মান করা হয় সম্মানটুকু তো পাবে,0,0,0.95224273,0.04775729,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এতো সুন্দর একটা ভিউ দেখলে দেখতে মন চাচ্ছে বারবার ভাইয়া,0,0,0.8750155,0.12498456,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জীবনে কাউকে ভালো বাসতেই পারি নাই তাই হয় তো কপালে নাই,0,0,0.86891174,0.1310882,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই ইনবক্সে গালি দিছি চেক করে দেখেন,1,1,0.10031139,0.89968854,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+লাসটা একনো তার কুনিকে বালোবাসে,1,1,0.1399083,0.8600916,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ছেলে বাথরুমে পায়খানা কসা তাই হুম হুম করতাছে,1,1,0.08758289,0.9124171,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সে ঠিক ই কালোমানিক,1,0,0.8671425,0.13285749,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তিতুমীর কলেজকে প্রাইমারি স্কুল বানানোর জোর দাবী জানাচ্ছি,1,1,0.09131035,0.9086897,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মাননীয় প্রধানমন্ত্রী দেশরত্ন শেখ হাসিনার নির্দেশ ধানমন্ডি ৩২ এ যারা যারা হামলা করছে তাদের বাড়ি ঘর কোথায় খুজো বের করা ইনশাআল্লাহ কাউকে ছার দেওয়া হবে না,1,0,0.87657785,0.12342212,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই তোর জন্য না আসুক আমাদের জন্য আসুক কারন ফেব্রুয়ারি মাসে সবে বেড়াত,1,1,0.17539437,0.8246056,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সুশীলগিরি মারাইতে আসছে এখন ধ্বংসলীলা তো বক্তব্যের আগে শুরু করেছে নিজেদের ব্যর্থতা ঢাকতে মব উসকে দিচ্ছে,0,0,0.96262014,0.03737987,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জীবনটা নিজের শর্তে বাঁচুন অন্যদের দেখানোর জন্য নয়,0,0,0.9591578,0.040842183,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই অন্তর্বর্তীকালীন সরকার নাকি শান্তিতে নোবেল পেয়েছে কিন্তু দেশেই তো কোন শান্তি আনতে পারছে না,0,1,0.27721322,0.7227867,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পাগলের সুখ মনে মনে,1,1,0.11177259,0.8882274,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এগারো বছর বয়সে আমি কার গাছে কি ফল আছে তা পাহারা দিতা আর সব বন্ধু বান্ধবীদের নিয়ে চুরি করতাম,0,0,0.6346886,0.36531135,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+খোলা খাবারে অনেক মশা মাছি ইত্যাদি বসে যা দেখতে হয়তো আকর্ষণীয় বলবে অনেকেই কিন্তু আনহাইজিনিক খাবারের মূল্য কোনো সুশীল জ্ঞানী সুশিক্ষিত মানুষের কাছে থাকে না আর খাবার খুলে রাখার বিষয়টা যখন ইচ্ছাকৃত তখন সেটা তো আরও বেশি ভয়ংকরভাবে বর্জনীয়,0,0,0.96129787,0.038702182,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি প্রধানমন্ত্রী হলে পুরো দেশ বদলে দিতাম সকাল থেকে লুঙ্গী মনে করে আমার সায়া পরে ঘুরছো আগে সেটা বদলে এসো,1,1,0.12185543,0.8781446,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এইটা হাসির বিষয় না আমারতো এখন ভয় করছে রবোট যদি আমাদের নিয়ন্ত্রন করতে চাই একটা মুভিতে দেখছিলাম যে রোবটে আবেগ চলে আসছিল সে মালিকের বউয়ের সাথে সম্পর্ক করতে চাচ্ছে মালিককে মেরে ফেলছে,0,0,0.87273496,0.12726504,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আসিফ সাহেবের শাশুড়ি কট,1,1,0.08325414,0.9167459,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চাচা বাড়িঘরে এত আ গুন কেন আর অভিনেত্রী শাওন কোথায়,1,1,0.080739945,0.91926,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কবে হবে আন্দোলন হায়রে হায়,1,0,0.62149113,0.3785088,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+গরিবের জন্য আইন অক্ষরে অক্ষরে পালন করা হয় কোনো ধারা না থাকলেও প্রয়োগ করা হয়,0,0,0.9580168,0.041983187,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দেশেই যেহেতু আছেন যে উন্মত্ততার সপক্ষে ২৪ ঘন্টা আগে সম্মতি উৎপাদন করলেন আপনার মতো অনলাইন কুতুবেরা সবাই মিলে এই উন্মত্ততার দৈত্য যে থামাথামির নাম নিতেছে না সেই দায়িত্ব কি এখন নিবেন আপনারা,0,0,0.9638404,0.036159497,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ওর সাথে বেশিক্ষণ কথা বললে মেয়ে তো দূরের কথা একটা বটগাছ পেগনেট হয়ে যাবে,1,1,0.10113326,0.8988667,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+১০০ রানের জন্য সেটা করতে পারলেন না তিনি,1,1,0.13151173,0.86848825,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ডালময় জীবন চারদিকে শুধু ডাল আর ডাল,1,0,0.738309,0.26169097,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তাহলে ভালো করে ড্রায়ভিং শিখতে হবে,1,1,0.27941126,0.7205887,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+স্যালুট ভাই স্যালুট,0,0,0.74456537,0.25543457,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+গ্রেফতার তো দূরের কথা একটা চুলও ছিড়তে পারবে না,0,0,0.5284172,0.47158274,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাচ্চাদের জন্য ভালো দোয়া তাদের ভবিষ্যৎ সুন্দর করে,0,0,0.9639439,0.03605607,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+উপজাতির বাচ্চারা সব খায়,0,0,0.79838616,0.20161392,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মজার কথা কি জানেন প্রতি রোজার ঈদে ঘুম থেকে উঠে দেখি আমার মা নতুন কাপর পরে রান্নাঘরে রেডি ১৪ ১৫ বছর বয়স এর পর থেকে ঈদের আমেজটা নাই কিন্তু মা কে ঈদের দিনের কাপড় পড়তে দেখলেই মনে হয় এইতো ঈদ আমরা কাপড় পরি আর না পরি মা ঠিকই পড়ে আল্লাহ মা কে নেক হায়াত দান করুক,0,0,0.891562,0.10843796,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এমন দেশে জন্মে নিজেকে লজ্জিত মনে করি তীব্র নিন্দা জানাচ্ছি ঐ প্রতিষ্ঠান এবং ঐ প্রতিষ্ঠানে কর্মরত সকল ব্যাক্তিকে যারা এমব জঘন্য কাজের সাথে জড়িত,0,0,0.9560208,0.043979183,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আইরে জীবন মরনের পর জালিমের চাপ প্রয়োগ,0,0,0.72852796,0.27147207,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চাচা ফুল গুলো এতো সাজানো কেনো আর আমার প্রিয় মানুষ কোথায়,1,1,0.1118885,0.8881115,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+প্রতিবেশীকে আগাত করে নিজেকে কখনো নিরাপদ রাখা যায় না এতটুকু না বুঝতে পারলে রাজনীতির লাইনে না আসাটাই ভালো,0,0,0.96623427,0.03376579,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+রেলওয়ে ব্যবস্থাপনার দুর্বলতাগুলো চিহ্নিত করে সমাধানের উদ্যোগ নেওয়া জরুরি,0,0,0.9646804,0.035319652,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যে অবস্থা শুরু হয়ছে পুলাপাইনরে একটা রকেট ভাড়া করে দিলে বঙ্গবন্ধু স্যাটেলাইটও ভেঙে চলে আসবে শিউর,1,1,0.26057744,0.7394225,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কাফিও লেখক জায়েদখানও নায়ক হিরোআলমও গায়ক,1,1,0.17751676,0.8224832,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ওনাদের বিদ্রোহ যদি সঠিক হতো তাহলে সারাদেশ তাদের সাপোর্ট করতো আজ তাদের পাশে কেউ নেই কয়েকটা নারীবাদী শাহবাগী বাদে ও তাদের জন্মের কিছু পোলাপাইন আছে তারা,0,0,0.9178597,0.08214035,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমার কেউ নাই বাট আমি কেন করিনা,1,1,0.104908496,0.89509153,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মান ইজ্জত আর রইল না,1,1,0.48922193,0.5107781,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সেখানে অনেক বাংলাদেশিও আছে তাদের মনে হয় ট্রাম্পের বিশেষ প্রাইভেট জেটে করে ফেরত আনা হবে,1,1,0.28009427,0.71990573,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কপালটা খারাপ সাকিব খানের খারাপ লাগে তার জন্য,1,1,0.28816637,0.71183366,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+নারায়ে তাকবির বলে ৩২ নাম্বার যারা ভাংছেন তারা জানেন এই স্লোগানে আপনার ধর্মকে কিভাবে পরিচয় দিচ্ছেন একজন মুসলিম হিসেবে বাইরে আমাদের কিভাবে দেখে,0,0,0.95403343,0.045966562,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+রান্না চলাকালীন নিয়া যা খাইতাম তা হোটেলে ৩ ৪ জনের খাওয়ার সমান,1,0,0.5351029,0.46489707,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সমানুপাতিক যেহেতু যেকোনো একটা কমান তাহলে অন্যটা একা একাই কমে যাবে,0,0,0.92430013,0.07569985,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আজ কেউ নাই বলে তাকে মেনশন দিতে পারলাম না,1,1,0.07721589,0.92278415,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কপাল ভালো বঙ্গবন্ধু স্যাটেলাইট মহাকাশে নয়তো জনগণের আক্রোশে এইটাও জয় বাংলা হয়ে যেতো,1,1,0.13842443,0.86157554,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মোবাইল কেনার সময় জোর করে ৪৯৯ টাকা কম দিছিলাম সেই অপরাধে এই ভিডিওগুলো সামনে আসে,1,1,0.118627205,0.88137275,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপনি এখন কোন হাইকমিশনারের সাথে আছেন জানাবেন,1,1,0.09395483,0.90604514,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আল্লামা সাঈদী সহ অগণিত আলেম হত্যার অভিশাপ সাধারণ মানুষ ও ছাত্র জনতাকে আহত নির্যাতন হত্যার অভিশাপ গণ অধিকার পরিষদের ভিপি নুর সহ অগণিত নেতাকর্মীদের জেল জুলুম নির্যাতন এর অভিশাপ লেগেছে,0,0,0.810984,0.18901601,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কিছু ই বুঝতাসিনা,0,0,0.8293343,0.17066567,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বন্ধুতে আসা ভরশা ভালো বাসা কনেটা ই আর নেই,0,0,0.8321834,0.16781655,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তোমাদের এইসব ড্রামা আমরা ভাল করেই জানি এগুলো কোন প্লট হল হাসিনার এক্সপার্টিজের ধারে কাছেও নেই কোয়ালিটি আমরা সেরাটা দেখে অভ্যস্ত এইসব লো কোয়ালিটির ড্রামা আমরা খাই না,0,0,0.91000086,0.08999914,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হইতে পারে কোন যুবলীগ বা ছাত্রলীগের নেতা অসম্ভব না ওরা ত ভারতেই সবাই,1,1,0.44391567,0.55608433,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+স্ত্রীকে টাকা আয় করে দিতে বলেন স্বামী সবসময় পাশে থাকবে সংসার চালিয়ে যেতে বলেন স্বামী সবসময় পাশে থাকবে দায়িত্ব তো আর নেওয়া লাগে না এজন্য এত আবেগ বাস্তবতা ছাড়া জীবন চলে না আবার এক সাথে স্ত্রীর সাথে থাকলে সংসারের অশান্তিও হয় স্ত্রীর সাথে থাকলে ভালো থাকা যায় কে বলেছে বরং নারী তার যৌন লালসা পূরণের জন্য এই কথাগুলো বলছে নিজের স্বার্থের কারণে এই মজাদার কথাগুলো বলছে,0,0,0.9600467,0.03995328,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই ডায়ালগ শুনতে শুনতে আমার জীবন গেল,0,1,0.15191628,0.84808373,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বইগুলো বাচ্চারা পড়বেনা আর বড়দের কাজে লাগবে না,1,1,0.35135707,0.6486429,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সবার যাত্রা শুভ হোক,0,0,0.9492605,0.050739516,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ইয়া আল্লাহ্ আপনি বিপদগ্রস্থদের ক্ষমা করে দিন তাদের সহায় হউন,1,0,0.9549884,0.045011576,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পরিবারের ছোট ছেলে তারপর ও নিজের খরচ নিজে চালাই,1,0,0.9180161,0.08198392,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হুম চাঁদ টা অনেক বড়,0,1,0.38204637,0.6179536,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শেষমেষ রোবটও তার অন্য রোবটদের নিয়ে পালালো আর এইদিকে আমার পিও এখনো আমাকে একবারও দেখা দিলো না পিও তুমি কোথায়,1,1,0.17665756,0.82334244,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এরে কেউ থামা,1,1,0.19594336,0.80405664,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই গ্রামে যান উনারা এত কিছু বোঝেনা ১৪ ১৫ থেকে শুরু করে ছেলে মেয়েদের বিয়ে দিয়ে দেয় ছেলেকে ভ্যান দোকান ক্ষেত খামারে কাজে লাগায়া দেয় তাদের একটাই কথা ছেলে মেয়ে ডাগর হইছে মনে বয়স হয়ে গেছে এরাই সুখে আছে,0,0,0.70858866,0.29141134,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+নির্দেশের অপেক্ষায়,0,0,0.8565533,0.14344664,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ওই সিভি তোমাগো মতো হলুদ সাংবাদিকদের বাবারা সেই ৭৫ এর আগে বঙ্গবন্ধুর কাছে জমা দিছিলো নাম ঠিকানা মিলিয়ে দেখো,1,0,0.72187614,0.2781239,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কথাগুলো কাগজ কলমে ঠিক আছে আবেগ দিয়ে জীবন চলে না টাকা না থাকলে কোন পুরুষের দাম থাকে না,0,0,0.9529268,0.047073215,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+নিঃস্বার্থভাবে মানুষের সেবা করা সত্যিই বিরল গুণ,0,0,0.9620702,0.03792975,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+স্থান কাল পাত্র বেদে নিজেকে পরিবর্তন করতে হয় যা তিনি করেছেন,0,0,0.794728,0.20527206,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+প্রকৃত দেশপ্রেমিকরা দেশে থাকে দেশের বাহিরে না উনি দেশের বাহিরে থেকে দেশকে উস্কি দিয়ে ধ্বংসের মুখে ধাবিত করছে,0,0,0.9624293,0.0375707,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আরাম শুধু গদিতে বসে থাকা,1,1,0.14369087,0.8563091,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ঢাকা শহরের সিকিউরিটি ড্রেস সব একরকমই,1,1,0.23050816,0.76949185,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমার টাকায় ফ্যামিলি চলে না আল্লাহ আমার উসিলায় আমার ফ্যামিলিকে চালাচ্ছেন এতে আমি ভাগ্যবান আল্লাহর শুকরিয়া আদায় করছি,0,0,0.8789904,0.12100958,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাদ দেন ভাই বিহারী মানুষ,1,1,0.2289433,0.7710567,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জীবনে বাজারে না যাওয়া সাংঘাতিক,0,1,0.2651592,0.73484087,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জানি যাদের লাং আছে তারা এই গানটি শুনে খুব কষ্ট পাবে,1,1,0.13765876,0.8623412,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কবরস্থান থেকে আসার পথে একেবারে বৌ নিয়ে আসা যাবে,1,1,0.08734921,0.9126508,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এখন যতোবেশি ধর্ম চর্চা হচ্ছে মানুষ ততোবেশি উগ্রবাদী হচ্ছে আগের মানুষের ধর্ম চর্চায় কোন খাদ চিলো না আর এখন ধর্ম নয় ধর্মব্যবসাই আসল,0,0,0.9598287,0.04017132,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই ধরনের ধর্ম উপদেষ্টা এবং স্বরাষ্ট্র উপদেষ্টা থাকলে বৈষম্য বিরোধী সরকারের পতন এনেই ছাড়বে,0,0,0.94806534,0.05193473,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+উভয়েরই রোষানলের আগুনে পুড়া ছাই পাওয়া যাবে বটে কিন্তু সে ছাইয়ে চাপা পড়ে যায় লাখো কোটি জনতার অন্তরে ধারণ করা হাজারো পুঞ্জিভূত আশার আলোকে বর্তিকা,0,0,0.92497116,0.07502888,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সালমান মুক্তাদির বিশ্বাস কর খানকির পোলা তোকে দেখলে মন চায় তর মুখের মধ্যে জুতা দিয়ে নিজের ইচ্ছামত পিটাই,0,0,0.85883665,0.14116332,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাড়াকে ইনবক্সে বাড়া দেখায়া দিছে নাকি উত্তেজিত ভাই বোনেরা আগের পোস্টের জন্য,1,1,0.1065372,0.89346284,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+২১ এ আইসা হাত ধরা তো দুরে থাক পাসেই কাওরে পাই নাই,1,1,0.1112282,0.88877183,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কোচিং টসিং এর দিন শেষ বাড়িতে পড়ার বাংলাদেশ,1,1,0.11633839,0.8836616,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এটা শোনার পর আমি নিস্তব্ধ,0,1,0.34975952,0.6502405,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমাদের নিজেদের কাছ থেকে শুরু করতে হবে একে অপরকে সমর্থন দিতে হবে,0,0,0.961374,0.03862607,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাংলাদেশ আওয়ামীলীগের প্রতিটি নেতা কর্মীকে অফুরান ভালবাসা এবং শ্রদ্ধা,0,0,0.93026245,0.06973759,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ক্লাস ৫ এ থাকতে এই পড়াশোনা পাতার জন্য আব্বু বাসায় পেপার রাখছিল পড়তাম ও তবে সোমবারীর রস আলোর প্রতি অন্যরকম ঝোঁক ছিল,0,1,0.47873962,0.5212604,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মেযে তোমাকে বলছি যদি না বুঝে কাদো এটা অন্য বেপার আর যদি জেনে বোঝে কাদো আল্লাহ তোমার বিচার একদিন করবে,0,0,0.9104929,0.08950703,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শেখ হাসিনার কারণে বঙ্গবন্ধু শেখ মুজিবুর রহমানের মানুষ আর ভালোবাসে না,0,1,0.1349883,0.86501175,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভালো ফলাফল করেছে দেখে হিংসা হয় মানুষও মানুষ নেই পৃথিবী বসবাসের অযোগ্য হয়েছে সেই কবে ফেসবুকের কথা নাই বলি,0,0,0.94795316,0.052046884,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ধন্যবাদ মাননীয় প্রধানমন্ত্রী জননেত্রী শেখ হাসিনা জাতি যতবারই ভাগ হয়ে যাচ্ছিলো ততবারই আপনি ঐক্যবদ্ধ করে দিয়েছেন আবারও ভাগ হয়ে গেলে আপনার আরো একটি ভাষন চাই কারন এখন টুংগীপাড়া বাকশাল এর জনক বঙ্গবন্ধু কে ধুলোয় মেশানো বাকি,1,1,0.2695256,0.7304745,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+প্রত্যেক মানুষের জীবনযাত্রা আলাদা কেউ আগে শেখে কেউ পরে,0,0,0.94790375,0.052096214,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মেধার বিকল্প মেহনত মেহনতের কোন বিকল্প নাই চেষ্টা চালিয়ে যাও সফলতা আসবে একদিন ইনশাআল্লাহ,0,0,0.94389176,0.05610824,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দেখতেই ফেরাউন এর মতো লাগে,1,0,0.85536945,0.14463057,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+একদম বাস্তব অভিজ্ঞতা আছে আমার নিজের ক্ষেত্রে কাজেই আমি খুব ভালোই জানি এক্ষেত্রে একটা পুরুষের ওপর কি পরিমাণ মানসিক চাপ থাকে অবশ্যই আইন সংশোধন করা উচিৎ,0,0,0.95332307,0.046676908,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তুমি একজন প্রধান মন্ত্রী হয়ে কিভাবে এতো মিথ্যা কথা বল মিথ্যা বলায় ফাষ্ট তাই এতো গুলো সার্টিফিকেট অর্জন করতে পেরেছ,1,0,0.8900017,0.10999829,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তার জন্য আগে স্বপ্নের নির্ভুল বানান শিখতে হবে,1,1,0.25021222,0.74978775,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মিস ইউ ম্যাডাম শেখ হাসিনা দোয়া করি শেখ হাসিনা আপনি অনেক অনেক দূরে যান এবং আর না আসেন,1,1,0.12663037,0.87336963,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কম দামের এসব হাইপার ফোন কেনা বিরত থাকুন,0,0,0.6960693,0.3039307,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দোষ আসলে এই ভদ্রলোকের খান সাহেব কি উনাকে মেসেজ দিয়েছে যে আমি আজকে সেঞ্চুরি করবো আপনি আসেন প্লিজ,1,1,0.10326059,0.8967394,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+অপারেশন থিয়েটারে ডাক্তারদের আত্মত্যাগ দেখে আমি মুগ্ধ,0,0,0.9534247,0.046575326,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি আমাদের দেশের আইন ব্যবস্থাকে ধিক্কার জানাই আমি কুন দিন দেশর বিরুদ্ধে কাজ করি নি তাহলে দেশের আইন যে আমার সাথে প্রাতিদিন অন্নায় করছে তার বিচার কে করবে,0,0,0.95975447,0.04024557,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ডাক্তাররা সর্বদা রোগীদের সেবা দিতে প্রস্তুত,0,0,0.9568016,0.043198388,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শুধু মাঝে মাঝে বলতো ঘুমা মোবাইল না টিপে,0,1,0.10737855,0.8926214,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আজকে একটা বলপেন্ট ও নায় স্টোরি দিতে পারি নায়,1,1,0.12759842,0.8724016,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শুভ জন্মদিন পথ এগিয়ে চলুন শুভ জন্মদিন,0,0,0.92327386,0.07672608,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যারা বাজে কমেন্ট করছেন তাদেরকে বলি আপনারা কেনো নিজের মুখ নষ্ঠ করছেন কোন কুলাঙ্গার যদি পরকাল না মানে তাতে তো কারো কোন ক্ষতি হবে না মৃত্যুর পরে বাম্বু গেলে নিজেই টের পাবে কি যে মজা স্টাইল এমনিতেই ঢুকে যাবে ধন্যবাদ,0,0,0.9585312,0.041468754,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হেলমেট পরে বাইক চালানোর থেকে হাতই উত্তম,1,1,0.34583554,0.6541645,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+স্বজন হারানোর বেদনা নিয়েও এগুলো দেখতে হয়,1,1,0.46499756,0.5350024,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এতো মনোযোগ দিয়ে দেখলেন কিভাবে ভাই,1,1,0.114775024,0.885225,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপনারা যত সমালোচনা করবেন এরা আরো ফেমাস হবে আরো ১০ টা দেশে ট্যুর দেওয়ার টাকা কামিয়ে ফেলবে,0,0,0.9280414,0.0719586,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সবচেয়ে ভালো লাগলো মেহেদী হাসান খান কে দেখে যার অবদানের জন্যে আমরা বাংলা লিখতে পারছি মোবাইল বা কম্পিউটার এর মধ্যে সে তার তৈরিকৃত কিবোর্ড ফ্রি করে দিয়েছে তার এই ব্যবহার করে বাংলাদেশের জনগণের করা হয়েছে যার বিনিময়ে সে এক টাকা ও নেয় নাই অভিনন্দন জনাব মেহেদী হাসান খান,0,0,0.88599503,0.11400496,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আয়মান সাদিকের আরো দুইটা বই আমি আগে কিনেছিলাম কোনো উপকারেই আসে নি বই দুটো নতুন কিছু শিখতেও পারিনি স্টুডেন্ট হ্যাকস আরেকটা ফেলে দিছি মনে নাই একজন টিচার হওয়া সত্বেও আমি কাউকে এই বই কেনার সাজেশন দেই না,0,0,0.7995469,0.20045313,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এমন এক জেনারেশন এর সাথে লাগছে আপা না পারে অফলাইনে না পারে অনলাইনে পাপ বাপকে ছাড়ে না,1,0,0.5770853,0.42291465,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তারাই এই যুগের বড় ভাদাইম্মা এদের একটু লজ্জাও করে না চোখের সামনে তো দেখি কিছু বলতেও পারিনা আল্লাহ সবাইকে বুঝার তৌফিক দিক আমিন,0,0,0.950976,0.04902395,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মাশাল্লাহ ভাই নতুন মডেল অনেক সুন্দর,0,0,0.927579,0.07242098,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তোমার মতো ইঞ্জিনিয়ার কেউ তুদেও না ডিপ্লোমা তুদাও,1,1,0.2213548,0.7786452,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপনারা সাহসিকতার সাথে এগিয়ে যান আমরা আপনাদের পাশে আছি ইনশাআল্লাহ,0,0,0.93063086,0.06936918,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সাকিব আল হাসান সৈরাচারের সঙ্গী এজন্য তাঁকে জনগণের কাছে মাফ চাইতে হবে,0,0,0.5975855,0.40241444,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাবার টাকা আছে তো কী করতাম,1,1,0.41446036,0.58553964,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চাচা বাড়ি ঘর এত সাজানো কেন,1,1,0.091879666,0.90812033,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই নাস্তিকের শরীরে আমি শত ভাগ নিশ্চত যে কোরোনা ভাইরাস আছে তাকে সরকারী আইসোলেশনে রেখে এডভান্স মরণ ইনজেকশন পুশ করা হোক এদের মত হাই প্রোফাইল মাগিদের জন্য ই আল্লাহ কোরোনা ভাইরাস দিয়েছে,0,0,0.94519943,0.054800607,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সেই সবজি খেয়ে তুমি অর্গাজম করো,0,1,0.09580474,0.90419525,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+একটা দৃশ্যমান অপশক্তি আমাদের শিক্ষা ব্যবস্থাটাকে ধ্বংস করে দিচ্ছে,0,0,0.96272254,0.037277486,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বড়ই দুঃখ্যজনক,0,0,0.9309236,0.0690764,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই আসেন এক কাপ দুধ চা খাই,1,1,0.22802362,0.77197635,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শিবির নয়তো দাড়ি আছে কিন্তু,1,0,0.6077058,0.39229417,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যে মানুষ এ রোবট তৈরি করেছে সেই তো ফাঁকিবাজ ছিল তাহলে তার রোবট ফাঁকিবাজ যদি না হয় তাহলে কি হয়,0,0,0.9354181,0.06458186,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমাদের সুপার হোম দিচ্ছে তিন বেলা খাবার এসি রুম ফ্রি ওয়াইফাই ফ্রি জিম আড্ডা দেওয়ার আলাদা জায়গা অসাধারণ ছাদ ফ্রি লন্ড্রি,1,1,0.29040053,0.70959944,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি শিহরিত,1,0,0.9005589,0.09944113,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পাহাড়ে তো মোগো বাড়ি পাহাড় না কাটিলে আমরা থাকমু কোথায় বুবু খুব মজায় আছেন তো পাহাড়ি এলাকার মানুষের দুঃখ কষ্ট বুঝবেন কি করে,0,0,0.5837352,0.4162648,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সেনাবাহিনীতে কোন উত্তেজনা নাই অহেতুক নিজে উত্তেজিত হয়ে অর্গাজম ঘটাবেন না,1,0,0.9317654,0.068234645,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই এত জ্ঞান কোথায় রেখে ঘুমান চোরে নিয়ে যাবে তো,1,1,0.099035755,0.90096426,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এমন ফালতু কাহিনী আর লিখবেন না দয়া করে টাকা সবকিছু যার টাকা আছে তার সবকিছু আছে যার টাকা নেই মা বাবা থেকে বউ ছেলে মেয়ে আত্মীয় স্বজন প্রতিবেশীদের শুরু করে দাম নেই বেশি বললাম না বুঝে নিবেন,0,0,0.88542795,0.11457204,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+খুব ভালো একটা সিদ্ধান্ত নিয়েছেন ধন্যবাদ,1,0,0.9223834,0.077616505,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আগে ঘুম তারপর প্রেম পিরিত,1,1,0.22438018,0.77561986,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পিনাকী সাহেব কি বলেছেন নুহাশ পল্লী নিয়ে সেটা না বুজে না জেনে অনেকেই ফাল পারতেছে শুশীল এর আফসোস দেখে মায়া লাগে,0,0,0.9150694,0.08493061,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হা হা এটাই বাস্তব আই লাভ ইউ,1,1,0.24321268,0.75678736,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দেশের মানুষ কে ভেজাল ঔষধ খাওয়াছো আর এখন ভেজাল মার্কা কথা তোমার বাড়ি অফিস একদিন ভাঙ্গবে তখন কেমন লাগবে যদিও আমি ভাঙ্গা ভাঙ্গি মধ্যে নেয়,0,0,0.94130445,0.05869556,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এগুলো হাস্যকর বক্তব্য বললে ভূল হবে বেশিগুলোই দাম্ভিকতা,0,0,0.9443753,0.05562474,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+টাকা না থাকলে কিস্তি তুলে ডিভোর্স দেন,1,1,0.11595971,0.8840403,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এগুলো নিয়ে হাসার কোন কারণ নেই কারণ তারাই প্রকৃতপক্ষে একজন আদর্শ স্বামী,0,1,0.35057047,0.64942956,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমার কোলে কে উঠবে তাই বলো,1,1,0.07949818,0.9205019,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তাকে প্রকাশে ফাশি দেওয়া হক,0,1,0.13698651,0.86301345,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মোহাম্মদপুরে থেকে হারিয়ে যাওয়া কোনো জিনিস এই প্রথমবারের মতো ফিরে পাওয়া গেছে ইতিহাসে রেকর্ড,1,1,0.13658185,0.86341816,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি তো আয়তক্ষেত্রের কর্ণ বরাবর নিয়ে ঘুমাই,1,1,0.0974629,0.90253717,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+না মানিনা চুম্মা চাটি নাই কেনো,1,1,0.082614034,0.91738594,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হুদায় অক্সিজেন খরচ করতেছি জীবনে,1,1,0.11626523,0.8837347,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই একটা কাজের জন্য আওয়ামী লীগ কে চিরদিনের জন্য নিষিদ্ধ করলেও বিচার কম হয়ে যাবে,0,0,0.9444095,0.055590533,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কারণ আসল বাপের কাছে যাবে তাতে দোষের কিছু নাই,1,0,0.88737303,0.112627,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আহা ৯৫ মুসলমানের দেশ আহা দাড়িওয়ালা মুমিন,1,0,0.79219514,0.20780487,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আহারে অসহায় কৃষক,0,0,0.918321,0.08167899,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সেয়ানা পাগলে কিছু বলে আর অন্য পাগলরা হুমড়ি খেয়ে পড়ে,1,0,0.7818818,0.2181182,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দেশের সম্পদ জনগণের টাকায় আবারও হবে মাঝে জনগণকে বহন করতে হবে অতিরিক্ত করের বোঝা,0,0,0.96475875,0.035241332,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চাকরি কখনই কমবে না শিল্প বিপ্লবের পরে অনেকের ধারণা ছিল চাকরির বাজার শেষ কিন্তু দিন শেষে চাকরির বাজার সম্প্রসারণ হয়েছে বর্তমানে এক ডিজিটাল মার্কেটিংকে কেন্দ্র করে কতগুলো চাকরির ক্ষেত্রে তৈরি হয়েছে কল্পনা করা যায় মানে যুুগের সাথে তাল মিলিয়ে আপনার স্কিল ডেভলপ করতে হবে এটাই আসল কথা,0,0,0.96434903,0.03565097,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপনি পারবেন দেশের নাম উজ্জ্বল করতে,0,0,0.9362103,0.06378972,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বিবাহ বহির্ভূত সকল সম্পর্ক হারাম হিজাব পরদা করে হারাম কাজে সহযোগিতা করছেন সাড়ে তিন হাত মাটির নিচে যাও হিসাব দেয়ার জন্য প্রস্তুত থাকুন,0,0,0.9460665,0.05393345,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সবচেয়ে ভালো হয় তদের আপার বাপের কাছে চলে যা,1,1,0.117815375,0.8821846,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বেলার বাচ্চা আপনাকে মামা ডাকার জন্য প্রস্তুত আপনি তাদের চিপস আর চকলেট কিনে দেওয়ার জন্য প্রস্তুত থাকেন শীঘ্রই আপনাদের এয়ার পোর্টে দেখা হবে,1,1,0.27520975,0.7247903,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি এসব নোংরামির মধ্যে থাকতে চাই না নিজে করলে ভিন্ন কথা কারণ যুদ্ধ করে দেশ স্বাধীন করেছি,1,0,0.79791087,0.20208913,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ইনি নির্ঘাত বাস্তব জীবনে সিরিয়াল কিলার,1,1,0.10061131,0.8993887,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যে লাউ সেই কদু কোনো পরিবর্তন হয়নি সব সেই আগের শাসকের মতো কান্ডকারখানা,0,0,0.9306063,0.06939373,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শাওন লোভী কে গ্রেফতার করা আশু জরুরি ও একটা গুপ্তচার,0,0,0.8590042,0.14099582,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমিও বেঁচে থাকতে এরকম করতাম,1,0,0.51795375,0.48204625,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+গোল্ডেন ডাক পালতু ডাক তামিম দেয় না,1,1,0.1665094,0.8334906,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপনার যে ওয়েভসাইট তৈরি করা হচ্ছে তার সহযোগী হিসেবে থাকতে চাই,0,0,0.6383226,0.36167747,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হাসিনা মানুষকে ৭৫ এ আটকে রাখতে চায় ঐদিকে আপনারা বাঙালির ইতিহাসের সবচেয়ে বড় স্ক্যামকে আকড়ে ধরে রাখতে চান লক্ষ আপনাদের মোটামুটি সেইম আয়রনিক,0,0,0.9325241,0.06747587,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এইটা হাসার বিষয় না ভাবার বিষয় ভবিষ্যতে আমরা কোন বিপদের মুখোমুখি হতে যাচ্ছি সত্যি যদি হলিউড মুভির মতো এ আই রোবটের সাথে যুদ্ধ করা লাগে তাহলে কি হবে একটু চিন্তা করে দেখেন সামান্য একটা প্রোগ্রাম না থাকায় রোবট তার নিজের চিন্তা ধারা কাজে লাগিয়ে ফেলছে,0,0,0.9563811,0.043618917,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কোন দেশে বাস করি এসব দেখে নিজেই লজ্জায় পড়ে যাই,0,0,0.5177938,0.4822062,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+লক্ষ লক্ষ বাংলাদেশী মুসলিম মহিলা পতিতাবৃত্তির জন্য ভারতে আসছেন এবং নতুন প্রজন্মের ১০ শতাংশ বাংলাদেশীর বাবা ভারতীয়,0,0,0.9367287,0.06327125,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপনাদের প্রস্তাবগুলো সাধারণ জনগনের মনে কথা কিন্তু চিকিৎসা ব্যবস্থায় যতদিন রাজনীতি থাকবে এমন প্রস্তাবনা গুলো কোন নিউজ অথবা সামাজিক যোগাযোগমাধ্যমে শুনতে হবে বাস্তবায়ন আর হবে না এমন পরিকল্পনার জন্য আপনাদেরকে অসংখ্য ধন্যবাদ,0,0,0.9567142,0.043285742,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যার ভাগ্যের ধর্মঘট টানলে লাগে কাগজ মাথায় আগুন ধরায় টানতেসি,1,1,0.17622699,0.8237731,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দেশে রাসুলের অপমানের বিক্ষোভ চলতেছি তাই এটা সব সরকারকে ছাল,0,0,0.9137822,0.08621779,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তামিম ভাই বললো হাতুড়ি সিং এর অধীনে খেলবে না পাপন এর অধীনে খেলবে না এখনতো তারা কেউ নেই তাহলে কেনও অবসর নিলো এটা দর্শকদের সাথে পতারনা করা হইছে এত ইগো ভালো না আর সাব্বির এর সাথে ব্যাবহার টা ভালো লাগে নাই এটা সিনিয়র কোনও লিজেন্ড প্লেয়ার এর আচরণ হতে পারে না,0,0,0.9352149,0.064785145,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যদি গ্রালফ্রেন্ড ই না থাকে কার ছবি দিবো,1,1,0.110314,0.889686,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শেষ রাতে হঠাৎ লুঙ্গি ভেজা পেয়ে গোসল করতে যাওয়া পুরুষদের কাছে স্বাভাবিক বিষয় আর যারা পুরুষ না হয়েও পুরুষ সাজে তারা এটা ফেইসবুকে পোস্ট দিয়ে সবাইকে জানায়,0,0,0.5011589,0.49884108,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বারোটা বাজানো ডেভেলপার,1,0,0.88620037,0.1137996,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এর দোষ শুধু বিয়া এদেশের অনেক কোটিপতি শিল্পপতি ছিল তারাতো বিয়া করতে পারতো এই নাট্যকর্মী তাহসানের চেয়েও উপযুক্ত পাত্র পাইছে মনে হয় কাকা বাবুকে মিথিলা বুড়ো ফুলের ঘ্র্যান নিতে বেশ পছন্দ করে,0,1,0.26272148,0.7372785,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই আমার জন্য মুজিবের বাড়ির একটা ইট রাখবেন টয়লেটে ব্যবহার করবো,1,1,0.076174125,0.9238259,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এসব বাজে গল্প যে বিশ্বাস করে তার জীবন কখনও বিজ্ঞানসম্মত নয় লেখাপড়া শিখুন,0,0,0.95817745,0.04182254,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পাকিস্তান আর্মির সাথে সরাসরি জড়িত থাকলেও গোলাম আযম মুক্তিযোদ্ধাদের গোপনে তথ্য সরবরাহ করতেন৷ এভাবেই পাকিস্তান আর্মিকে পঙ্গু করে স্বাধীনতায় ভূমিকা রেখেছেন বীর মুক্তিযোদ্ধা গোলাম আযম খা পো,1,0,0.9058794,0.09412063,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ঘুমের সময় এমন করে ডিসর্টাব করবে এমন গালফেন্ড কোথায় পাওয়া যায়,1,1,0.1512501,0.84874994,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই এদের কেউ থামা,1,1,0.1430789,0.8569211,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কেউ কমেন্টটা করে বসতে পারে নিজে নারী না হয়ে কীভাবে নারীদের মুড সুইং বোঝার দাবী করেন,1,1,0.47814232,0.5218577,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাংলারা বাড়া জেগে উঠেছে বাংগালীরা এবার বাস্টি চাই,1,0,0.88445216,0.11554776,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পত্রিকা কিনে সারাজীবন বিনোদন ই পড়ে আসলাম বাকিটা পড়ার কোনো প্রয়োজনবোধ করি নাই,0,1,0.17285448,0.8271455,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমেরিকা থাকেন চিন্তা চেতনা শুদ্ধ হওয়ার কথা এখন দেখি আপনি জামাত শিবিরের প্রোডাক্ট,0,0,0.9225964,0.07740364,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ইও ইও ফপস,1,1,0.15129659,0.8487034,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যারাই ফ্যাসিবাদের পক্ষে সমর্থন ব্যক্ত করবে ওদেরকে ধরিয়ে দিন আপনার চোখে অপরাধী পুলিশ কর্মকর্তাদের অপরাধ প্রকাশ করে ভাইরাল করে দিন,0,0,0.9640055,0.03599454,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+টানা বৃষ্টির কারণে নগরীর বেশ কয়েকটি এলাকা বন্যায় আবারও প্লাবিত,0,0,0.92671484,0.073285095,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এইবার নিশ্চিন্তে জেল খাটো বাবা তুমি,0,1,0.09162935,0.9083707,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সব দোষ আমার কেন ফেসবুক লগিং করলাম,1,1,0.11004692,0.8899531,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই রোবোর্ট গুলি পালিয়ে এসে আজকে সকালে আমাদের পাড়ায় একটা ভাড়া বাড়ীতে থাকছেন,1,1,0.107764855,0.8922351,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মন চাচ্ছে অনেক কিছুই বলি বাট বলতে পারছি না কারণ ডিজিটাল নিরাপত্তা আইন আমাদের কথা বলার অধিকারও কেরে নিয়েছে,0,0,0.9274782,0.072521836,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হাসতে হাসতে পেট ব্যাথা হয়েগেছে,1,1,0.31096262,0.6890374,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সেফুদা দাদু তুমি কোথায় ওরে চিকিৎসার ব্যবস্থা কর,1,1,0.12608038,0.87391967,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দুরো কিছু বলতে এসেও পারছি না বলতে কারন গান টা কে অসম্মান করা হয়ে জাবে জে সুন্দর গাইছে,1,0,0.5392753,0.4607247,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দেশে যা শুরু হইছে সুষ্ঠু নির্বাচন হলে আওয়ামীলীগ আবারো বিপুল ভোটে জয়লাভ করবে ইনশাআল্লাহ,1,0,0.6434148,0.3565852,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+২ বেলা মাশরুম খাবা ডাক্তারও আয়রনি করলো,1,1,0.12151115,0.87848884,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আয়নার সামনে দাঁড়িয়ে নিজেকে হিরো লাগে,1,0,0.8455762,0.15442382,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+খুবই গুরুত্বপূর্ণ নিউজ,0,0,0.9344659,0.06553411,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি যদি সবচেয়ে বেশি গৃনা করি তাহলে মিথ্যাকে আর মিথ্যা সবচেয়ে বেশি বলতো শেখ হাসিনা,0,0,0.8981735,0.101826556,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মিডিয়ার দালালী আর কত সহ্য করা লাগবো,1,1,0.22059646,0.7794035,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ইসকন প্রচার করে ভারতীয় ধর্মীয় ও সাংস্কৃতিক মূল্যবোধ অন্যদিকে বিজেপি প্রচার করে ভারতীয় উগ্র জাতীয়তাবাদ এবং এক ধরণের ধর্মীয় রক্ষণশীলতা,0,0,0.9543268,0.0456732,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পথিকই পথের সৃষ্টি করে,1,0,0.9574059,0.042594034,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কিগো তুমি নাকি উদীয়মান নাস্তিক মৃত্যু কে বিশ্বাস করো তো নাকি সেটাও চোখে দেখনি আসলে এটা তো তোমার প্রোবলেম না তোমার ফ্যামিলি দায়ী তোমাকে প্রাথমিক শিক্ষাটা দিতে পারেনি আবার এটা বইলো না যে আল্লাহ তোমাকে সৃষ্টি করেনি তোমার বাপ তোমাকে সৃষ্টি করেছে নাউযুবিল্লাহ কারন তুমি তো জন্মের পরে আল্লাহ কে দেখনি দেখছো তোমার বাবাকে আবার তুমি তো না দেখে কিছুই বিশ্বাস করতে চাও না তোমাদের মতো সব নাস্তিকদের পাওয়ার এই মাটির উপরে মাটির নিচে গেলেই তোমাদের পাওয়ার শেষ বাহাদুরি করাও শেষ আর আল্লাহ হচ্ছেন সর্ব শক্তিমান তিনি চাইলে তোমার কথা শেষ হওয়ার সাথে সাথে মৃত্যু দিতে পারতেন দিলেন না কেন জান আল্লাহ অবিশ্বাসীদের এই পৃথিবীতে আগে অপদস্থ করেন তারপর মৃত্যু দেন তুমি এখন সেই অপদস্থকারীদের তালিকায় নাস্তিক একটা,0,0,0.9614499,0.038550135,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাপের টাকায় খাইয়া আর সারাদিন ফেসবুক টিপানুকেই সিগমা বলে,1,1,0.43392265,0.5660773,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ওরে ভাই কাবিল টারে লাথি মারা উচিৎ,0,0,0.7103677,0.28963238,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ঝগড়া দেখলো সময় থাকতে আমার দাম টা সবাই কে দেখাতে হবে তা না হলে দুই দিন পর আমার আর মূল্য থাকবে না,1,0,0.8569997,0.14300032,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কুইজ বলতে হবে বাড়ার চোখ কত ডিগ্রি কোণ এ আছে,1,1,0.09970029,0.90029967,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দেখে মনে হচ্ছে ডাক্তারি পড়ার আগেই ডাক্তার হয়ে গিয়েছেন,1,1,0.19664241,0.8033576,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই মহিলারাও লজ্জা সরম কিচ্ছু নাই লজ্জা সরম সব গুলিস্থান পাইকারী দামে বিক্রি করে দিছে,1,1,0.26559466,0.7344053,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হাজার কোটি টাকা ব্যাংক ঋণ নিয়েও না দিয়ে সুট কোর্ট পরে গুরে তাদের বিচার ত হয় না,0,0,0.86492383,0.13507615,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই আকাম বান্ধবী করছে সে একা কেন ধরা পড়বে সাথে নিয়ে যেতে হবে,0,1,0.4140015,0.5859985,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সত্যি আমার মেয়েও এমন করে,0,0,0.79605865,0.2039414,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+৭১ এর রাজাকার দেখি নাই ২৪ এর রাজাকার স্বাধীনতা বিরোধী দেখেছি,0,1,0.21040292,0.78959703,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই আপনারা অভিনেতারা কোন পোষ্ট করলে আমরা কনফিউজড হয়ে যাই আসলে সেটা রিয়েল লাইফ স্টোরি না কোন নাটকের দৃশ্য,0,0,0.7482336,0.25176635,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এরকম একটা সেতু যদি আমাদের দেশে হইত কতই না ভালো হইতো,0,0,0.9033034,0.09669658,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই শহরে যার টাকা আছে সে খেলোয়াড় আর যার টাকা নাই সে ডাউনলোডার,1,0,0.63951707,0.36048296,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যতদিন বাঁচবেন ততদিন আপনার এই সতেজ ও প্রাণবন্ত হাসি বজায় থাকুক জনাব,1,0,0.9262608,0.07373922,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+স্ত্রী জীবিত থাকতেই যেখানে বিবাহ করা যায় সেখানে মৃত্যু পরবর্তী সময় নিয়ে বিতর্ক করা অলসতা,1,0,0.8276338,0.17236625,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+উনার অবশিষ্ট লজ্জা শরম নিয়ে অবসরে যাওয়া উচিত,1,0,0.5299735,0.47002646,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আজব এক দেশ ভারত যেখানে সবকিছুই সম্ভব,1,0,0.9295563,0.07044368,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+অবশ্য যারা বিজেপি কে সবকা সাথ সবকা বিকাশ মনে করেন তাদের জন্য আমার এই আর্টিকেল নয়,0,0,0.8457584,0.15424159,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভুল ত্রুটি করলে মাফ করে দিও মাবুদ তবুও র ্যাবে পোস্টিং দিও না,1,1,0.35746276,0.64253724,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তাকে অনেক ঘুস দিতে চাইছিলাম তাবুও সে আমায় একটা প্রেম করাই দিল না,1,1,0.19603355,0.8039664,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি তোমাকে আজীবন ভালো বাসবো তবে আর কোনদিন ভালোবাসি বলবো না আসলেই তুমি পাগল,0,0,0.9243197,0.075680286,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বয়কট ডেইলি এরা সাকিব এর সাথে যুক্ত,1,1,0.24051952,0.7594805,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আসিফ মাহতাব বৈষম্য বিরোধী আন্দোলন করছেই তার বৈষম্যের সিস্টেম ঢুকাতে এর পূজা দিতে থাকেন শরিয়া আইন বাল্য বিবাহ দাস প্রথা সবই নিয়ে আসবে,1,0,0.9519177,0.048082355,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+খুব দুঃখজনক ঘটনা,0,0,0.9347038,0.06529619,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাবি অনেক দিন পর পেয়ে ঝাপিয়ে পড়ছিল,1,1,0.14525141,0.8547486,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি বরিশালের সাপোর্টার আমাকে আইফোন দেওয়া হোক,1,1,0.13343859,0.8665614,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আর বেলা তার স্বামীর পেনশনের টাকা উঠাতে ব্যাংকের লাইনে দাঁড়িয়ে আছে,0,1,0.15855876,0.8414413,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+প্রথম দেখায় ভাবছিলাম তিন জন হিজড়া পুলিশের পোশাক পরিধান করে আছে,0,1,0.2141013,0.7858987,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তখনই প্রশান্তি ছিল,0,0,0.727102,0.27289805,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+গানটা এত্ত সুন্দর বাট অনেক ছোট,0,0,0.89218205,0.10781791,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যুগের শুরুতেই এই অবস্থা মানুষ কি ভবিষ্যতে আদৌ এর সঠিক ব্যবহার করতে পারবে,0,0,0.9651092,0.034890786,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই সুনামগঞ্জের অবস্থা কতটা খারাপ কল্পনা ও করতে পারবেন না সবার কাছে আমার প্রিয় সুনামগঞ্জ ও সিলেটের জন্য দোয়া চাই,0,0,0.68267953,0.31732047,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই স্বাধীনতাই আমরা চেয়েছিলাম যে মেয়েদের হলে ঢুকতে পারবো না,1,1,0.1328805,0.86711955,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+গোটা দেশে যখন লক্ষ কোটি দূর্নীতি আর অনিয়মে ছেয়ে যায় ঠিক তখনই নতুন এক ইস্যু নিয়ে হাজির হয় এইসব গণমাধ্যম,0,0,0.94956285,0.05043713,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কোথায় যুক্তি আছে আমাদের দেশের অনেক মানুষের মস্তিষ্ক শয়তানে ওয়াশ করেছে,0,0,0.9509165,0.04908347,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মেয়েরা আজ কাল অনেকটা এগিয়ে গেছে,0,0,0.7262869,0.27371308,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পিএসসি জেএসসি এসএসসি বিসিএস এসব খুব মনোযোগ দিয়ে পড়তাম আর সব সমাধান করতাম,0,1,0.39074478,0.60925525,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আগের একটা ভিডিওতে দেখসিলাম চেগাই হাঁটে মনে হয় রক্তপাত অবস্থা খেলছে,1,1,0.36002755,0.63997245,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বিশ্ব সেরা রাধুনি যে নোবেল পাওয়ার মত রেসিপি শেয়ার করতো আফসোস করো বাংলার মানুষ ফ্রী তে আর রান্নার রেসিপি বা বিনোদন পাবা না,1,0,0.8581258,0.14187418,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হাদিসের আলোকে জীবন পরিচালনা করা খুবই জরুরি আল্লাহ আমাদের সবাইকে তাওফিক দিন,0,0,0.959925,0.040074974,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পদ্মা সেতুর যত পিলার আছে সেগুলো সবগুলো উঠিয়ে নিয়ে তারপর জাদুঘরে নিয়ে সাজিয়ে রাখতে পারেন,0,0,0.7719985,0.22800143,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শীতকাল আসলেই ওনার কথা মনে হয়,1,1,0.30308315,0.6969169,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+রোগীর মা র সত্যি কথা বলা চিকিৎসকদের সঠিক চিকিৎসা প্রদান করার ক্ষেত্রে গুরুত্বপূর্ণ ভূমিকা রাখে,0,0,0.9634302,0.036569774,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এইটা দেখার পর আমি মুগ্ধ শিহরিত আহত ব্যাহত গর্বিত অনুপ্রাণিত ব্যাথিত মর্মাহত শোকাহত বিমোহিত আনন্দিত রাগান্বিত আতঙ্কিত রোমাঞ্চিত ক্রন্দনরত বেদনাদৃত চিন্তিত বিভোরিত মোহিত কম্পিত সুরক্ষিত কলংকিত হাস্যরত ক্রন্দিত আরও কতিপয় কিছু লেখার ছিলো কিন্তু আমার আঙ্গুল ক্ষতিগ্রস্ত হওয়ায় আমি দুঃখিত সর্বোপরি নিহত,1,0,0.5086809,0.49131912,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আসলে থাকার জন্য গরীব বা বড়লোক হইতে হয় না যার থাকার গরীব হলেও থাকে আর যার যাবার বড়লোক হইলেও যায় গা,0,0,0.9408352,0.05916478,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাহ্ কি সুন্দর গাধার মত কথা মনে হচ্ছে যেন লন্ডনের টয়লেট স্কুলে পড়াশোনা করে এসেছে,1,1,0.14395478,0.85604525,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+লসঅ্যাঞ্জেলেস আর ক্যালিফোর্নিয়া কিন্তু আল্লাহতালা খালি করতে বলেন নাই আপনারা নিজেরা নিজেরাই খালি করেছ অপেক্ষা কর সময় বেশি দূরে নাই আরো ভয়াবহ পরিণতির জন্য,0,0,0.9347784,0.06522164,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চাটাচাটি করছেন যে এতু যে জ্বিহব্বায় ঘা হয়ে যাবে,1,1,0.4979565,0.5020435,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চাচা হাসু আপা কই বাবা তুমি হাসু কে ভুলে যাও হাসুর তো বিয়ে হয়ে গেছে না আমি বিশ্বাস করি না,1,1,0.12547243,0.8745275,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ফোনের ব্রাইটনেস ফুল কইরাও কিছু দেখতে পারতাসি না কেনো,1,1,0.16230372,0.8376963,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+একটি স্টার্টআপের টিকে থাকার জন্য ভালো পরিকল্পনা এবং আর্থিক ব্যবস্থাপনা প্রয়োজন,0,0,0.9662172,0.033782788,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যারা রেজিস্ট্রেশন করসে তারা কেন করসে নিজেদের ব্রেইন নাই নাকি সেমিস্টার শুরুই হইলো না ঠিকঠাক ট্রান্সপোর্ট ফি দিয়ে দিসে ওরা কি এই ইস্যুর কথা জানেনা এতো ভীতু পোলাপান গুলার জন্যই প্রতিবার ওরা সুযোগ পায় আর বলে এতোজন এপ্লাই করে ফেলসে একজনও যদি না করতো তাহলে খুবই সহজ হতো দাবি মেনে নেয়া কিন্তু না এরা কিছু থাকবেই ইউনিটি ব্রেকের জন্য,0,0,0.95590246,0.044097506,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+১০০ ঠিক কথা বলেছেন ভাই আলগা পিরিত দেখাই লাভ নাই মানুষ চিনে গেছি,0,0,0.50719935,0.4928006,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জীবন সম্পর্কে ভাবনার দৃষ্টিভঙ্গি সময়ের সাথে বদলে যায়,0,0,0.96307606,0.036923908,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এইবার গাছের আগাও খাবে গোড়াও কুরাবে,1,1,0.31932667,0.68067336,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই দুজনের পরিবারের জন্যে হাজার হাজার সালাম এইরকম কুত্তার বাচ্ছা জন্ম দেওয়ার জন্যে,1,0,0.7880221,0.21197791,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আগামী শুক্রবার আমাদের এখানে লজ্জার টিকা দেওয়া হবে আপনি অবশ্যই উপস্থিত থাকবেন,1,1,0.08516863,0.9148314,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চোখের শান্তি শুধু এটাই ভাবতেছি তখন আপনার অনুভূতি টা কেমন ছিলো,0,1,0.27885386,0.7211461,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+উনার আত্মবিশ্বাস আর লড়াই করার মানসিকতা থেকে অনেক কিছু শেখার আছে,0,0,0.9572245,0.042775527,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপা আসবে একদিন বীরের বেসে,1,1,0.1809361,0.81906384,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই আপনি আরও বিড়ি খান বেশি কইরা,1,1,0.13487859,0.86512136,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমার দেয়া কর লাভ সহ ফেরত চাই না হলে এর জন্য সরকারকে চরম মূল্য দিতে হবে,1,0,0.7760422,0.22395782,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই একটা না হয় ওইখান থেকে আসলো বাকী ১০ টা কোথা থেকে আসলো,1,1,0.17429902,0.825701,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+লাইফকে সহজ করতে চাইলে নিজেকে চুপ রাখতে হবে এটা খুব ভালো উপদেশ,0,0,0.95939165,0.040608335,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বানর হইতে পারে,0,1,0.20750658,0.79249346,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জীবনে অতিরিক্ত টাকার পিছনে যে ঘোরে সে মানসিক রোগী,0,0,0.9608245,0.039175518,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বেড়ি যদি বুঝতো আপনারা সাবান ছাড়া ওয়াস করবেন তাহলে কি ভিডিও বানাই পোস্ট করতো,1,1,0.09568902,0.90431094,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই আপনি সমালোচকদের কথায় কান দিবেন না কারন যে এতো গালিগালাজ খাওয়ার পরেও নিজের কাজে অটল থাকে তার মতো লিজেন্ড খুজে পাওয়া কঠিন আপনি আপনার কাজ চালিয়ে যান দেখবেন আপনি একদিন বিশ্বসেরা বাইঞ্চোদে পরিনত হয়েছেন,1,0,0.956898,0.04310203,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+থাকবো ইনশাআল্লাহ,0,0,0.7334802,0.26651973,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পররাষ্ট্র উপদেষ্টা কি বাল ফালাইতাছে,0,0,0.93694246,0.063057505,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শিক্ষিত হওয়া মানে নিজের কর্ম এবং আচরণে তা প্রদর্শন করা,0,0,0.9675052,0.0324948,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আরে ভাই মানুষ পাগল হইলে তো রশি দিয়ে বাধে আর রশি পাগল হলে কি দিয়ে বাধবে,1,1,0.3150207,0.68497926,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কিন্তু অরিজিনাল ফুটেজ এ দেখেছিলাম ছোট রবট টা বলে তুমাদের কি বাসা নাই তখন বাকিরা না তার পর ছোট রোবট বলে তাহলে চলো আমার সাথে কোথাও তো বলে না যে তার সাথে তার বাড়িতে যাওয়াত কথা,1,1,0.36302945,0.6369706,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পুরনো বাস রঙ করে নতুন করে চালু করলে হবে না পুরোটাই যেন নতুন বাস হয় তাহলে সাধারণ মানুষ যাতায়াত করে আসান পাবেন,0,0,0.91061497,0.08938498,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+গুজব ছড়ানোদের অাইনের অাওতায় অানা প্রয়োজন,0,0,0.54657704,0.45342296,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যারা মহান মুক্তিযুদ্ধকে ভারত পাকিস্তান যুদ্ধ বলে চালিয়ে দেয় তাদের কাছে এ ছাড়া আর কি আশা করা যায়,0,0,0.93983877,0.060161266,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই ক্ষমা চাওয়াটাও আরেক রকম বাটপারি,0,0,0.92576885,0.07423122,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চাঁদাবাজি বন্ধ করার সহজ উপায় হলো ইউসুপ সরকারের উচিত আগেভাগে নির্বাচন দিয়ে চাঁদাবাজদের হাতে দেশের দায়িত্ব ছেড়ে দেয়া,1,0,0.9284853,0.071514726,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আসসালামু আলাইকুম আলোচনাটা গুরুত্বপূর্ণ তবে বর্তমানে একজন ছেলে খোজে সুন্দর লাম্বা এক কথায় অসাধারণ হতে হবে আর একজন মেয়ে খোঁজে ছেলের টাকা কেমন আছে এখনো অনেকে বলে দ্বিনদারীতা দেখতে কিন্তু আমার মনে হয় এটা মুখে বলে বাস্তব হচ্ছে ভিন্ন,0,0,0.95139366,0.048606414,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি মনে করি সিনিয়র সাত ফুটবলার ও কোচ বাটলারকে এই সিরিজে বিশ্রাম দিয়ে দেশি কোন কোচ এর অধীনে খেলানো উচিত সাইফুল বারী টিটু হলে বেস্ট হবে শুধু খেলোয়াড় বা শুধু কোচ বাদ দিলে বাংলাদেশ টিমের জন্য ভালো হবে না বাংলাদেশ নারী ফুটবল দল বাংলাদেশর পতাকা উড়াক বারে বার নিয়ে আসুক অনেক ট্রফি,0,0,0.9384936,0.061506342,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভালোবাসা দিবসে অনেক খাওয়া দাওয়া হবে,1,0,0.7367853,0.2632147,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মাত্র শুরু হলো দু দিন পর এই গুজবটাই সত্য হয়ে যাবে সত্য করার জন্য মিডিয়া তো আছেই,0,0,0.94068664,0.0593133,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এত সুন্দরভাবে ইসলামের খেদমত করার প্রস্তাব দিয়েছেন আল্লাহ আমাদের কাজগুলো কবুল করুন,0,0,0.9614812,0.038518853,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চাঁদ দেখতে খুব বেশি ভালোবাসি,0,0,0.8805805,0.119419456,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ডিপ্লোমা ইঞ্জিনিয়ার যারা তাদের কাছে একটা প্রশ্ন ভাই ডিস্ক্রিট ম্যাথ আর নিউমেরিক্যাল এনালাইসিস কি,0,1,0.23598088,0.7640192,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই দুই বাহিনী কোথায় থেকে এলো ভাই,1,1,0.09941624,0.90058374,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+রিপোর্ট সত্য হলে যে কতটা ভয়াবহ তা কল্পনার ও বাইরে মোটেও হাসি ঠাট্টার জিনিশ না ব্যাপার টা রিপোর্ট পড়ার আগে মাথায় রাখা উচিত রিপোর্ট টা হাসির নাকি ভয়ের,0,0,0.9569633,0.04303667,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জুনিয়রগুলা ভালই নাচে নিয়ে যা,0,0,0.76660097,0.23339899,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আল্লাহ সবাইকে হিংসা ও বিদ্বেষ থেকে মুক্ত রাখুন,0,0,0.96135855,0.038641494,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এটা বিএনপি র কোন ষড়যন্ত্র হতে পারে এত সহজে দেওয়াল টোপকে নীলগাই বাইরে যাইতে পারে না,1,0,0.93075633,0.06924364,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আজব রাজার অবাক দেশ উন্নয়নে চলছে বেশ শহিদুলের কথা মানতে পায় ব্যথা প্রিয়ার দেওয়া দেশকে ব্যাথাহয়ে যায় অন্য বা অন্যান্য কথা মিন্নি মেয়েটি পায়না উকিলপ্রিয়ার দেশদ্রোহে মামলাই নেয় না কি হবে গো উকিল বাঁচাতে গিযে স্বামীকে মিন্নি হয়ে গেলো ভিলেন গিন্নী ফাঁসিয়ে দিয়ে দেশকে প্রিয়া দিদিহবেন হয়তো দেশপ্রেমী মমতা দিদি,0,0,0.9257899,0.07421007,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বোরকা পরা মেয়েটা কিন্তু ঠকেনি বরং আমার মতে সে সাকসেস যদিও সে পুরোপুরি পর্দার বিধান মানেনি কিন্তু তবুও এই বোরকা পরার কারণেই কাফি ভাইয়ের মতো আরও দশটা বেগানা পুরুষের সস্তা প্রশংসার নামে কু নজর থেকে বেঁচে গেছে,0,0,0.93581307,0.06418696,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাগ্যিস মৌমাছি হইনি নইলে ঠিক মত মিলন ও করতে পারবো না,1,1,0.091056265,0.9089437,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এটা দেখার পর বুঝলাম ভালোবাসা হলো নিরলর্জ লোক দের জন্য,1,0,0.83794206,0.16205797,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আর যাইহোক নাচের স্কিল টা কিন্তু অনেক জুস ছিল,0,1,0.078943655,0.92105633,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শারমিনের জন্য নাফিস কখনো আত্মবিশ্বাস হারায়নি কিন্তু তার প্রতি সমাজের দৃষ্টিভঙ্গি তাকে আরও হতাশ করেছে,0,0,0.95786124,0.042138763,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমাদের সময় বাবা মা বলতেন হাড়গুলো আমার মাংসগুলো আপনার শিক্ষকের পৃষ্ঠপোষকতায় একজন ছাত্র হয়ে উঠতো সোনার মানুষ এমনিতেই বাংলাদেশের শিক্ষা ব্যবস্থার বেহাল দশা তার উপরে পারিবারিক সুশিক্ষা নেই এভাবে চলছে থাকলে অচিরেই এজাতি মুখ থুবড়ে পড়বে,0,0,0.95845884,0.041541193,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এজন্যই আমার কোনো মেয়ে বন্ধু নেই,1,1,0.082759455,0.91724056,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+রুটি কেন নিলো না রুটি কলা ছাড়া রুগি দেখতে যাওয়া নিষেধ,1,1,0.10079607,0.89920396,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সন্তানের সাফল্যের গল্প মায়ের কাছে একধরনের পুরস্কার,0,0,0.956642,0.043358006,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+লাভ মশা খেতে খুবই সুস্বাদু,1,0,0.63934565,0.36065435,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই মানুষ কি এতই মূর্খ স্মার্ট ব্রেইন রেখে জং ধরা ব্রেইন কিনবে,1,0,0.90158635,0.098413624,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দুই টুকরা গোস্ত খাওয়ার জন ্য মানুষ বিয়ের জন ্য চাপ দেয়,1,1,0.13425688,0.8657431,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ছাত্র আন্দোলনের অন্যতম সহযোদ্ধা তার সাথে এগুলো মানায় না,0,0,0.5837775,0.4162225,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এরা আসলে ভারতের ভাগাড়ের গোবর কীট হিরো আলম নিয়ে মাথা ঘামায় দেশ শকুনের খাবার পরিণত হয়েছে সে বিষয়ে মুখে গোবর,0,0,0.937556,0.062444005,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+অর্জুনকে সাপোর্ট করে এগিয়ে যেতে দিন গালাগালি দিয়ে কিছু ঠিক হবে না,0,1,0.2602894,0.73971057,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমরা নোউকা খুজতেসি বড় নৌকা,1,1,0.14835513,0.8516448,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাহ বাংলার ফেইসবুক সমাজ আরও একজনকে বাজে অকথ্য অশ্লীল ভাষায় গালিগালাজ করার মাধ্যমে ধর্ম এর পথে ফিরিয়ে নিয়ে এসেছে আলহামদুলিল্লাহ,0,0,0.9076396,0.092360355,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জয় ভাই প্রোগ্রামের টিআরপি বাড়ানোর জন্য এতসব পাগলামি করে এগিয়ে যান অনন্ত ভাই,0,1,0.24185647,0.75814354,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ফ্যাসিবাদের সকল চিহ্ন চিরতরে বিলুপ্ত না হওয়া পর্যন্ত এই প্রজন্ম ঘুমাবে না ইনশাআল্লাহ তরুণদের এই ঐক্য অসৎ রাজনীতিবীদদের জন্য শক্তিশালী রিমাইন্ডার,0,0,0.96424603,0.03575394,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+গিয়া মামতো বোনদের সাথে তাহার পিসির বদনাম করা আমি,1,1,0.08769741,0.9123026,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আল্লাহ আপনাকে হেদায়েত দান করুন ৷,0,0,0.9196362,0.08036382,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ফেসবুকে হরতাল পালন করা হবে প্রয়োজনে পুরানো বিএনপি জামাতের হরতলের ভিডিও ক্লিপ এডিট করে ভয়েস রিপ্লেস করে হরতাল পালন করা হবে,1,1,0.3658142,0.63418585,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাসের ড্রাইভার হতে এত পড়াশোনা করা লাগে জানতাম না,1,1,0.14854889,0.8514511,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কেহ স্বৈরাচারের দালালি করে মুক্তি পায় আর কেহ আল্লাহর দ্বীনের ব্যাপারে কথা বলে যুগযুগ কারাগারে কাটিয়ে দেয়,0,0,0.9639737,0.03602629,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শিক্ষা ব্যবস্থাটারে ধ্বংস করে দিছে এই মহিলা মহিলাকে পুলিশহেফাজতে না রেখে জনগণের হাতে ছেড়ে দেওয়া উচিত জনগণই পারে তার কাজের সঠিক পুরস্কার দিতে,0,0,0.961651,0.03834892,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ঐ যে কথায় বলেনা প্রদীপের নীচেই সবচেয়ে অন্ধকার থাকে ব্যাপারটা ঠিক সেইরকম আমরা ওপর থেকে শুধুমাত্র ওনার ভালো দিকটা দেখেছি কিন্তু দেখতে পাইনি,0,0,0.8936203,0.106379665,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাংলাদেশ বাজে ছেলে কয়েকটা আছে যাদের কোন কাজ কাম নেই মেয়ে নিয়ে ঘোরা লুচ্চামি করা এইসবই কাজ সালাউদ্দিন মোড় তারপর বুঝবি জীবনে পাঁচ ওয়াক্ত নামাজ পড়ছোস,0,0,0.9416149,0.058385056,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সত্যি টা বলুন নিজেকে সেইব করার জন্য মিত্যা বললে মানুষ বুঝবে কেমন হতে পারে আপনিই পল্টি নিছেন আজকাল মানুষকে বিশ্বাস করা বড়ো কঠিন কাজ মানুষ এখন সবচেয়ে বড় আশ্রয় টা নেয় মিত্যার,0,0,0.95651186,0.043488093,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মানুষের কি ব্রেইন বইলা কিছু নাই এই জিনিস এ বিশ্বাস করতেছে আরে কেউ এখন ভিক্টিম সোর্স সত্যতা কিছুই খুজে না এই দেশের মানুষ এত বোকাচোদা হাসিনা স্বৈরাচার খুনি অপরাধী বাট একজন অপরাধীর নামে আরেক মিথ্যা অপবাদ লাগানো ও অপরাধ,0,0,0.95650315,0.043496866,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শায়েখ আহমাদুল্লাহ কে সমাজসেবায় অবশ্যই পুরস্কৃত করা উচিত ছিল ২২ ও ২৪ বন্যায় উনার অবদান এবং সমাজের সুবিধাবঞ্চিত মানুষের উন্নয়নে উনি প্রতিনিয়ত কাজ করে যাচ্ছেন শুধুমাত্র একজন আলেম বলেই সম্ভবত বঞ্চিত হলেন উনি,0,0,0.9394542,0.06054581,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সে টিয়া পাখির কথা বলসে আপনে কাউয়া সাজছেন ক্যানো,1,1,0.16144621,0.8385538,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যুবায়ের হোসেনের কোর্স নেবার মাধ্যমে নাফিস ধনী হওয়ার স্বপ্ন দেখেছিল কিন্তু বাস্তবতার সাথে তার আশা মেলেনি,0,0,0.91474134,0.08525867,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কোম্পানির কাছে ক্ষতিপূরণ চাইতে হবে,0,0,0.84002805,0.15997194,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ঢাকা বিশ্ববিদ্যালয়কে বানিজ্যিকিকরণ রুখ,0,0,0.9136306,0.08636941,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পোস্ট করার জন্য নিজেকে ভাড়ায় দিয়ে দিতে হবে যা দেখতেসি,1,1,0.10857533,0.89142466,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বাঙালি ভাই বাদ দেন,1,1,0.19822475,0.8017753,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শুধু এক বার বিয়ে টা হক আর আসবো এই বাড়িতে,1,1,0.11794205,0.882058,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কয়েক দিন রাস্তা বন্ধ কইরা অনশনের নাটক করলেই কলেজ বিশ্ববিদ্যালয় হইয়া যাইবো সারা বছর কষ্ট কইরা পড়ালেখা করার কী কাজ সহজ পদ্ধতি,0,1,0.33254382,0.6674562,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হাই হাই কি বলে আর কাকে বিশ্বাস করবো যাকে মনে প্রাণে বিশ্বাস করতাম ভালো মানুষ আর উনি এমন নির্মম নির্যাতন কারি,0,0,0.7628506,0.23714943,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চাকরি পেয়েছো বেতন তো ভালো হবেনা ব্যবসায়ী আমি করেছি বিয়ে আর ভালো লাগেনা,1,1,0.4662965,0.53370345,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+স্ত্রীকে টাকা আয় করে দিতে বলেন স্বামী সবসময় পাশে থাকবে সংসার চালিয়ে যেতে বলেন স্বামী সবসময় পাশে থাকবে দায়িত্ব তো আর নেওয়া লাগে না এজন্য এত আবেগ বাস্তবতা ছাড়া জীবন চলে না আবার এক সাথে স্ত্রীর সাথে থাকলে সংসারের অশান্তিও হয় স্ত্রীর সাথে থাকলে ভালো থাকা যায় কে বলেছে বরং নারী তার যৌন লালসা পূরণের জন্য এই কথাগুলো বলছে নিজের স্বার্থের কারণে এই মজাদার কথাগুলো বলছে,0,0,0.9600467,0.03995328,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+গুড,0,0,0.88848877,0.1115112,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমরা সবাই লুঙ্গির প্রিয় আর পাঙ্গাস মাছের ফেসবুকেতে বড়াই করি মোদের কলা গাছের,1,1,0.10021177,0.89978826,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আবার টেমপ্লেট বানায় ইডিট করে পোষ্ট করছে,1,1,0.15702146,0.8429785,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ওদেরকে লা থি মেরে দাদাবাবুদের দেশে পাঠানো দরকার,0,1,0.1563802,0.8436198,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এত বড় পাহাড় এই পাহাড়ে উঠতে গেলে জীবন যৌবন সব শেষ হবে,1,1,0.38068336,0.61931664,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই বছর চাওয়ার আগে পাখি উড়ে গেছে,1,1,0.10572329,0.89427674,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এইরকম ফর্মে থাকা অবস্থায় টুর্নামেন্ট থেকে সরে যাওয়াটা উচিৎ হয়নি,0,0,0.8271581,0.1728419,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এদের মারপিট দেখে আজ নিজেকে অসহায় লাগছে,1,1,0.4552963,0.5447037,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এর সুষ্ঠ বিচার হোক,0,0,0.9349205,0.06507946,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমিও হেই ডাই কই,1,1,0.11363657,0.8863634,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শাক দিয়ে মাছ ঢাকা যায় না,1,1,0.31101626,0.68898374,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ঠ্যালার নাম বাবাজি কথা আছেনা এর থেকে সবাই কে শিক্ষা নেয়া উচিত,0,0,0.94107276,0.058927264,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+রাখবো তো গার্লফ্রেন্ড দেন,1,1,0.07744462,0.9225554,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সবাই হাহাহাহা দিলে লাভ কে দিবে আমি লাভ দিলাম,1,1,0.10289336,0.8971066,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এরা এখন সেহেরি পারটি করতে পারেনা,0,1,0.08588878,0.91411114,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই ছাপড়ি স্বভাবের জন্য ই হয়তো ওর গফ ছেড়ে গেছে,1,0,0.6046677,0.39533228,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+একবার দেখছিলাম তুমি হোগা চুলকাইতেছিলা তো কৃমির ঔষধ খাইছিলা বারা,1,1,0.23315226,0.7668477,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই জন্য প্রেম করতে নাই,1,1,0.09886945,0.90113056,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বড় অকৃতজ্ঞ জাতি আমরা এই ছেলেগুলো আজ অনেকের চক্ষুশূল হয়েছে অথচ ১৭ বছরের নির্যাতিত নিষ্পেষিত জাতির জন্য এরা এসেছিল ত্রাণকর্তা হিসেবে,0,0,0.9553256,0.0446744,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাইরাল হওয়ার আরেক নাম লায়লা আপু,1,1,0.2082252,0.79177475,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+জী ভাই এর মতো মলম বিক্রেতা ঘুমের মধ্যে বাংলাদেশ বাংলাদেশ বলে জিকির করে,1,1,0.10455502,0.8954449,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই ফালতু মেয়ের সাথে ভিডিও আপলোড দিয়ে বাচ্চা বয়সেই সম্মান নষ্ট করো না,0,0,0.9343121,0.06568793,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ছােট বেলায় কত কষ্ট করে মাতৃভাষার সব ধরনের গালি শিখছিলাম ছােট বেলায় কিন্ত চর্চা করার অভাবে অধিকাংশ গালি ই ভুলে যেতে বসেছি মাঝে মাঝে কিছু পােস্ট দেখলে মন চায় গালি গুলা পুনরায় চর্চা করি কিন্তু দুঃখজনক হলেও সত্যি কিছু বন্ধু ও আত্মীয় স্বজনদের স্ক্রিনশটের ভয়ে তা করা হয় না,1,0,0.9124074,0.08759265,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কয়েল ও কুকুর ব্যাবসায়ী থেকে আজ সে কবি,1,1,0.16527902,0.834721,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পরীমনির মুখে নাকি নাসির বোতল ঢুকিয়ে দিয়েছিলো,1,1,0.101898335,0.8981016,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যদিও আমার টাকায় ফ্যামিলি চলে না তবে আমি নিজের খরচ নিজেই বহন করি বাবার কাছে কখনোই চাই না,0,0,0.8980661,0.10193395,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পুরোনো ৫টাকা দেশের অর্থনীতিতে অনেক কাজে লেগেছে আর নতুন ৫টাকা কোনো কাজে লাগেনি পাবনা থেকে পালিয়ে এসে পোস্ট করেছেন আপনি,0,0,0.60935235,0.39064765,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সরকার বিদ্যুৎ দিতে পারে না এর দায় ব্যবসায়ীরা কেন নিবে,1,0,0.9248024,0.07519759,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বা যার কথায় এতো সিরিয়াস হচ্ছি কাল ভুল বোঝাবোঝি সুধরানোর জন্য আমি নিজেও না থাকতে পারি,1,1,0.14421983,0.8557802,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ফ্যামিলির সাপোর্টের অভাব সত্যিই মেনে নেওয়া খুব কঠিন কিন্তু চুপ থাকা ছাড়া কিছু করার নেই,0,0,0.95972854,0.04027145,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভ্রাম্যমান মোবাইল কোর্ট অত্যন্ত জরুরী বন্যা এলাকায়,1,0,0.8672366,0.13276334,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চিকিৎসা ক্ষেত্রে রোগীর পরিবারকে সঠিক তথ্য প্রদান করার মাধ্যমে মিথ্যা অভিযোগ কমানো সম্ভব,0,0,0.9671773,0.032822683,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শীত আসলেই ছোটন কাকার কথা মনে পড়ে কিন্তু আমার এখানে তো বরফ পরতেসে বরফের সোদনে দারাতে পারসি নাহ,1,1,0.38724715,0.6127529,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপনার বিগ ফেন্ড হলাম,1,1,0.18580689,0.8141931,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আরে আমি আছি না তোমার যত্ন নেওয়ার জন্য,1,1,0.15559986,0.84440017,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এগিয়ে যান ভাই দোয়াও রইলো,0,0,0.6350528,0.36494723,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বিষাক্ত আওয়াজটা না শুনার ইচ্ছা এগুলো প্রচার থেকে সাংবাদিকদের বিরত থাকার আহবান,0,0,0.9453836,0.054616373,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+লাভ লস নাই জীবন ডাই লস হয়ে যাবে,1,1,0.42677692,0.5732231,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপনাদের মধ্যে যারা আমার এডভাইস ইমপ্লিমেন্ট করে ২ ৩ বছরে লাখপতি হয়ে যাবেন তারা আমাকে কিসু টাকা দিয়েন ধন্যবাদ,1,1,0.46001813,0.5399819,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আপনি ভবিষ্যতে যে কোন মিডিয়াতে মন্তব্য করার আগে অত্যন্ত সতর্ক থাকবেন আমি স্পেশালি আপনাকে এরকম ট্যাগ করতে চাচ্ছি না আপনি সুন্দরী শিক্ষিতা এবং বিবেকবান,0,0,0.6593062,0.3406938,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+খারাপ না ১০ ম্যাচ খেল্লে ১ ম্যাচ ভালো করবে আমি ১০০,1,0,0.769237,0.23076302,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+অবশেষে প্রধানমন্ত্রী পদে বাড়া দাঁড়িয়ে গেলো,1,1,0.09625571,0.9037443,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমি তো চাঁদের আশেপাশে মেঘ দেখতেছি,1,1,0.1411838,0.85881627,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এমন বয়ফ্রেন্ড কোথায় পাবো,1,1,0.17251803,0.8274819,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এ আর রহমান মৌলবাদী তার নিজের ঘরকেই সংস্কারমুক্ত করতে পারেননি অথচ গান গায় মানুষের জন্য তার মেয়ে নারীবাদ শেখাচ্ছে বোরখার অন্ধকারে থেকে আর যাই করুন নারী শেখাতে আসবেন না,0,0,0.9573051,0.042694863,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দাদার মাথায় আইলো কেমনে বলক নিয়ে এই কবিতাটা,1,1,0.1552798,0.8447202,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সবাই আমাকে সাপোর্ট করবেন ইনশাআল্লাহ আমি ও সবাইকে সাপোর্ট করবো ধন্যবাদ,0,1,0.36175597,0.638244,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চমৎকার জরিপ সহমত ভাই পাবলিক করেন সেয়ার করতে চাই,0,0,0.8052892,0.19471079,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+খুব শিগগিরই ভারত তোদের গাঁড় মেরে ছেড়ে দেবে,0,1,0.2783184,0.72168165,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+অথচ সৌদি এবং আমিরাতের মতো মুসলিম আমেরিকার দালাল দেশগুলোই ইসরায়েলকে অস্ত্র কেনার জন্য ফান্ডিং করছে,0,0,0.9620034,0.037996553,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দুষ্টু ছেলের দল,0,0,0.92498964,0.07501033,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+তিতলী ভাইয়ার জীবনটা হিজিবিজি হিজিবিজি হয়ে গেলো,1,1,0.3359379,0.66406214,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+শুভ কামনা ডিয়ার তোমার জন্য,0,0,0.8955791,0.10442097,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সমর্থক ও সমর্থন থাকতেই পারে কিন্তু গ্রেপ্তার কেন তদন্ত করে অপরাধ পেলে বিচার করা হউক কেউ যেন অযথা হয়রানি না হয়,0,0,0.96121734,0.0387827,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+বর্তমানে আমরা এমন একটি দেশে বাস করছি যেখানে সিঙ্গাড়া এবং সেভেন আপ কিনে খেতে হয় আফসোস,1,1,0.2152228,0.7847772,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এইটা হলো ইচ্ছাকৃতভাবে বিড়াল হওয়া সঠিক যায়গায় বিড়াল হলে লাভ আছে যদিও আমি এখনো বিয়ে করি নাই,1,1,0.47055608,0.5294439,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমার মনে হয় সেটা বিশ্ববিদ্যালয় স্বীকৃতি দেয়ার দরকার তবে তার আগে মেন্টাল কথাটা লাগিয়ে দেয়ার জোড় দাবী জানাচ্ছি,1,1,0.29896256,0.7010374,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পাশে থাকলেও দোষ না থাকলেও দোষ,1,0,0.8553797,0.14462022,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই শীতে টাকার অভাবে কেউ কেউ শীতবস্ত্র কিনতে পারে না আর তোরা সেখানে ছেড়া কাপড় পরে ফ্যাশন চুদাস যাকগে তুর গীবন তুর ইচ্ছা বিজয় দিবসের শুভেচ্ছা রইল,1,0,0.8899322,0.11006777,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আজ একটা নিজস্ব গার্লফ্রেন্ড নাই বলে এভাবে উহঃ উহঃ করতে পারিনা,1,1,0.08816609,0.91183394,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দুই ঘণ্টা বাসে করে এসে যখন দেখোস স্যার অ্যাটেন্ড্যান্স নিবে না,1,1,0.10531967,0.8946804,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যমুনা টিভির নিউজ বেশিরভাগই ফেইক হয়,1,0,0.9230992,0.07690073,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এহনকার পোলাপান সবাইরেই মামা ডাকে,0,1,0.23346682,0.7665332,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আমার সেম অবস্থা যতই রাগী হয়না কেন আমার গার্লফ্রেইন্ড মেসেজ দিলে ভয়ে বিভ্রান্ত হয়ে যাই কী রিপ্লায় দিবো,1,1,0.36794877,0.6320512,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+দেশটা মনে হয় গোপালগঞ্জ আর বগুড়াবাসীর ই,0,0,0.78969604,0.21030392,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+খুবই চমৎকার একটা পিক,0,0,0.9167168,0.08328315,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ভাই মনে চায় দূর অজানায় হারিয়ে যাই আপনার সাথে অনেক অনেক দোয়া ও শুভ কামনা রইল আপনার জন্য,0,1,0.14342302,0.856577,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+লম্বা হয়েও জ্বালা,1,1,0.12620105,0.87379897,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+নেগেটিভ ব্লাড খুবই প্রয়োজন যারা আছেন ব্লাড দিতে পারবেন তারা চট্রগ্রাম মেডিকেল চলে আসেন,0,0,0.7827021,0.21729797,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সালার জন্ম থিক না,0,0,0.82562536,0.17437467,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই শালা এত হট এত হট হালায় যদি একটা ডিমের সাথে কথা বলে কিছুক্ষণ ডিম টাও সেদ্ধ হয়ে যাবে,1,1,0.2428023,0.75719774,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এটা বিপিএলে হলে কিছু লোক তুলকালাম করে ফেলতো,1,1,0.26615363,0.73384637,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আল্লাহ যেন ওর সব নেক ইচ্ছে গুলো পূরণ করে দেন ও যেন খুব ভালো থাকে,1,0,0.9485123,0.051487703,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এবার স্কুল কলেজ বন্ধ দিলে সরকারের খবর আছে,0,1,0.24154225,0.7584578,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+চিন্তা করা যায় এখানকার শিক্ষিতরা কতটা মূর্খ,1,0,0.9565329,0.043467134,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+সাদা রংয়ের গোলাপ দেওয়াতে প্রিয় রাগান্বিত হলো কেনো,1,1,0.13045977,0.8695403,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+গরিবদের মৃত্যুর পর ও ছাড় নাই আর হাজার হাজার কোটি টাকার ঋণখেলাপি ধনীদের জামাই আদরের শেষ নাই,0,0,0.9553478,0.044652265,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মাশাআল্লাহ অভিনন্দন ভাইয়া,0,0,0.9286774,0.07132266,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আজকের রাত রেহান আহসান আবরার ফাহাদ আবু সাঈদ মুগ্ধ ওয়াসিম আসহাবুল ইয়ামীন আর ৫ ই মে র শহীদের জন্য রাহিমাহুমুল্লাহ,0,0,0.5262971,0.47370297,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কিন্তু আপনার ভাষার এই অবস্থা কেন,0,1,0.4789834,0.5210166,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মেহের আফরোজ শাওন কে গ্রেফতার করা ঠিক হয়নি বাকস্বাধীনতা কোথায় নারীস্বাধীনতা কোথায় পদ্মাসেতু কোথায় মিষ্টি কোথায়,1,1,0.16075581,0.8392442,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ওদের ক্রাইম পেট্রোল দেখলেই আন্তাজ করা যায় কি ভয়ংকর লেভেলের ক্রাইম হয়,0,0,0.8015328,0.19846727,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ওউ টিক আছে,1,1,0.22792986,0.77207017,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+পিছে পিছে ঘুরায় সেইজন্য সারাজীবন সাথে থাকে চাওয়ার আগে দিয়ে দিলে ইচ্ছে পূরন করেই লাপাত্তা,0,0,0.91012734,0.08987267,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এমন কোন শক্তি নাই যে শেখ হাসিনাকে উদঘাটন করতে পারে বা আওয়ামী লীগকে,1,1,0.42909178,0.57090825,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আল কুরআনের পথ এই পথই আসল পথ অন্য পথে অন্যমতে নেই তো,0,0,0.9361829,0.06381705,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+টাকার কাছে সব ঠিক টাকা দিতে পারলে বাবা মা ভাই বোন সবার সাথেই সম্পর্ক মধুর হয় এটাই স্বাভাবিক,0,0,0.9168913,0.08310875,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+হাটার সময় মনে হয় কে জানি আমারে লুকিয়ে লুকিয়ে ফলো করছে কি আজিব মন,1,0,0.61150944,0.38849053,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+ঘরের মানুষ ই এমন আল্লাহ্ এমন ভাগ ্য আর কারো না হোক আপুর পুরো ভিডিও দেখছি আপন মানুষগুলো আরও বেশি কষ্ট দিয়েছে,0,0,0.93033653,0.06966348,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+নিজের আত্নসম্মান বিসর্জন দিয়ে অন্যকে ভালোবাসার চেয়ে একা থাকাই শ্রেয়,0,0,0.9486756,0.051324412,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+মাছ ভাজার ভিডিও সাবধানে করবা কেমন,1,1,0.11840085,0.8815991,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+কি জামানা আসলো ফেইসবুকে জিহাদ করে,0,1,0.38252127,0.6174787,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+লয়্যালিটির কোন দাম নাই এহন শুকনা পাতা খাইয়া চোখ দুইডা লাল কইরা মেয়েদের প্রপোজ করো দেখবা ঠিকই এক্সেপ্ট করবো,0,0,0.5327359,0.46726415,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+যত গতি ততো ক্ষতি,0,1,0.39912212,0.6008779,0,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+উদ্ভোদনের দিন রাষ্ট্রিয় ছুটি ঘোষনা করা হোক বছরে এই দিনে সরকারি গেজেট করে বিজয় উৎসব পালন করার জোর দাবি জানাচ্ছি,0,0,0.8393678,0.16063218,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+স্যার রেলওয়ের কর্মচারীদের এই দাবি কি যৌক্তিক এগুলোর বিরুদ্ধে কঠোর একশেন যাওয়া দরকার সরকারের,0,0,0.93897873,0.061021198,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+এই হালায় সবাইর সব কিছু দেখে টয়লেটে,1,1,0.13996309,0.8600369,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False
+আহ কতশত আহাজারি কত বুঝানোর ব্যর্থ চেষ্টা ভালবাসার মানুষগুলো যেন বুঝে দুনিয়াটা ক্ষনিকের এখানে সবদিক দিয়ে কেউ পরিপূর্ণ নয়,1,1,0.30418772,0.6958123,1,banglasarc3_binary,validation,csebuetnlp/banglabert,42,128,3,2e-05,False

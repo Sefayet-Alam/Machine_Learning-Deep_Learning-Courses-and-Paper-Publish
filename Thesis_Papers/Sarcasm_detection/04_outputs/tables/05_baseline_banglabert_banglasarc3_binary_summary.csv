@@ -1,0 +1,3 @@
+model,model_name,dataset,epochs,batch_size,learning_rate,weight_decay,warmup_ratio,max_length,seed,use_normalization,split,accuracy,precision_binary,recall_binary,f1_binary,macro_f1,n_examples
+banglabert,csebuetnlp/banglabert,banglasarc3_binary,3,8,2e-05,0.01,0.1,128,42,False,test,0.7369077306733167,0.7461139896373057,0.7182044887780549,0.7318932655654383,0.7368156658304548,802
+banglabert,csebuetnlp/banglabert,banglasarc3_binary,3,8,2e-05,0.01,0.1,128,42,False,validation,0.7668329177057357,0.786096256684492,0.7331670822942643,0.7587096774193548,0.7665683489629946,802
