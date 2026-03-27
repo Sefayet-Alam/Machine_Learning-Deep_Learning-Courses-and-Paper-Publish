@@ -1,0 +1,62 @@
+{
+  "ben_sarc_binary_val": [
+    [
+      1012,
+      270
+    ],
+    [
+      237,
+      1045
+    ]
+  ],
+  "ben_sarc_binary_test": [
+    [
+      1040,
+      242
+    ],
+    [
+      246,
+      1036
+    ]
+  ],
+  "banglasarc_binary_val": [
+    [
+      315,
+      1
+    ],
+    [
+      4,
+      191
+    ]
+  ],
+  "banglasarc_binary_test": [
+    [
+      315,
+      1
+    ],
+    [
+      6,
+      190
+    ]
+  ],
+  "banglasarc3_binary_val": [
+    [
+      312,
+      89
+    ],
+    [
+      81,
+      320
+    ]
+  ],
+  "banglasarc3_binary_test": [
+    [
+      305,
+      96
+    ],
+    [
+      89,
+      312
+    ]
+  ]
+}

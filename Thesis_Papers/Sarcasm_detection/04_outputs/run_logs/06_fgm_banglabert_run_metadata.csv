@@ -1,0 +1,4 @@
+dataset,model_name,epsilon,epochs,batch_size,max_length,learning_rate,weight_decay,warmup_ratio,seed,use_normalization,best_epoch,best_val_macro_f1,train_runtime_sec,checkpoint_dir,history_path,run_finished_at
+banglasarc3_binary,csebuetnlp/banglabert,0.5,3,8,128,2e-05,0.01,0.1,42,False,3,0.7880088316696209,2860.6142110824585,../03_models/checkpoints/06_fgm_banglasarc3_binary,../04_outputs/run_logs/06_fgm_banglasarc3_binary_epoch_history.csv,2026-03-27T06:42:36
+banglasarc_binary,csebuetnlp/banglabert,0.5,3,8,128,2e-05,0.01,0.1,42,False,3,0.9896030438055708,1877.7689890861511,../03_models/checkpoints/06_fgm_banglasarc_binary,../04_outputs/run_logs/06_fgm_banglasarc_binary_epoch_history.csv,2026-03-27T05:54:09
+ben_sarc_binary,csebuetnlp/banglabert,0.5,3,8,128,2e-05,0.01,0.1,42,False,2,0.8022293297420799,9461.328741073608,../03_models/checkpoints/06_fgm_ben_sarc_binary,../04_outputs/run_logs/06_fgm_ben_sarc_binary_epoch_history.csv,2026-03-27T05:22:12

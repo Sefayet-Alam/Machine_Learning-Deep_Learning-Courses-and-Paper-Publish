@@ -1,0 +1,10 @@
+dataset,split,text_column,label_column,n_rows,label_0_count,label_0_pct,label_1_count,label_1_pct
+banglasarc3_binary,test,text,label_binary,802,401,50.0,401,50.0
+banglasarc3_binary,train,text,label_binary,6413,3207,50.01,3206,49.99
+banglasarc3_binary,val,text,label_binary,802,401,50.0,401,50.0
+banglasarc_binary,test,text,label_binary,512,316,61.72,196,38.28
+banglasarc_binary,train,text,label_binary,4089,2527,61.8,1562,38.2
+banglasarc_binary,val,text,label_binary,511,316,61.84,195,38.16
+ben_sarc_binary,test,text,label_binary,2564,1282,50.0,1282,50.0
+ben_sarc_binary,train,text,label_binary,20508,10254,50.0,10254,50.0
+ben_sarc_binary,val,text,label_binary,2564,1282,50.0,1282,50.0
