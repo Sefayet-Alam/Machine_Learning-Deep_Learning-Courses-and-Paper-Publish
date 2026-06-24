@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(git -C /Users/sefayet/Desktop/Github/Machine_Learning-Deep_Learning-Courses-and-Paper-Publish add CampusX_Claude_Code/expense-tracker/app.py)",
+      "Bash(git -C /Users/sefayet/Desktop/Github/Machine_Learning-Deep_Learning-Courses-and-Paper-Publish commit -m ' *)",
+      "Bash(git *)"
     ]
   }
 }
