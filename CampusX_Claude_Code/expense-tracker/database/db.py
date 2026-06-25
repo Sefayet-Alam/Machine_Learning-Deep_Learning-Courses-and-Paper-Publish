@@ -62,6 +62,39 @@ def get_user_by_email(email: str):
         conn.close()
 
 
+def get_user_by_id(user_id: int):
+    conn = get_db()
+    try:
+        return conn.execute(
+            "SELECT id, name, email, created_at FROM users WHERE id = ?",
+            (user_id,)
+        ).fetchone()
+    finally:
+        conn.close()
+
+
+def get_expense_summary(user_id: int) -> dict:
+    conn = get_db()
+    try:
+        row = conn.execute(
+            "SELECT COUNT(*) AS total_count, COALESCE(SUM(amount), 0.0) AS total_amount "
+            "FROM expenses WHERE user_id = ?",
+            (user_id,)
+        ).fetchone()
+        breakdown = conn.execute(
+            "SELECT category, COUNT(*) AS count, SUM(amount) AS total "
+            "FROM expenses WHERE user_id = ? GROUP BY category ORDER BY total DESC",
+            (user_id,)
+        ).fetchall()
+        return {
+            "total_count":        row["total_count"],
+            "total_amount":       row["total_amount"],
+            "category_breakdown": breakdown,
+        }
+    finally:
+        conn.close()
+
+
 def seed_db():
     conn = get_db()
     count = conn.execute("SELECT COUNT(*) FROM users").fetchone()[0]
