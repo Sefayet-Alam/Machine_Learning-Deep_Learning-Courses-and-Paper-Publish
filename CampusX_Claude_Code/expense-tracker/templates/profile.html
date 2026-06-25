@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block title %}Profile — Spendly{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="profile-page">
+
+    <header class="profile-header">
+        <h1 class="profile-title">Your Profile</h1>
+        <p class="profile-subtitle">Account details and spending summary</p>
+    </header>
+
+    <div class="profile-grid">
+
+        <section class="profile-card">
+            <p class="profile-card-title">Account</p>
+
+            <div class="profile-field">
+                <p class="profile-field-label">Name</p>
+                <p class="profile-field-value">{{ name }}</p>
+            </div>
+
+            <div class="profile-field">
+                <p class="profile-field-label">Email</p>
+                <p class="profile-field-value">{{ email }}</p>
+            </div>
+
+            <div class="profile-field">
+                <p class="profile-field-label">Member since</p>
+                <p class="profile-field-value">{{ created_at[:10] }}</p>
+            </div>
+        </section>
+
+        <section class="profile-card">
+            <p class="profile-card-title">Spending Summary</p>
+
+            <div class="summary-stats">
+                <div>
+                    <p class="summary-stat-value">{{ summary.total_count }}</p>
+                    <p class="summary-stat-label">Expenses logged</p>
+                </div>
+                <div>
+                    <p class="summary-stat-value">&#8377;{{ "%.2f"|format(summary.total_amount) }}</p>
+                    <p class="summary-stat-label">Total spent</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <section class="breakdown-card">
+        <p class="profile-card-title">By Category</p>
+
+        {% if summary.category_breakdown %}
+            <table class="breakdown-table">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Expenses</th>
+                        <th class="col-amount">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in summary.category_breakdown %}
+                    <tr>
+                        <td>{{ row["category"] }}</td>
+                        <td>{{ row["count"] }}</td>
+                        <td class="col-amount">&#8377;{{ "%.2f"|format(row["total"]) }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p class="breakdown-empty">No expenses yet. Add your first expense to see a breakdown.</p>
+        {% endif %}
+    </section>
+
+</div>
+{% endblock %}
