@@ -2,6 +2,7 @@ import sqlite3
 import os
 from werkzeug.security import generate_password_hash
 
+
 DB_PATH = os.path.join(os.path.dirname(__file__), '..', 'spendly.db')
 
 
@@ -36,6 +37,20 @@ def init_db():
     conn.commit()
     conn.close()
 
+
+def register_user(name, email, password):
+    password_hash = generate_password_hash(password)
+    conn = get_db()
+    try:
+        cursor = conn.cursor()
+        cursor.execute(
+            "INSERT INTO users (name, email, password_hash) VALUES (?, ?, ?)",
+            (name, email, password_hash),
+        )
+        conn.commit()
+        return cursor.lastrowid
+    finally:
+        conn.close()
 
 def seed_db():
     conn = get_db()
