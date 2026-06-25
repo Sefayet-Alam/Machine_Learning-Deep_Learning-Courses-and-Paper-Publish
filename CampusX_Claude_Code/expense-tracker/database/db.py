@@ -52,6 +52,16 @@ def register_user(name, email, password):
     finally:
         conn.close()
 
+def get_user_by_email(email: str):
+    conn = get_db()
+    try:
+        return conn.execute(
+            "SELECT * FROM users WHERE email = ?", (email,)
+        ).fetchone()
+    finally:
+        conn.close()
+
+
 def seed_db():
     conn = get_db()
     count = conn.execute("SELECT COUNT(*) FROM users").fetchone()[0]

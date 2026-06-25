@@ -1,8 +1,20 @@
+from functools import wraps
 from flask import Flask, render_template, request, redirect, url_for, flash, session
-from database.db import get_db, init_db, seed_db, register_user
+from werkzeug.security import check_password_hash
+from database.db import get_db, init_db, seed_db, register_user, get_user_by_email
 import sqlite3
 
 app = Flask(__name__)
+
+
+def login_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if "user_id" not in session:
+            flash("Please sign in to access that page.", "error")
+            return redirect(url_for("login"))
+        return f(*args, **kwargs)
+    return decorated_function
 app.secret_key = "dev-secret-change-in-production"
 
 with app.app_context():
@@ -54,7 +66,26 @@ def register():
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
-    return render_template("login.html")
+    if request.method == "GET":
+        return render_template("login.html")
+
+    email    = request.form.get("email", "").strip().lower()
+    password = request.form.get("password", "")
+
+    if not email or not password:
+        return render_template("login.html", error="Email and password are required.")
+
+    user = get_user_by_email(email)
+
+    if user is None or not check_password_hash(user["password_hash"], password):
+        return render_template("login.html", error="Invalid email or password.")
+
+    session.clear()
+    session["user_id"]   = user["id"]
+    session["user_name"] = user["name"]
+
+    flash("Welcome back, {}!".format(user["name"]), "success")
+    return redirect(url_for("landing"))
 
 
 @app.route("/terms")
@@ -73,10 +104,13 @@ def privacy():
 
 @app.route("/logout")
 def logout():
-    return "Logout — coming in Step 3"
+    session.clear()
+    flash("You have been signed out.", "success")
+    return redirect(url_for("landing"))
 
 
 @app.route("/profile")
+@login_required
 def profile():
     return "Profile page — coming in Step 4"
 
