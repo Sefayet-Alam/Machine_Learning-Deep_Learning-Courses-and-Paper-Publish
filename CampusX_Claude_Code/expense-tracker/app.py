@@ -2,7 +2,7 @@ from functools import wraps
 from flask import Flask, render_template, request, redirect, url_for, flash, session, abort
 from werkzeug.security import check_password_hash
 from database.db import get_db, init_db, seed_db, register_user, get_user_by_email, \
-    get_user_by_id, get_expense_summary
+    get_user_by_id, get_expense_summary, get_user_expenses
 import sqlite3
 
 app = Flask(__name__)
@@ -17,6 +17,16 @@ def login_required(f):
         return f(*args, **kwargs)
     return decorated_function
 app.secret_key = "dev-secret-change-in-production"
+
+
+@app.template_filter("fmt_date")
+def fmt_date(value):
+    from datetime import datetime
+    try:
+        return datetime.strptime(value, "%Y-%m-%d").strftime("%d %b %Y")
+    except (ValueError, TypeError):
+        return value
+
 
 with app.app_context():
     init_db()
@@ -113,17 +123,19 @@ def logout():
 @app.route("/profile")
 @login_required
 def profile():
-    user_id = session["user_id"]
-    user    = get_user_by_id(user_id)
+    user_id  = session["user_id"]
+    user     = get_user_by_id(user_id)
     if user is None:
         abort(404)
-    summary = get_expense_summary(user_id)
+    summary  = get_expense_summary(user_id)
+    expenses = get_user_expenses(user_id)
     return render_template(
         "profile.html",
         name       = user["name"],
         email      = user["email"],
         created_at = user["created_at"],
         summary    = summary,
+        expenses   = expenses,
     )
 
 

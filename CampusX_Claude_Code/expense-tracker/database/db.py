@@ -95,6 +95,19 @@ def get_expense_summary(user_id: int) -> dict:
         conn.close()
 
 
+def get_user_expenses(user_id: int) -> list:
+    conn = get_db()
+    try:
+        return conn.execute(
+            "SELECT id, amount, category, date, description "
+            "FROM expenses WHERE user_id = ? "
+            "ORDER BY date DESC, created_at DESC",
+            (user_id,)
+        ).fetchall()
+    finally:
+        conn.close()
+
+
 def seed_db():
     conn = get_db()
     count = conn.execute("SELECT COUNT(*) FROM users").fetchone()[0]
