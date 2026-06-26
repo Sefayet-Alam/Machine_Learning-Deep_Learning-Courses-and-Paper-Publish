@@ -16,6 +16,7 @@
             <h1 class="profile-title">{{ name }}</h1>
             <p class="profile-subtitle">{{ email }}</p>
             <p class="profile-since">Member since {{ created_at[:10] }}</p>
+            <span class="profile-badge">Active</span>
         </div>
     </header>
 
@@ -40,7 +41,10 @@
     <!-- Category breakdown -->
     <section class="breakdown-card">
         <div class="breakdown-header">
-            <p class="profile-card-title">Spending by Category</p>
+            <div class="section-title-row">
+                <svg class="section-title-icon" viewBox="0 0 20 20" fill="currentColor"><rect x="3" y="12" width="3" height="5" rx="1"/><rect x="8.5" y="7" width="3" height="10" rx="1"/><rect x="14" y="3" width="3" height="14" rx="1"/></svg>
+                <p class="profile-card-title">Spending by Category</p>
+            </div>
         </div>
 
         {% if summary.category_breakdown %}
@@ -93,6 +97,46 @@
             </table>
         {% else %}
             <p class="breakdown-empty">No expenses yet. Add your first expense to see a breakdown.</p>
+        {% endif %}
+    </section>
+
+    <!-- Recent Transactions -->
+    <section class="transactions-card">
+        <div class="breakdown-header">
+            <div class="section-title-row">
+                <svg class="section-title-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="2" width="14" height="16" rx="2"/><path d="M7 7h6M7 10h6M7 13h4"/></svg>
+                <p class="profile-card-title">Recent Transactions</p>
+            </div>
+        </div>
+        {% if expenses %}
+            <table class="transactions-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Category</th>
+                        <th>Description</th>
+                        <th class="col-amount">Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for exp in expenses %}
+                    <tr data-id="{{ exp['id'] }}">
+                        <td class="tx-date">{{ exp['date'] | fmt_date }}</td>
+                        <td>
+                            <span class="cat-chip cat--{{ exp['category'] | lower }}">{{ exp['category'] }}</span>
+                        </td>
+                        <td class="tx-desc">{{ exp['description'] or '—' }}</td>
+                        <td class="col-amount">&#8377;{{ "%.2f"|format(exp['amount']) }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <div class="empty-state">
+                <svg class="empty-state-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="4" width="30" height="40" rx="4"/><path d="M16 15h16M16 22h16M16 29h10"/></svg>
+                <p>No transactions yet.</p>
+                <p class="empty-sub">Add your first expense to see history here.</p>
+            </div>
         {% endif %}
     </section>
 
