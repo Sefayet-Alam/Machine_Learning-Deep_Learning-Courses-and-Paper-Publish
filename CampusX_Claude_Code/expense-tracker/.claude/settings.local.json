@@ -8,7 +8,8 @@
       "Bash(lsof -ti:5001)",
       "Bash(xargs kill -9)",
       "Read(//Users/sefayet/.claude/plugins/cache/agents-observe/agents-observe/0.9.11/skills/observe/**)",
-      "Bash(scripts/cli.sh start *)"
+      "Bash(scripts/cli.sh start *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:5001/)"
     ]
   }
 }
