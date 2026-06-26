@@ -164,55 +164,75 @@
     flex-wrap: wrap;
     margin-top: 1rem;
     padding-top: 0.75rem;
-    border-top: 1px solid var(--border, #e5e7eb);
+    padding-bottom: 1.25rem;
+    border-top: 1px solid var(--border);
 }
 
 .filter-label {
-    font-size: 0.78rem;
-    font-weight: 600;
-    color: var(--text-muted, #6b7280);
-    letter-spacing: 0.03em;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
 }
 
 .filter-input {
-    padding: 0.35rem 0.6rem;
-    border: 1px solid var(--border, #d1d5db);
-    border-radius: 6px;
+    height: 32px;
+    padding: 0 0.6rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
     font-size: 0.82rem;
-    color: var(--text, #1f2937);
-    background: var(--surface, #fff);
+    font-family: var(--font-body);
+    color: var(--ink);
+    background: var(--paper-card);
     outline: none;
     transition: border-color 0.15s;
 }
 
 .filter-input:focus {
-    border-color: var(--accent, #6366f1);
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-light);
 }
 
 .filter-btn {
-    padding: 0.35rem 0.9rem;
-    background: var(--accent, #6366f1);
-    color: #fff;
+    height: 32px;
+    padding: 0 0.9rem;
+    background: var(--accent);
+    color: var(--paper-card);
     border: none;
-    border-radius: 6px;
-    font-size: 0.82rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.8rem;
+    font-family: var(--font-body);
     font-weight: 600;
     cursor: pointer;
-    transition: opacity 0.15s;
-}
-
-.filter-btn:hover { opacity: 0.88; }
-
-.filter-clear {
-    font-size: 0.78rem;
-    color: var(--text-muted, #6b7280);
-    text-decoration: none;
-    padding: 0.35rem 0.5rem;
-    border-radius: 6px;
     transition: background 0.15s;
 }
 
-.filter-clear:hover { background: var(--surface-alt, #f3f4f6); }
+.filter-btn:hover { background: var(--accent-hover); }
+
+.filter-clear {
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0.6rem;
+    font-size: 0.78rem;
+    font-family: var(--font-body);
+    color: var(--ink-muted);
+    text-decoration: none;
+    border-radius: var(--radius-sm);
+    transition: background 0.15s, color 0.15s;
+}
+
+.filter-clear:hover { background: var(--paper); color: var(--ink); }
+
+.filter-clear-inline {
+    color: var(--accent);
+    text-decoration: underline;
+    font-weight: 500;
+    transition: color 0.15s;
+}
+
+.filter-clear-inline:hover { color: var(--accent-hover); }
 
 .section-title-icon {
     width: 16px;
@@ -377,6 +397,8 @@
     .transactions-table td { padding: 0.875rem 1rem; }
     .tx-desc { display: none; }
     .breakdown-header { padding-left: 1.25rem; }
+    .date-filter-form { gap: 0.4rem; }
+    .filter-input { width: 100%; max-width: 160px; }
 }
 
 /* ── Recent Transactions ───────────────────────── */

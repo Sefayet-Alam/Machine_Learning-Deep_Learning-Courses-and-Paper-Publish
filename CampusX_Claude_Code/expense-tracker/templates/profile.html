@@ -144,8 +144,13 @@
         {% else %}
             <div class="empty-state">
                 <svg class="empty-state-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="4" width="30" height="40" rx="4"/><path d="M16 15h16M16 22h16M16 29h10"/></svg>
+                {% if date_from or date_to %}
+                <p>No transactions found.</p>
+                <p class="empty-sub">No expenses match the selected date range. <a href="{{ url_for('profile') }}" class="filter-clear-inline">Clear filter</a> to see all.</p>
+                {% else %}
                 <p>No transactions yet.</p>
                 <p class="empty-sub">Add your first expense to see history here.</p>
+                {% endif %}
             </div>
         {% endif %}
     </section>
