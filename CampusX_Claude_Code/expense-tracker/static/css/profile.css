@@ -157,6 +157,63 @@
     margin-bottom: 0;
 }
 
+.date-filter-form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border, #e5e7eb);
+}
+
+.filter-label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-muted, #6b7280);
+    letter-spacing: 0.03em;
+}
+
+.filter-input {
+    padding: 0.35rem 0.6rem;
+    border: 1px solid var(--border, #d1d5db);
+    border-radius: 6px;
+    font-size: 0.82rem;
+    color: var(--text, #1f2937);
+    background: var(--surface, #fff);
+    outline: none;
+    transition: border-color 0.15s;
+}
+
+.filter-input:focus {
+    border-color: var(--accent, #6366f1);
+}
+
+.filter-btn {
+    padding: 0.35rem 0.9rem;
+    background: var(--accent, #6366f1);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.filter-btn:hover { opacity: 0.88; }
+
+.filter-clear {
+    font-size: 0.78rem;
+    color: var(--text-muted, #6b7280);
+    text-decoration: none;
+    padding: 0.35rem 0.5rem;
+    border-radius: 6px;
+    transition: background 0.15s;
+}
+
+.filter-clear:hover { background: var(--surface-alt, #f3f4f6); }
+
 .section-title-icon {
     width: 16px;
     height: 16px;

@@ -95,15 +95,22 @@ def get_expense_summary(user_id: int) -> dict:
         conn.close()
 
 
-def get_user_expenses(user_id: int) -> list:
+def get_user_expenses(user_id: int, date_from: str = None, date_to: str = None) -> list:
     conn = get_db()
     try:
-        return conn.execute(
+        query = (
             "SELECT id, amount, category, date, description "
-            "FROM expenses WHERE user_id = ? "
-            "ORDER BY date DESC, created_at DESC",
-            (user_id,)
-        ).fetchall()
+            "FROM expenses WHERE user_id = ?"
+        )
+        params = [user_id]
+        if date_from:
+            query += " AND date >= ?"
+            params.append(date_from)
+        if date_to:
+            query += " AND date <= ?"
+            params.append(date_to)
+        query += " ORDER BY date DESC, created_at DESC"
+        return conn.execute(query, params).fetchall()
     finally:
         conn.close()
 

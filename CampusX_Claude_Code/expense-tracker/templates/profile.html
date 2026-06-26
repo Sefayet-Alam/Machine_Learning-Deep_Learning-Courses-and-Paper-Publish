@@ -107,6 +107,16 @@
                 <svg class="section-title-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="2" width="14" height="16" rx="2"/><path d="M7 7h6M7 10h6M7 13h4"/></svg>
                 <p class="profile-card-title">Recent Transactions</p>
             </div>
+            <form class="date-filter-form" method="get" action="{{ url_for('profile') }}">
+                <label for="date_from" class="filter-label">From</label>
+                <input type="date" id="date_from" name="date_from" class="filter-input" value="{{ date_from }}">
+                <label for="date_to" class="filter-label">To</label>
+                <input type="date" id="date_to" name="date_to" class="filter-input" value="{{ date_to }}">
+                <button type="submit" class="filter-btn">Filter</button>
+                {% if date_from or date_to %}
+                <a href="{{ url_for('profile') }}" class="filter-clear">Clear</a>
+                {% endif %}
+            </form>
         </div>
         {% if expenses %}
             <table class="transactions-table">

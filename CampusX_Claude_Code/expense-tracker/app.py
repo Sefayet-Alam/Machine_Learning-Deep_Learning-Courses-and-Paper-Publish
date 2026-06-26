@@ -127,8 +127,10 @@ def profile():
     user     = get_user_by_id(user_id)
     if user is None:
         abort(404)
-    summary  = get_expense_summary(user_id)
-    expenses = get_user_expenses(user_id)
+    summary   = get_expense_summary(user_id)
+    date_from = request.args.get("date_from", "").strip()
+    date_to   = request.args.get("date_to", "").strip()
+    expenses  = get_user_expenses(user_id, date_from or None, date_to or None)
     return render_template(
         "profile.html",
         name       = user["name"],
@@ -136,6 +138,8 @@ def profile():
         created_at = user["created_at"],
         summary    = summary,
         expenses   = expenses,
+        date_from  = date_from,
+        date_to    = date_to,
     )
 
 
