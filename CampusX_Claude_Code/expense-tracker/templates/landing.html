@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+
+{% block title %}Spendly — Track Every Rupee{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/landing.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+    <div class="hero-inner">
+        <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Free to use · No credit card needed
+        </div>
+        <h1 class="hero-title">
+            Track every rupee.<br>
+            <span class="hero-title-accent">Know where it goes.</span>
+        </h1>
+        <p class="hero-subtitle">
+            Spendly helps you log expenses, spot patterns, and stay<br>
+            on budget — without the spreadsheet headache.
+        </p>
+        <div class="hero-actions">
+            <a href="{{ url_for('register') }}" class="btn-hero">Create free account</a>
+            <a href="#" class="btn-hero" id="how-it-works-btn">See how it works</a>
+        </div>
+        <div class="hero-dashboard">
+            <div class="dashboard-chrome">
+                <div class="chrome-dots">
+                    <span class="chrome-dot chrome-red"></span>
+                    <span class="chrome-dot chrome-yellow"></span>
+                    <span class="chrome-dot chrome-green"></span>
+                </div>
+                <div class="dashboard-content">
+                    <div class="dash-stats">
+                        <div class="dash-stat">
+                            <span class="dash-stat-label">This month</span>
+                            <span class="dash-stat-value">₹18,240</span>
+                            <span class="dash-stat-note dash-note-red">+12% vs last</span>
+                        </div>
+                        <div class="dash-stat">
+                            <span class="dash-stat-label">Budget left</span>
+                            <span class="dash-stat-value">₹6,760</span>
+                            <span class="dash-stat-note dash-note-green">43% remaining</span>
+                        </div>
+                        <div class="dash-stat">
+                            <span class="dash-stat-label">Transactions</span>
+                            <span class="dash-stat-value">34</span>
+                            <span class="dash-stat-note">this month</span>
+                        </div>
+                    </div>
+                    <div class="dash-bars">
+                        <div class="dash-bar-row">
+                            <span class="dash-bar-label">Food</span>
+                            <div class="dash-bar-track">
+                                <div class="dash-bar dash-bar-food" style="width: 72%"></div>
+                            </div>
+                        </div>
+                        <div class="dash-bar-row">
+                            <span class="dash-bar-label">Travel</span>
+                            <div class="dash-bar-track">
+                                <div class="dash-bar dash-bar-travel" style="width: 52%"></div>
+                            </div>
+                        </div>
+                        <div class="dash-bar-row">
+                            <span class="dash-bar-label">Bills</span>
+                            <div class="dash-bar-track">
+                                <div class="dash-bar dash-bar-bills" style="width: 38%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features">
+    <div class="features-inner">
+        <div class="feature-card">
+            <div class="feature-icon">₹</div>
+            <h3 class="feature-title">Log expenses instantly</h3>
+            <p class="feature-body">Add any expense in seconds. Category, amount, date, description — all in one simple form.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">◎</div>
+            <h3 class="feature-title">Understand your patterns</h3>
+            <p class="feature-body">See exactly where your money goes with category breakdowns and monthly summaries.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">◷</div>
+            <h3 class="feature-title">Filter by time period</h3>
+            <p class="feature-body">View your spending for any date range — last week, last month, or a custom period.</p>
+        </div>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="cta-inner">
+        <h2 class="cta-title">Ready to take control?</h2>
+        <p class="cta-body">Join thousands of people who track their expenses with Spendly.</p>
+        <a href="{{ url_for('register') }}" class="btn-primary">Create free account</a>
+    </div>
+</section>
+
+<div id="video-modal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-box">
+        <button class="modal-close" id="modal-close" aria-label="Close video">&times;</button>
+        <div class="modal-video-wrap">
+            <iframe id="modal-iframe"
+                    src=""
+                    data-src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+                    allow="autoplay; encrypted-media; fullscreen"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function () {
+    var btn      = document.getElementById('how-it-works-btn');
+    var modal    = document.getElementById('video-modal');
+    var iframe   = document.getElementById('modal-iframe');
+    var closeBtn = document.getElementById('modal-close');
+
+    function openModal() {
+        iframe.src = iframe.dataset.src;
+        modal.removeAttribute('aria-hidden');
+        modal.classList.add('is-open');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+        iframe.src = '';
+        modal.setAttribute('aria-hidden', 'true');
+        modal.classList.remove('is-open');
+        document.body.style.overflow = '';
+    }
+
+    btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        openModal();
+    });
+
+    closeBtn.addEventListener('click', closeModal);
+
+    modal.addEventListener('click', function (e) {
+        if (e.target === modal) closeModal();
+    });
+
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') closeModal();
+    });
+}());
+</script>
+{% endblock %}
