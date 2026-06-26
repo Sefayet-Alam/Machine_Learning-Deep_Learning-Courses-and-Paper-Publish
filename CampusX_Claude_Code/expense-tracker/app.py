@@ -28,6 +28,15 @@ def fmt_date(value):
         return value
 
 
+@app.template_filter("fmt_month_year")
+def fmt_month_year(value):
+    from datetime import datetime
+    try:
+        return datetime.strptime(value[:10], "%Y-%m-%d").strftime("%B %Y")
+    except (ValueError, TypeError):
+        return value[:10]
+
+
 with app.app_context():
     init_db()
     seed_db()
@@ -123,23 +132,45 @@ def logout():
 @app.route("/profile")
 @login_required
 def profile():
-    user_id  = session["user_id"]
-    user     = get_user_by_id(user_id)
+    from datetime import date, timedelta
+
+    user_id = session["user_id"]
+    user    = get_user_by_id(user_id)
     if user is None:
         abort(404)
-    summary   = get_expense_summary(user_id)
+
+    preset    = request.args.get("preset", "").strip()
     date_from = request.args.get("date_from", "").strip()
     date_to   = request.args.get("date_to", "").strip()
-    expenses  = get_user_expenses(user_id, date_from or None, date_to or None)
+
+    today = date.today()
+
+    if preset == "this_month":
+        date_from = today.replace(day=1).isoformat()
+        date_to   = today.isoformat()
+    elif preset == "last_3_months":
+        date_from = (today - timedelta(days=90)).isoformat()
+        date_to   = today.isoformat()
+    elif preset == "last_6_months":
+        date_from = (today - timedelta(days=180)).isoformat()
+        date_to   = today.isoformat()
+    elif preset == "all":
+        date_from = ""
+        date_to   = ""
+
+    summary  = get_expense_summary(user_id, date_from or None, date_to or None)
+    expenses = get_user_expenses(user_id, date_from or None, date_to or None)
+
     return render_template(
         "profile.html",
-        name       = user["name"],
-        email      = user["email"],
-        created_at = user["created_at"],
-        summary    = summary,
-        expenses   = expenses,
-        date_from  = date_from,
-        date_to    = date_to,
+        name          = user["name"],
+        email         = user["email"],
+        created_at    = user["created_at"],
+        summary       = summary,
+        expenses      = expenses,
+        date_from     = date_from,
+        date_to       = date_to,
+        active_preset = preset,
     )
 
 

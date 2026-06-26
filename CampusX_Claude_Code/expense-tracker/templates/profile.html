@@ -9,146 +9,121 @@
 {% block content %}
 <div class="profile-page">
 
-    <!-- Hero header with avatar -->
-    <header class="profile-hero">
+    <!-- Hero card -->
+    <div class="hero-card">
         <div class="profile-avatar">{{ name[0] | upper }}</div>
-        <div class="profile-hero-info">
-            <h1 class="profile-title">{{ name }}</h1>
-            <p class="profile-subtitle">{{ email }}</p>
-            <p class="profile-since">Member since {{ created_at[:10] }}</p>
-            <span class="profile-badge">Active</span>
-        </div>
-    </header>
-
-    <!-- Stats row -->
-    <div class="profile-stats-row">
-        <div class="stat-box">
-            <p class="stat-value">{{ summary.total_count }}</p>
-            <p class="stat-label">Expenses logged</p>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat-box">
-            <p class="stat-value">&#8377;{{ "%.2f"|format(summary.total_amount) }}</p>
-            <p class="stat-label">Total spent</p>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat-box">
-            <p class="stat-value">{{ summary.category_breakdown | length }}</p>
-            <p class="stat-label">Categories used</p>
+        <div class="hero-info">
+            <h1 class="hero-name">{{ name }}</h1>
+            <p class="hero-email">{{ email }}</p>
+            <p class="hero-since">Member since {{ created_at | fmt_month_year }}</p>
         </div>
     </div>
 
-    <!-- Category breakdown -->
-    <section class="breakdown-card">
-        <div class="breakdown-header">
-            <div class="section-title-row">
-                <svg class="section-title-icon" viewBox="0 0 20 20" fill="currentColor"><rect x="3" y="12" width="3" height="5" rx="1"/><rect x="8.5" y="7" width="3" height="10" rx="1"/><rect x="14" y="3" width="3" height="14" rx="1"/></svg>
-                <p class="profile-card-title">Spending by Category</p>
-            </div>
+    <!-- Filter bar -->
+    <div class="filter-card">
+        <div class="preset-group">
+            <a href="{{ url_for('profile') }}?preset=all"
+               class="preset-btn{% if not active_preset or active_preset == 'all' %} preset-btn--active{% endif %}">All Time</a>
+            <a href="{{ url_for('profile') }}?preset=this_month"
+               class="preset-btn{% if active_preset == 'this_month' %} preset-btn--active{% endif %}">This Month</a>
+            <a href="{{ url_for('profile') }}?preset=last_3_months"
+               class="preset-btn{% if active_preset == 'last_3_months' %} preset-btn--active{% endif %}">Last 3 Months</a>
+            <a href="{{ url_for('profile') }}?preset=last_6_months"
+               class="preset-btn{% if active_preset == 'last_6_months' %} preset-btn--active{% endif %}">Last 6 Months</a>
         </div>
+        <form class="custom-range-form" method="get" action="{{ url_for('profile') }}">
+            <input type="date" id="date_from" name="date_from" class="range-input" value="{{ date_from }}">
+            <span class="range-sep">to</span>
+            <input type="date" id="date_to" name="date_to" class="range-input" value="{{ date_to }}">
+            <button type="submit" class="apply-btn">Apply</button>
+        </form>
+    </div>
 
-        {% if summary.category_breakdown %}
-            <table class="breakdown-table">
-                <thead>
-                    <tr>
-                        <th>Category</th>
-                        <th class="col-center">Expenses</th>
-                        <th class="col-amount">Amount</th>
-                        <th class="col-bar">Share</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for row in summary.category_breakdown %}
-                    {% set pct = (row["total"] / summary.total_amount * 100) | round(1) if summary.total_amount > 0 else 0 %}
-                    <tr>
-                        <td>
-                            <span class="cat-chip cat--{{ row['category'] | lower }}">
-                                <span class="cat-icon">
-                                    {% if row['category'] == 'Food' %}
-                                    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 1v5a3 3 0 0 0 6 0V1"/><line x1="8" y1="6" x2="8" y2="15"/></svg>
-                                    {% elif row['category'] == 'Transport' %}
-                                    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="14" height="8" rx="2"/><circle cx="4" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"/><path d="M1 8h14"/><path d="M5 4V2"/><path d="M11 4V2"/></svg>
-                                    {% elif row['category'] == 'Bills' %}
-                                    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 1L5 9h4l-2 6 6-8H9l2-6z" fill="currentColor" stroke="none"/></svg>
-                                    {% elif row['category'] == 'Health' %}
-                                    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="8" y1="2" x2="8" y2="14"/><line x1="2" y1="8" x2="14" y2="8"/></svg>
-                                    {% elif row['category'] == 'Entertainment' %}
-                                    <svg viewBox="0 0 16 16" fill="currentColor"><polygon points="3,1 15,8 3,15"/></svg>
-                                    {% elif row['category'] == 'Shopping' %}
-                                    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h2l2 7h6l2-5H6"/><circle cx="7" cy="13" r="1" fill="currentColor" stroke="none"/><circle cx="12" cy="13" r="1" fill="currentColor" stroke="none"/></svg>
-                                    {% else %}
-                                    <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="4" cy="8" r="1.5"/><circle cx="8" cy="8" r="1.5"/><circle cx="12" cy="8" r="1.5"/></svg>
-                                    {% endif %}
-                                </span>
-                                {{ row["category"] }}
-                            </span>
-                        </td>
-                        <td class="col-center">{{ row["count"] }}</td>
-                        <td class="col-amount">&#8377;{{ "%.2f"|format(row["total"]) }}</td>
-                        <td class="col-bar">
-                            <div class="bar-wrap">
-                                <div class="bar-fill cat-bar--{{ row['category'] | lower }}" style="width: {{ pct }}%"></div>
-                            </div>
-                            <span class="bar-pct">{{ pct }}%</span>
-                        </td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        {% else %}
-            <p class="breakdown-empty">No expenses yet. Add your first expense to see a breakdown.</p>
-        {% endif %}
-    </section>
-
-    <!-- Recent Transactions -->
-    <section class="transactions-card">
-        <div class="breakdown-header">
-            <div class="section-title-row">
-                <svg class="section-title-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="2" width="14" height="16" rx="2"/><path d="M7 7h6M7 10h6M7 13h4"/></svg>
-                <p class="profile-card-title">Recent Transactions</p>
-            </div>
-            <form class="date-filter-form" method="get" action="{{ url_for('profile') }}">
-                <label for="date_from" class="filter-label">From</label>
-                <input type="date" id="date_from" name="date_from" class="filter-input" value="{{ date_from }}">
-                <label for="date_to" class="filter-label">To</label>
-                <input type="date" id="date_to" name="date_to" class="filter-input" value="{{ date_to }}">
-                <button type="submit" class="filter-btn">Filter</button>
-                {% if date_from or date_to %}
-                <a href="{{ url_for('profile') }}" class="filter-clear">Clear</a>
-                {% endif %}
-            </form>
+    <!-- Stats row -->
+    <div class="stats-row">
+        <div class="stat-card">
+            <p class="stat-label">Total Spent</p>
+            <p class="stat-value">&#8377;{{ "%.2f"|format(summary.total_amount) }}</p>
         </div>
-        {% if expenses %}
-            <table class="transactions-table">
+        <div class="stat-card">
+            <p class="stat-label">Transactions</p>
+            <p class="stat-value">{{ summary.total_count }}</p>
+        </div>
+        <div class="stat-card">
+            <p class="stat-label">Top Category</p>
+            <p class="stat-value stat-value--category">{{ summary.top_category or '—' }}</p>
+        </div>
+    </div>
+
+    <!-- Bottom two-column grid -->
+    <div class="bottom-grid">
+
+        <!-- Recent Transactions -->
+        <div class="content-card">
+            <h2 class="card-title">Recent Transactions</h2>
+            {% if expenses %}
+            <table class="tx-table">
                 <thead>
                     <tr>
                         <th>Date</th>
-                        <th>Category</th>
                         <th>Description</th>
-                        <th class="col-amount">Amount</th>
+                        <th>Category</th>
+                        <th class="col-right">Amount</th>
                     </tr>
                 </thead>
                 <tbody>
                     {% for exp in expenses %}
                     <tr data-id="{{ exp['id'] }}">
                         <td class="tx-date">{{ exp['date'] | fmt_date }}</td>
+                        <td class="tx-desc">{{ exp['description'] or '—' }}</td>
                         <td>
                             <span class="cat-chip cat--{{ exp['category'] | lower }}">{{ exp['category'] }}</span>
                         </td>
-                        <td class="tx-desc">{{ exp['description'] or '—' }}</td>
-                        <td class="col-amount">&#8377;{{ "%.2f"|format(exp['amount']) }}</td>
+                        <td class="col-right tx-amount">&#8377;{{ "%.2f"|format(exp['amount']) }}</td>
                     </tr>
                     {% endfor %}
                 </tbody>
             </table>
-        {% else %}
+            {% else %}
             <div class="empty-state">
-                <svg class="empty-state-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="4" width="30" height="40" rx="4"/><path d="M16 15h16M16 22h16M16 29h10"/></svg>
+                <svg class="empty-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="4" width="30" height="40" rx="4"/>
+                    <path d="M16 15h16M16 22h16M16 29h10"/>
+                </svg>
+                {% if date_from or date_to %}
+                <p>No transactions match this range.</p>
+                <p class="empty-sub"><a href="{{ url_for('profile') }}" class="empty-link">Clear filter</a> to see all.</p>
+                {% else %}
                 <p>No transactions yet.</p>
                 <p class="empty-sub">Add your first expense to see history here.</p>
+                {% endif %}
             </div>
-        {% endif %}
-    </section>
+            {% endif %}
+        </div>
 
+        <!-- By Category -->
+        <div class="content-card">
+            <h2 class="card-title">By Category</h2>
+            {% if summary.category_breakdown %}
+            <div class="by-cat-list">
+                {% for row in summary.category_breakdown %}
+                {% set pct = (row["total"] / summary.total_amount * 100) | round(1) if summary.total_amount > 0 else 0 %}
+                <div class="by-cat-row">
+                    <div class="by-cat-header">
+                        <span class="by-cat-name">{{ row["category"] }}</span>
+                        <span class="by-cat-amount">&#8377;{{ "%.2f"|format(row["total"]) }}</span>
+                    </div>
+                    <div class="by-cat-bar-wrap">
+                        <div class="by-cat-bar cat-bar--{{ row['category'] | lower }}" style="width: {{ pct }}%"></div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <p class="by-cat-empty">No category data for this period.</p>
+            {% endif %}
+        </div>
+
+    </div>
 </div>
 {% endblock %}
