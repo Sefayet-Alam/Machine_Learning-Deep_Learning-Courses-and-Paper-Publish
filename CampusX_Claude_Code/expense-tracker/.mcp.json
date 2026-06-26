@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "spendly-db": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@executeautomation/database-server",
+        "SQLite",
+        "/Users/sefayet/Desktop/Github/Machine_Learning-Deep_Learning-Courses-and-Paper-Publish/CampusX_Claude_Code/expense-tracker/spendly.db"
+      ]
+    }
+  }
+}

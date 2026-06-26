@@ -9,7 +9,22 @@
       "Bash(xargs kill -9)",
       "Read(//Users/sefayet/.claude/plugins/cache/agents-observe/agents-observe/0.9.11/skills/observe/**)",
       "Bash(scripts/cli.sh start *)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:5001/)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:5001/)",
+      "Bash(python3 -m json.tool)",
+      "mcp__spendly-db__list_tables",
+      "Bash(sqlite3 /Users/sefayet/Desktop/Github/Machine_Learning-Deep_Learning-Courses-and-Paper-Publish/CampusX_Claude_Code/expense-tracker/spendly.db \".tables\")",
+      "mcp__spendly-db__describe_table",
+      "Bash(sqlite3 *)",
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "mcp__plugin_context-mode_context-mode__ctx_batch_execute",
+      "mcp__plugin_context-mode_context-mode__ctx_execute",
+      "mcp__plugin_context-mode_context-mode__ctx_fetch_and_index",
+      "mcp__plugin_context-mode_context-mode__ctx_search"
     ]
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "spendly-db"
+  ]
 }
