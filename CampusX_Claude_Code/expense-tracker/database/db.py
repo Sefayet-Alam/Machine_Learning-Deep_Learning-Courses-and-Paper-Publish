@@ -73,22 +73,33 @@ def get_user_by_id(user_id: int):
         conn.close()
 
 
-def get_expense_summary(user_id: int) -> dict:
+def get_expense_summary(user_id: int, date_from: str = None, date_to: str = None) -> dict:
     conn = get_db()
     try:
+        where = "WHERE user_id = ?"
+        params = [user_id]
+        if date_from:
+            where += " AND date >= ?"
+            params.append(date_from)
+        if date_to:
+            where += " AND date <= ?"
+            params.append(date_to)
+
         row = conn.execute(
             "SELECT COUNT(*) AS total_count, COALESCE(SUM(amount), 0.0) AS total_amount "
-            "FROM expenses WHERE user_id = ?",
-            (user_id,)
+            "FROM expenses " + where,
+            params
         ).fetchone()
         breakdown = conn.execute(
             "SELECT category, COUNT(*) AS count, SUM(amount) AS total "
-            "FROM expenses WHERE user_id = ? GROUP BY category ORDER BY total DESC",
-            (user_id,)
+            "FROM expenses " + where + " GROUP BY category ORDER BY total DESC",
+            params
         ).fetchall()
+        top_category = breakdown[0]["category"] if breakdown else None
         return {
             "total_count":        row["total_count"],
             "total_amount":       row["total_amount"],
+            "top_category":       top_category,
             "category_breakdown": breakdown,
         }
     finally:
