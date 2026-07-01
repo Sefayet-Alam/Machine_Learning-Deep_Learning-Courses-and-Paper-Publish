@@ -85,7 +85,6 @@
                         <td class="tx-actions">
                             <a href="{{ url_for('edit_expense', id=exp['id']) }}" class="tx-edit-link">Edit</a>
                             <form method="POST" action="{{ url_for('delete_expense', id=exp['id']) }}"
-                                  style="display:inline"
                                   onsubmit="return confirm('Delete this expense?')">
                                 <button type="submit" class="btn-delete">Delete</button>
                             </form>
